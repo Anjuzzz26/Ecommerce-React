@@ -1,0 +1,21 @@
+.fbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #E7E4F8;
+    height: 45px;
+    padding: 14px;
+}
+
+.copyright{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9DA0AE;
+    margin-left: 282px;
+}
+
+.social{
+    margin-left: 317px;
+}
