@@ -1,0 +1,53 @@
+.section3main{
+    height: 420px;
+}
+
+.s3header{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    text-align: center;
+    font-weight: bold;
+}
+
+.s3grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 50%;
+    margin-left: 24%;
+}
+
+.s3card{
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    height: 230px;
+}
+
+.grp{
+    width: 41px;
+    height: 35px;
+    margin-top: 48px;
+    margin-left: 66px;
+}
+
+.s3txt1{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #151875;
+    margin-left: 38px;
+}
+.s3txt2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(26, 11, 91, 0.3);
+    margin-top: 5px;
+}

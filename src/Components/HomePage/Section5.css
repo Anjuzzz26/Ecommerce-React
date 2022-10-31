@@ -1,0 +1,82 @@
+.section5main{
+    height: 545px;
+}
+
+.s5head{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    text-align: center;
+    font-weight: bold;
+}
+
+.s5grid{
+    width: 63%;
+    margin: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-left: 274px;
+}
+
+.s5products{
+    height: 330px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    margin-top: 40px;
+    padding: 11px;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+.s5sofas{
+    width: 210px;
+    height: 231px;
+    background-color: #F6F7FB;
+}
+
+.s5img1{
+    margin-top: 43px;
+    margin-left: 18px;
+}
+.s5img2{
+    margin-top: 32px;
+    margin-left: 21px;
+}
+.s5img3{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.s5img4{
+    margin-top: 42px;
+    margin-left: 0px;
+}
+
+.s5txt1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151875;
+    margin-left: 39px;
+    margin-top: 11px;
+}
+.s5txt2{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #151875;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.s5txt3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #c4c6eb;
+    margin-left: 111px;
+    margin-top: -16px;
+}

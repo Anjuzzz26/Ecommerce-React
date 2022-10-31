@@ -1,10 +1,10 @@
 import React from "react";
 import './Button.css';
 
-const Button = () => {
+const Button = (props) => {
     return(
         <div>
-            <button type="button">Click me</button>
+            <button type="button">{props.text}</button>
         </div>
     );
 }

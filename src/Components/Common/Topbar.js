@@ -34,17 +34,3 @@ const Topbar = () => {
 }
 
 export default Topbar;
-
-{/* <div className="bg-violet-500 text-white">
-                <img src={mailicon} alt="Mail" />
-                <p>mhhasanul@gmail.com</p>
-                <img src={call} alt="Call" />
-                <p>(12345)67890</p>
-                <p>English</p>
-                <p>USD</p>
-                <p>Login</p>
-                <img src={user} alt="User" />
-                <p>Wishlist</p>
-                <img src={wishlist} alt="Wishlist" />
-                <img src={cart} alt="Cart" />
-            </div> */}

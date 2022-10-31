@@ -1,0 +1,81 @@
+.section1main{
+    height: 360px;
+}
+
+.fpheading{
+    margin-top: 150px;
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 49px;
+    text-align: center;
+    color: #1A0B5B;
+}
+
+.featured{
+    width: 60%;
+    margin: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-left: 274px;
+}
+
+.fproducts{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    margin-top: 40px;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+.fsofas{
+    width: 210px;
+    height: 231px;
+    background-color: #F6F7FB;
+}
+
+.featuredimg1{
+    margin-top: 30px;
+    margin-left: 18px;
+}
+.featuredimg2{
+    margin-top: 44px;
+    margin-left: 47px;
+}
+.featuredimg3{
+    margin-top: 30px;
+    margin-left: 23px;
+}
+.featuredimg4{
+    margin-top: 43px;
+    margin-left: 0px;
+}
+
+.fp1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FB2E86;
+    margin-left: 39px;
+    margin-top: 11px;
+}
+.fp2{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #151875;
+    margin-left: 54px;
+    margin-top: 10px;
+}
+.fp3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #151875;
+    margin-left: 81px;
+    margin-top: 10px;
+}

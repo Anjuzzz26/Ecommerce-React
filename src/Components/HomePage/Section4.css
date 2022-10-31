@@ -1,0 +1,51 @@
+.section4main{
+    height: 550px;
+    background-color: #F1F0FF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.s4sofa{
+    margin-left: 46%;
+    margin-top: -60%;
+}
+
+.s4bg{
+    margin-top: 27px;
+    margin-left: 40%;
+}
+
+.s4head{
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #151875;
+    margin-top: 99px;
+    margin-left: 80px;
+    margin-bottom: -110px;
+    width: 55%;
+}
+
+.s4list{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    width: 57%;
+    color: #ACABC3;
+    margin-left: 121px;
+    margin-top: -2%;
+}
+
+.bullet1{
+    margin-left: 90px;
+    margin-top: 166px;
+}
+.bullet2, .bullet3{
+    margin-left: 90px;
+    margin-top: 20px;
+}
