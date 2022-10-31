@@ -1,0 +1,35 @@
+.section8main{
+    height: 800px;
+}
+
+.s8head{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151885;
+    text-align: center;
+    font-weight: bold;
+}
+
+.s8grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.s8headimg{
+    width: 50%;
+    margin-left: 361px;
+}
+
+.s8img1, .s8img2, .s8img3{
+    width: 400px;
+}
+.s8img1{
+    margin-left: 188px;
+}
+.s8img2{
+    margin-left: 52px;
+}.s8img3{
+    margin-left: -71px;
+}
+

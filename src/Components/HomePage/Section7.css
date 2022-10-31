@@ -1,0 +1,32 @@
+.section7main{
+    height: 920px;
+}
+
+.s7head{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    text-align: center;
+    font-weight: bold;
+}
+
+.s7grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.s7img1, .s7img2, .s7img3, .s7img4{
+    width: 330px;
+}
+.s7img1{
+    margin-left: 191px;
+}
+.s7img2{
+    margin-left: 94px;
+}.s7img3{
+    margin-left: -10px;
+}
+.s7img4{
+    margin-left: -119px;
+}

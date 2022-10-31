@@ -1,0 +1,140 @@
+.section6main{
+    height: 600px;
+}
+
+.s6head{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    color: #151875;
+    text-align: center;
+    font-weight: bold;
+}
+
+.s6_nav ul{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 537px;
+}
+
+s6_nav * {
+    display: inline;
+}
+s6_nav ul {
+    width: 31%;
+}
+s6_nav li {
+    margin: 2%;
+}
+s6_nav li a {
+    color: #151875;
+    text-decoration: none;
+}
+
+.s6grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.s6desc
+{
+    margin-left: 247px;
+}
+.s6txt1
+{
+    font-family: 'Josefin Sans';
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #151875;
+    margin-left: 40px;
+}
+.s6txt2
+{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #FB2E86;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+.s6txt3
+{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #B7BACB;
+    margin-left: 40px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 75%;
+}
+.s6tick1, .s6tick2, .s6tick3, .s6tick4{
+    width: 10px;
+}
+.s6tick1{
+    margin-top: 26px;
+    margin-left: 46px;
+}
+.s6tick2{
+    margin-left: 240px;
+    margin-top: -19px;
+}
+.s6tick3{
+    margin-top: 10px;
+    margin-left: 46px;
+}
+
+.s6tick4{
+    margin-top: -19px;
+    margin-left: 240px;
+}
+
+.s6list1, .s6list2, .s6list3, .s6list4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #B8B8DC;
+}
+.s6list1{
+    margin-left: 61px;
+    margin-top: -18px;
+}
+.s6list2{
+    margin-left: 256px;
+    margin-top: -19px;
+}
+.s6list3{
+    margin-top: -18px;
+    margin-left: 61px;
+}
+.s6list4{
+    margin-top: -18px;
+    margin-left: 256px;
+}
+.s6button{
+    margin-left: 44px;
+    margin-top: 28px;
+}
+
+.s6bg{
+    width: 55%;
+    margin-top: -43px;
+    margin-left: 73px;
+}
+.s6sofa{
+    width: 82%;
+    margin-top: -483px;
+    margin-left: -25px;
+}

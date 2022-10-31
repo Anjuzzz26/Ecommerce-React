@@ -1,5 +1,5 @@
 .section5main{
-    height: 545px;
+    height: 830px;
 }
 
 .s5head{
@@ -79,4 +79,105 @@
     color: #c4c6eb;
     margin-left: 111px;
     margin-top: -16px;
+}
+
+.s5grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 63%;
+    margin: 14px;
+    justify-items: center;
+    margin-left: 274px;
+}
+
+.s5grid2_1{
+    height: 215px;
+    width: 332px;
+    padding-top: 26px;
+    background-color: #FFF6FB;
+}
+.s5grid2_2{
+    background-color: #EEEFFB;
+    margin-left: 23px;
+    padding-top: 26px;
+    width: 332px;
+}
+.s5grid2_3{
+    margin-left: 14px;
+    width: 252px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.s5txt4{
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #151875;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.s5link{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FB2E86;
+    margin-left: 20px;
+}
+
+.s5img5{
+    width: 172px;
+    margin-top: -30px;
+    margin-left: 175px;
+}
+.s5img6{
+    width: 237px;
+    margin-top: 3px;
+    margin-left: 86px;
+}
+
+.s5chairs{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+}
+
+.chairimg{
+    background-color: #F5F6F8;
+    
+}
+.s5chairimg{
+    width : 50px;
+    margin-top: 2px;
+}
+.s5chairimg{
+    width : 50px;
+    margin-top: 2px;
+}
+.s5chairimg{
+    width : 50px;
+    margin-top: 2px;
+}
+
+.chairname{
+    margin-left: 8px;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #151875;
+}
+.chairprice{
+    margin-left: 8px;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #151875;
 }
