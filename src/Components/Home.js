@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Footer from "./Common/Footer";
 import Header from "./Common/Header";
+import HeaderSlider from "./Common/HeaderSlider";
 
 import './Home.css';
 import Section1 from "./HomePage/Section1";
@@ -16,6 +17,7 @@ const Home = () => {
     return(
         <div>
             <Header />
+            <HeaderSlider />
             <Section1 />
             <Section2 />
             <Section3 />

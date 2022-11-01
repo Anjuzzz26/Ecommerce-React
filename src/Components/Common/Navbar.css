@@ -50,7 +50,7 @@ a:hover {
 }
 
 form.example input[type=text] {
-    margin-top: 1px;
+    margin-top: 5px;
     height: 27px;
     padding: 5px;
     border: 1px solid #E7E6EF;
