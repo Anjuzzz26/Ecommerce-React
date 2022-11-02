@@ -14,11 +14,12 @@
 }
 
 .SLimggrid{
-    margin-left: 10px;
+    margin-left: 0px;
+    padding: 14px;
 }
 
 .SLdescgrid{
-    padding-top: 24px;
+    padding-top: 42px;
 }
 
 .SLtxt1{
@@ -39,6 +40,10 @@
     margin-left: 20px;
 }
 
+.SLgridItems span{
+    text-decoration: line-through;
+}
+
 .SLtxt3{
     font-family: 'Lato';
     font-style: normal;
@@ -53,19 +58,19 @@
 
 .SLdot1{
     width: 9px;
-    margin-left: 202px;
+    margin-left: 204px;
     margin-top: -16px;
 
 }
 .SLdot2{
     width: 9px;
-    margin-left: 215px;
+    margin-left: 217px;
     margin-top: -9px;
 
 }
 .SLdot3{
     width: 9px;
-    margin-left: 228px;
+    margin-left: 230px;
     margin-top: -9px;
 
 }
