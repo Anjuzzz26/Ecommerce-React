@@ -2,11 +2,10 @@ import React from "react";
 import Header from "./Common/Header";
 import Footer from './Common/Footer';
 import HeadDiv from './Common/HeadDiv';
+import EcommerceItems from './Common/EcommerceItems';
+import Banner from './Common/Banner';
 
 import './ShopGrid.css';
-
-import icon1 from './Images/clarity_grid-view-solid.png';
-import icon2 from './Images/fa-solid_list.png';
 import Group44 from './Images/Group 44.png';
 
 import Ecom1 from './Images/Ecom1.png';
@@ -20,7 +19,7 @@ import Ecom8 from './Images/Ecom8.png';
 import Ecom9 from './Images/Ecom9.png';
 import Ecom10 from './Images/Ecom10.png';
 import Ecom11 from './Images/Ecom11.png';
-import S8Img from './Images/S8Img.png';
+
 
 const ShopGrid = () => {
     const text="Shop Grid Default"
@@ -28,34 +27,8 @@ const ShopGrid = () => {
         <div>
             <Header />
             <HeadDiv text={text} />
-            
+            <EcommerceItems />
             <div className="shopgridmain">
-                <div className="SGhead">
-                    <div>
-                        <h3 className="SGh3">Ecommerce Acceories & Fashion item </h3>
-                        <p className="SGp">About 9,620 results (0.62 seconds)</p>
-                    </div>
-                    <div className="SGgridform"> 
-                        <form className="SGform">
-                            <div>
-                                <text className="SGtxt">Per Page: </text>
-                                <input type="text" name="perpage" />
-                            </div>
-                            <div>
-                                <text className="SGtxt">Sort By: </text>
-                                <select name="sort">
-                                    <option value="0">Best Match</option>
-                                </select>
-                            </div>
-                            <div className="SGviewdiv">
-                                <div><text className="SGtxt">&nbsp;&nbsp;&nbsp;View: </text></div>
-                                <div><img className="SGicon1" src={icon1} alt="Image" /></div>
-                                <div><img className="SGicon2" src={icon2} alt="Image" /></div>
-                                <div className="SGtextbox"><input type="text" name="view" /></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
                 <div className="SGItemgrid">
                         <div className="SGItemsdiv">
                             <div className="SGimg">
@@ -202,8 +175,7 @@ const ShopGrid = () => {
                             </div>
                         </div>
                     </div>
-                    <img className="SGbanner" src={S8Img} alt="Image" />
-                    <br/><br/><br/>
+                    <Banner />
             </div>
 
             <Footer />

@@ -1,0 +1,108 @@
+.SLdiv{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.SLgridItems{
+    width: 65%;
+    margin-left: 238px;
+    margin-bottom: 35px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px 5px rgba(246, 246, 253, 0.5);
+}
+
+.SLimggrid{
+    margin-left: 10px;
+}
+
+.SLdescgrid{
+    padding-top: 24px;
+}
+
+.SLtxt1{
+    font-family: 'Josefin Sans';
+    font-size: 19.8783px;
+    line-height: 23px;
+    color: #111C85;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.SLtxt2{
+    font-family: 'Josefin Sans';
+    font-size: 15.4609px;
+    line-height: 18px;
+    color: #111C85;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.SLtxt3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.6696px;
+    line-height: 27px;
+    color: #9295AA;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 80%;
+}
+
+.SLdot1{
+    width: 9px;
+    margin-left: 202px;
+    margin-top: -16px;
+
+}
+.SLdot2{
+    width: 9px;
+    margin-left: 215px;
+    margin-top: -9px;
+
+}
+.SLdot3{
+    width: 9px;
+    margin-left: 228px;
+    margin-top: -9px;
+
+}
+
+.SLstar1{
+    margin-left: 133px;
+    margin-top: -16px;
+}
+.SLstar2{
+    margin-left: 147px;
+    margin-top: -12px;
+}
+.SLstar3{
+    margin-left: 162px;
+    margin-top: -12px;
+}
+.SLstar4{
+    margin-left: 176px;
+    margin-top: -12px;
+}
+.SLnfstar{
+    margin-left: 191px;
+    margin-top: -12px;
+}
+
+.SLcart{
+    width: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.SLheart{
+    width: 13px;
+    margin-top: -16px;
+    margin-left: 84px;
+}
+.SLsearch{
+    width: 14px;
+    margin-top: -12px;
+    margin-left: 140px;
+}

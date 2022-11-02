@@ -4,14 +4,14 @@ import './Section8.css';
 import Blog1  from '../Images/Blog1.png';
 import Blog2  from '../Images/Blog2.png';
 import Blog3  from '../Images/Blog3.png';
-import Image1174 from '../Images/S8Img.png';
+import Banner from '../Common/Banner';
 
 const Section8 = () => {
     return(
         <div className="section8main">
             <br/>
-            <img className="s8headimg" src={Image1174} alt="Image" />
-            <br/><br/>
+            <Banner />
+            <br/>
             <h1 className="s8head">Leatest Blog</h1>
             <br />
             <div className="s8grid">

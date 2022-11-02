@@ -1,0 +1,67 @@
+.Ecomhead{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+ }
+ .Ecomh3{
+     font-family: 'Josefin Sans';
+     font-size: 22px;
+     font-weight: 600;
+     line-height: 26px;
+     color: #151875;
+     margin-left: 207px;
+     margin-top: 40px;
+ }
+ .Ecomp{
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 14px;
+     color: #8A8FB9;
+     margin-left: 207px;
+     margin-top: 7px;
+ }
+ .Ecomtxt{
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 19px;
+     color: #3F509E;
+ }
+ .Ecomform{
+     margin-top: 58px;
+     display: flex;
+     flex-direction: row;
+ }
+ .Ecomform input{
+     width: 100px;
+     margin-left: 1px;
+     margin-right: 10px;
+     border: 1px solid #E7E6EF;
+     transform: matrix(1, 0, 0, -1, 0, 0);
+ }
+ .Ecomform select{
+     border: 1px solid #E7E6EF;
+     transform: matrix(1, 0, 0, 1, 0, 0);
+ }
+ .Ecomicon1{
+     width: 10px;
+     margin-top: 9px;
+     margin-left: 5px;
+ }
+ .Ecomicon2{
+     width: 10px;
+     margin-top: -10px;
+     margin-left: 70px;
+     margin-top: 9px;
+     margin-left: 5px;
+ }
+ .Ecomviewdiv{
+     display: flex;
+     flex-direction: row;
+ }
+ .Ecomtextbox{
+     margin-left: 7px;
+ }
+ 

@@ -2,73 +2,6 @@
     min-height: fit-content;
 }
 
-.SGhead{
-   display: grid;
-   grid-template-columns: 1fr 1fr; 
-}
-.SGh3{
-    font-family: 'Josefin Sans';
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 26px;
-    color: #151875;
-    margin-left: 207px;
-    margin-top: 40px;
-}
-.SGp{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    color: #8A8FB9;
-    margin-left: 207px;
-    margin-top: 7px;
-}
-.SGtxt{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #3F509E;
-}
-.SGform{
-    margin-top: 58px;
-    display: flex;
-    flex-direction: row;
-}
-.SGform input{
-    width: 100px;
-    margin-left: 1px;
-    margin-right: 10px;
-    border: 1px solid #E7E6EF;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-}
-.SGform select{
-    border: 1px solid #E7E6EF;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-}
-.SGicon1{
-    width: 10px;
-    margin-top: 9px;
-    margin-left: 5px;
-}
-.SGicon2{
-    width: 10px;
-    margin-top: -10px;
-    margin-left: 70px;
-    margin-top: 9px;
-    margin-left: 5px;
-}
-.SGviewdiv{
-    display: flex;
-    flex-direction: row;
-}
-.SGtextbox{
-    margin-left: 7px;
-}
-
 .SGItemgrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -224,8 +157,4 @@
     color: #FB2E86;
     margin-top: -16px;
     margin-left: 41px;
-}
-.SGbanner{
-    width: 48%;
-    margin-left: 351px;
 }
