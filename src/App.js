@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "./Components/Home";
+import ProductDetails from "./Components/ProductDetail";
 import ShopGrid from "./Components/ShopGrid";
 import ShopLeft from "./Components/ShopLeft";
 import ShopList from "./Components/ShopList";
@@ -11,7 +12,8 @@ function App() {
       {/* <Home /> */}
       {/* <ShopGrid /> */}
       {/* <ShopList /> */}
-      <ShopLeft />
+      {/* <ShopLeft /> */}
+      <ProductDetails />
     </div>
   );
 }

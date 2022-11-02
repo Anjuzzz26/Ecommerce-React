@@ -1,0 +1,60 @@
+.PDS3head{
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #101750;
+    margin-left: 229px;
+
+}
+
+.PDS3grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 69%;
+    margin-left: 228px;
+}
+
+.PD3imgdiv{
+    display: grid;
+    grid-template-rows: auto;
+    width: 235px;
+}
+
+.PDS3txt1{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #151875;
+}
+
+.PDS3txt2{
+    font-family: 'Josefin Sans';
+    font-size: 13px;
+    line-height: 15px;
+    color: #151875; 
+    margin-top: 10px;
+}
+
+.PDS3star1{
+    margin-left: 167px;
+    margin-top: -15px;
+}
+.PDS3star2{
+    margin-left: 181px;
+    margin-top: -12px;
+}
+.PDS3star3{
+    margin-left: 194px;
+    margin-top: -12px;
+}
+.PDS3star4{
+    margin-left: 207px;
+    margin-top: -12px;
+}
+.PDS3star5{
+    margin-left: 221px;
+    margin-top: -12px;
+}
+

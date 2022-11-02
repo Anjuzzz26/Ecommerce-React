@@ -1,0 +1,136 @@
+.PDdiv{
+    width: 70%;
+    margin-left: 230px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px 10px #F6F4FD;
+    border-radius: 2px;
+}
+
+.PDgriditem1{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.PDgridimg{
+    padding: 4px;
+}
+
+.PDimg2{
+    margin-top: 10px;
+}
+.PDimg3{
+    margin-top: 10px;
+}
+.PDimg4{
+    margin-top: 4px;
+    height: 499px;
+}
+
+.PDgriditem3{
+    margin-left: 30px;
+}
+
+.PDtxt1{
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #0D134E;
+}
+
+.PDstar{
+    float: left;
+    margin-top: 16px;
+    margin-right: 4px;
+}
+
+.PDtxt2{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #151875;
+    margin-top: 8px;
+}
+.PDtxt3{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #151875;
+    margin-top: 10px;
+}
+.PDdiv span{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 29px;
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+    color: #FB2E86;
+}
+.PDtxt4{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0D134E;
+    width: 38px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.PDtxt5{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 24px;
+    color: #A9ACC6;
+    margin-top: 15px;
+}
+.PDtxt6{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #151875;
+    margin-top: 18px;
+    margin-left: 75px;
+}
+.PDtxt7{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #151875;
+    margin-top: 36px;
+    
+}
+.PDtxt8{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #151875;
+    margin-top: 10px;
+}
+.PDtxt9{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #151875;
+    margin-top: 10px;
+}
+
+.PDheart{
+    margin-left: 186px;
+    margin-top: -22px;
+}
+
+.PDshare{
+    margin-top: -20px;
+    margin-left: 61px;
+}
