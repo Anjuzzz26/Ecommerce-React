@@ -4,6 +4,7 @@ import ProductDetails from "./Components/ProductDetail";
 import ShopGrid from "./Components/ShopGrid";
 import ShopLeft from "./Components/ShopLeft";
 import ShopList from "./Components/ShopList";
+import ShoppingCart from "./Components/ShoppingCart";
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       {/* <ShopGrid /> */}
       {/* <ShopList /> */}
       {/* <ShopLeft /> */}
-      <ProductDetails />
+      {/* <ProductDetails /> */}
+      <ShoppingCart />
     </div>
   );
 }

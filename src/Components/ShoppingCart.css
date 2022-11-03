@@ -1,0 +1,206 @@
+.SCartdiv{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 207px;
+}
+
+.Cartgrid1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 781px;
+}
+
+.CartItem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-bottom: 2px solid #E1E1E4;
+    height: 115px;
+}
+
+.Cartimg{
+    margin-top: 13px;
+}
+
+.SCarthead1, .SCarthead2, .SCarthead3, .SCarthead4, .SCarthead5{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #1D3178;
+}
+
+.SCarthead1{
+    margin-left: 207px;
+}
+.SCarthead2{
+    margin-left: 513px;
+    margin-top: -22px;
+}
+.SCarthead3{
+    margin-left: 683px;
+    margin-top: -23px;
+}
+.SCarthead4{
+    margin-left: 894px;
+    margin-top: -23px;
+}
+.SCarthead5{
+    margin-left: 1152px;
+    margin-top: -23px;
+}
+
+.Carttxt1{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin-left: -59px;
+    margin-top: 17px;
+}
+
+.Carttxt2{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 14px;
+    color: #A1A8C1;
+    margin-left: -58px;
+    margin-top: 6px;
+}
+.Carttxt3{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #A1A8C1;
+    margin-left: -58px;
+    margin-top: 6px;
+}
+
+.Cartprice{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #15245E;
+    margin-top: 44px;
+    margin-left: -4px;
+}
+.CartQty{   
+    margin-top: 44px;
+    margin-left: 20px;
+}
+.Carttotal{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px; 
+    color: #15245E;
+    margin-top: 44px;
+    margin-left: 61px;
+}
+
+.SCartButton{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 206px;
+    width: 83%;
+}
+
+.carttotalgrid{
+    background: #F4F4FC;
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 85%;
+    margin-left: -52px;
+    margin-top: 15px;
+    height: 285px;
+    
+}
+
+.subitem1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D3178;
+    float: left;
+    margin-top: 50px;
+    margin-right: 163px;
+}
+.subitem2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #15245E;
+    margin-top: 53px;
+}
+.tot{
+    margin-right: 189px;
+}
+
+
+.green_check{
+    float: left;
+    margin-top: 29px;
+    margin-left: 42px;
+    margin-right: 10px;
+}
+.carttotal_para{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8A91AB;
+    margin-top: 26px;
+}
+.checkoutbtn{
+    background: #19D16F;
+    border-radius: 3px;
+    width: 82%;
+    margin-left: 33px;
+    margin-bottom: 24px;
+
+}
+
+.carttotals_subitems{
+    border-bottom: 2px solid #E1E1E4;
+    width: 304px;
+    margin-left: 31px;
+}
+
+.calculate{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #1D3178;
+    margin-top: 22px;
+    margin-left: 46px;
+}
+
+.Cartform{
+    background-color: #F4F4FC;
+    border-radius: 3px;
+    width: 85%;
+    margin-left: -52px;
+    margin-top: 27px;
+    height: 271px;
+    padding-top: 41px;
+    padding-left: 36px;
+
+}
+
+
+.Cartform form input{
+    background-color: #F4F4FC;
+    border-bottom: 2px solid #E1E1E4;
+    width: 297px;
+    height: 44px;
+}
+
+.calculatebtn{
+    padding-top: 20px;
+}
