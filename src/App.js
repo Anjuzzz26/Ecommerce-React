@@ -1,4 +1,5 @@
 import React from "react";
+import HektoDemo from "./Components/HektoDemo";
 import Home from "./Components/Home";
 import OrderCompleted from "./Components/OrderCompleted";
 import ProductDetails from "./Components/ProductDetail";
@@ -17,7 +18,8 @@ function App() {
       {/* <ShopLeft /> */}
       {/* <ProductDetails /> */}
       {/* <ShoppingCart /> */}
-      <OrderCompleted />
+      {/* <OrderCompleted /> */}
+      <HektoDemo />
     </div>
   );
 }

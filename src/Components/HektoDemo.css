@@ -1,0 +1,248 @@
+.HDhead{
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #1D3178;
+    margin-top: 147px;
+    margin-left: 219px;
+}
+
+.HDsubhead{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1D3178;
+    margin-left: 219px;
+    margin-top: 5px;
+}
+
+.HDgrid1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 72%;
+    margin-left: 222px;
+    margin-top: 21px;
+
+}
+
+.HDinfogrid{
+    background-color: #F8F8FD;
+    border-radius: 3px;
+    margin-left: -7px;
+    height: 90%;
+}
+
+.HDcontactdetails{
+    padding-left: 30px;
+    padding-top: 62px;
+    margin-bottom: 120px;
+}
+
+.HDtxt1{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+    color: #1D3178;
+    float: left;
+    margin-right: 303px;
+}
+.HDtxt2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #C1C8E1;
+    margin-top: 4px;
+}
+.HDtxt3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #8A91AB;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+.HDtxt4{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+    color: #1D3178;
+}
+
+.green_check1{
+    float: left;
+    margin-top: 43px;
+}
+
+.HDcontactdetails form input{
+    background-color: #F8F8FD;
+    width: 95%;
+    margin-top: 55px;
+    border-bottom: 1px solid #BFC6E0;
+}
+.HDshippingdetails form .inputtextbox{
+    background-color: #F8F8FD;
+    width: 95%;
+    margin-top: 55px;
+    border-bottom: 1px solid #BFC6E0;
+}
+
+.HDbtn{
+    padding-top: 117px;
+}
+
+
+.HDshippingdetails{
+    padding-left: 30px;
+}
+
+.textbox{
+    background-color: #F8F8FD;
+    width: 45%;
+    margin-top: 55px;
+    border-bottom: 1px solid #BFC6E0;
+}
+
+.textbox2{
+    background-color: #F8F8FD;
+    width: 45%;
+    margin-top: 55px;
+    margin-left: 32px;
+    border-bottom: 1px solid #BFC6E0;
+}
+
+
+.HDitemsgrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.HDiteminfogrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.HDitemsgrid{
+    margin-left: 20px;
+}
+
+.HDitems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #E1E1E4;
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+
+
+.HDitemname{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin-left: -20px;
+}
+.HDitemcolor{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 14px;
+    color: #A1A8C1;
+    margin-left: -20px;
+    margin-top: 6px;
+}
+.HDitemsize{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #A1A8C1;
+    margin-left: -20px;
+    margin-top: 5px;
+}
+.HDitemprice{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #15245E;
+    margin-top: 35px;
+    margin-left: 53px;
+}
+
+
+.HDcarttotalgrid{
+    background: #F4F4FC;
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 108%;
+    margin-top: 68px;
+    height: 340px;
+    
+}
+
+.HDcarttotals_subitems{
+    border-bottom: 2px solid #E1E1E4;
+    width: 304px;
+    margin-left: 31px;
+}
+
+.HDsubitem1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D3178;
+    float: left;
+    margin-top: 50px;
+    margin-right: 163px;
+}
+.HDsubitem2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #15245E;
+    margin-top: 53px;
+}
+.HDtot{
+    margin-right: 189px;
+}
+
+
+.HDgreen_check{
+    float: left;
+    margin-top: 40px;
+    margin-left: 42px;
+    margin-right: 10px;
+}
+.HDcarttotal_para{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8A91AB;
+    margin-top: 37px;
+}
+.HDcheckoutbtn{
+    background: #19D16F;
+    border-radius: 3px;
+    width: 82%;
+    margin-left: 33px;
+    margin-bottom: 24px;
+
+}
