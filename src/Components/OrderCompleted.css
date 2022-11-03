@@ -1,0 +1,64 @@
+
+
+.clockimg{
+    width: 74px;
+    height: 74px;
+    margin-left: 296px;
+    margin-top: -6px;
+}
+.vrline{
+    height: 272px;
+    border-left: 1px dashed #D2D1D1;
+    margin-left: 332px;
+}
+.checklistimg{
+    margin-left: 73%;
+    margin-top: 26px;
+    width: 65px;
+}
+.v1img{
+    margin-left: 725px;
+    width: 64px;
+}
+.v2img{
+    margin-left: 742px;
+    width: 30px;
+    margin-top: -33px;
+}
+.v3img{
+    margin-left: 735px;
+    margin-top: -52px;
+    width: 44px;
+}
+.hrline{
+    border-top: 1px dashed #D2D1D1;
+    width: 52%;
+    margin-left: 333px;
+    margin-top: -26px;
+}
+
+.OChead{
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 600;
+    color: #101750;
+    margin-top: -290px;
+}
+.OCtxt{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #8D92A7;
+    width: 43%;
+    margin-left: 418px;
+    margin-top: 25px;
+}
+.OCbtn{
+    margin-left: 43.5%;
+    margin-top: 39px;
+}
