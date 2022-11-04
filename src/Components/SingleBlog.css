@@ -1,0 +1,267 @@
+.SBmain{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 74%;
+    margin-left: 193px;
+}
+
+.Blogpara2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8A8FB9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 108%;
+}
+
+.SBgrid1desc_item1{
+    background-color: #FAFAFB;
+    border-left: 1px solid #FC45A0;
+    width: 108%;
+    height: 110px;
+    padding: 28px 30px 18px 24px;
+}
+
+.SBgrid1desc_item1 p{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 21px;
+    color: #969CB4;
+}
+
+.SBgrid1desc_item2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 39px;
+    width: 107%;
+    column-gap: 22px;
+}
+
+
+.SBgrid1desc_item4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 14px;
+    width: 108%;
+}
+
+.SBimgtitle{
+    font-family: 'Josefin Sans';
+    font-size: 19.681px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.SBoffrprice{
+    font-family: 'Josefin Sans';
+    font-size: 13.8925px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #232A69;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-right: 21px;
+    float: left;
+}
+.SBgrid1desc_item4 span{
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+.SBstar1{
+    margin-top: 7px;
+    float: left;
+}
+.SBstar2{
+    margin-top: 7px;
+    float: left;
+}
+.SBstar3{
+    margin-top: 7px;
+    float: left;
+}
+.SBstar4{
+    margin-top: 7px;
+    float: left;
+}
+.SBstar5{
+    margin-top: 7px;
+}
+
+.SBhrline{
+    border-top: 1px solid #F7F8FB;
+    width: 108%;
+}
+
+.SBfollowimg{
+    margin-left: 37%;
+}
+.SBnavigation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F7F8FB;
+    margin-left: -5px;
+    width: 109%;
+    height: 36px;
+}
+.SBprev_arrow{
+    float: left;
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.SBnext_arrow{
+    margin-top: 13px;
+}
+.SBnav_prev{
+    margin-top: 8px;
+}
+.SBnav_next{
+    float: left;
+    margin-top: 8px;
+    margin-left: 292px;
+    margin-right: 5px;
+}
+.SBnav_next, .SBnav_prev{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.1538px;
+    line-height: 19px;
+    color: #8A8FB9;
+}
+
+
+.SBCard1{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17.0038px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 101px;
+    width: 80%;
+    padding: 17px;
+}
+
+.SBCard2{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17.0038px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 29px;
+    width: 80%;
+    padding: 17px;
+}
+
+.SBCardimg{
+
+}
+.SBCardtxt1{
+    font-family: 'Josefin Sans';
+    font-size: 18.1374px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: #363385;
+    margin-left: -50px;
+    margin-top: 18px;
+    margin-right: 36px;
+    float: left;
+}
+.SBCardtxt2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.4695px;
+    line-height: 15px;
+    color: #A3A2B6;
+    margin-top: 23px;
+}
+.SBCardtxt3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.4695px;
+    line-height: 23px;
+    color: #A3A2B6;
+    margin-left: -50px;
+    margin-top: 15px;
+}
+
+.SBgrid1desc_item9{
+    margin-top: 135px;
+}
+
+.SBuser{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.SBlogicon{
+    padding: 12px;
+    margin-top: 2px;
+    color: #8A8FB9;
+    min-width: 35px;
+    text-align: center;
+}
+
+
+.SBinputcontainer{
+    display: flex;
+    border: 1px solid #BDBDD8;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 52px;
+    height: 43px;
+}
+
+.SBtextareacontainer{
+    display: flex;
+    border: 1px solid #BDBDD8;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 14px;
+    height: 247px;
+}
+
+.Sbloginputfield {
+    background-color: #FFFFFF;
+    width: 219px;
+    padding: 8px;
+    margin-left: -11px;
+    outline: none;
+  }
+
+.Sblogtextarea{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.SBcheckboxtxt{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4859px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #8A91AB;
+    margin-left: 5px;
+}
+.SBbtn Button{
+    margin-top: 57px;
+    width: 100%;
+}
+
+
+.Sblogmaingrid2 .blogmaingrid2{
+    height: 65%;
+    margin-left: 83px;
+}
+

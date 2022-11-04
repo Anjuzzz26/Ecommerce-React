@@ -9,6 +9,7 @@ import ShopGrid from "./Components/ShopGrid";
 import ShopLeft from "./Components/ShopLeft";
 import ShopList from "./Components/ShopList";
 import ShoppingCart from "./Components/ShoppingCart";
+import SingleBlog from "./Components/SingleBlog";
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       {/* <OrderCompleted /> */}
       {/* <HektoDemo /> */}
       {/* <Login /> */}
-      <BlogPage />
+      {/* <BlogPage /> */}
+      <SingleBlog />
     </div>
   );
 }
