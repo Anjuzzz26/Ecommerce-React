@@ -1,0 +1,298 @@
+.blogmain{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 74%;
+    margin-left: 193px;
+}
+
+.blogmaingrid1{
+    display: grid;
+    grid-template-rows: auto;
+} 
+
+.Bgrid1img{
+    width: 105%;
+    margin-top: 40px;
+}
+
+.Bgrid1desc{
+
+}
+.Blogicon1{
+    float: left;
+    margin-top: 20px;
+}
+.Blogicon2{    
+    float: left;
+    margin-top: 19px;
+    margin-left: 33px;
+}
+.Blogicon3{
+    margin-top: 35px;
+}
+.Blogitemtxt1{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    color: #151875;
+    background-color:#FFE7F9;
+    border-radius: 2px;
+    width: 137px;
+    height: 21px;
+    padding: 2px;
+    padding-left: 33px;
+    margin-top: 16px;
+    margin-left: 6px;
+    float: left;
+}
+.Blogitemtxt2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #151875;
+    background-color: #FFECE2;
+    border-radius: 2px;
+    width: 137px;
+    height: 21px;
+    padding: 2px;
+    padding-left: 33px;
+    margin-top: 16px;
+    margin-left: 209px;
+}
+.Bloghead{
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #151875;
+    margin-top: 34px;
+}
+.Blogpara{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8A8FB9;    
+    margin-top: 20px;
+    width: 105%;
+}
+.Bgrid1desc a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151875;
+    float: left;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+
+.Pageicon1{
+    float: left;
+    margin-left: 292px;
+    margin-top: 60px;
+}
+.Pageicon2{
+    float: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.Pageicon3{
+    float: left;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Pageicon4{
+    margin-top: 60px;
+}
+
+
+
+
+.blogmaingrid2{
+    display: grid;
+    grid-template-rows: auto;
+    margin-left: 80px;
+    margin-top: 42px;
+}
+
+.Bgrid2item1{
+    margin-bottom: -66px;
+}
+.Bgrid2item2{
+    margin-top: -223px;
+}
+.Bgrid2item3{
+    margin-top: -294px;
+}
+.Bgrid2item4{
+    margin-top: -263px;
+}
+.Bgrid2item5{
+    margin-top: -303px;
+}
+
+.Blog_head{
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #151875;
+    margin-bottom: 23px;
+}
+
+.Bgrid2item1 form input{
+    background-color: #FFFFFF;
+    border: 1px solid #BDBDD8;
+    border-radius: 2px;
+    width: 285px;
+    height: 48px;
+    margin-top: 21px;
+    margin-bottom: 49px;
+}
+
+.Bcat1{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #F939BF;
+    border-radius: 3px;
+    width: 114px;
+    height: 34px;
+    padding: 9px;
+    padding-left: 20px;
+    margin-top: 22px;
+
+} 
+.Bcat2, .Bcat3, .Bcat4, .Bcat5, .Bcat6{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 16px;
+    color: #3F509E;
+    font-weight: bold;
+}
+.Bcat2{
+    margin-left: 45px;
+}
+.Bcat3{
+    margin-left: 10px;
+}
+.Bcat4{
+    margin-left: 65px;
+}
+.Bcat5{
+    margin-left: 10px;
+}
+.Bcat6{
+    margin-left: 65px;
+}
+
+
+.Bgrid2_subgrid{
+    display: grid;
+    grid-template-rows: auto;
+    padding-top: 15px;
+
+}
+.Bsubgrid_items{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 19px;
+}
+
+
+.Bsubgrid_itemdesc{
+    margin-left: -19px;
+}
+
+.Bsubgrid_txt1{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #3F509E;
+}
+.Bsubgrid_txt2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    color: #8A8FB9;
+    margin-top: 2px;
+}
+
+.Boffproductgrid{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.BOffgriditem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Boffimg{
+    width: 114px;
+}
+.Offitemname{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #151875;
+    margin-top: 10px;
+}
+
+.Offitemprice{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #8A8FB9;
+    margin-left: -2px;
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+
+.BOfferproducts{
+    width: 121px; 
+}
+
+
+.Bgrid2item5 a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-decoration-line: underline;
+    color: #151875;    
+}
+
+.Bfollowimg{
+    margin-top: -39px;
+    margin-left: -51px;
+}
+
+.Btag2{
+    margin-left: 31px;
+}   
+.Btag3{
+    margin-left: 31px;
+}
+x
+.Btag5{
+    margin-left: 31px;
+}

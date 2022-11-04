@@ -1,4 +1,5 @@
 import React from "react";
+import BlogPage from "./Components/BlogPage";
 import HektoDemo from "./Components/HektoDemo";
 import Home from "./Components/Home";
 import Login from "./Components/Login";
@@ -21,7 +22,8 @@ function App() {
       {/* <ShoppingCart /> */}
       {/* <OrderCompleted /> */}
       {/* <HektoDemo /> */}
-      <Login />
+      {/* <Login /> */}
+      <BlogPage />
     </div>
   );
 }
