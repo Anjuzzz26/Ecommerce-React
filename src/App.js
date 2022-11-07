@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./Components/About";
 import BlogPage from "./Components/BlogPage";
+import Contact from "./Components/Contact";
 import HektoDemo from "./Components/HektoDemo";
 import Home from "./Components/Home";
 import Login from "./Components/Login";
@@ -27,7 +28,8 @@ function App() {
       {/* <Login /> */}
       {/* <BlogPage /> */}
       {/* <SingleBlog /> */}
-      <About />
+      {/* <About /> */}
+      <Contact />
     </div>
   );
 }
