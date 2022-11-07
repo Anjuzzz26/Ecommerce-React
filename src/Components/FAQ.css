@@ -1,0 +1,72 @@
+.FAQdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 73%;
+    margin-left: 197px;
+}
+.FAQgriditem1{
+
+}
+.FAQhead{
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #1D3178;
+    
+}
+.FAQsubhead{
+    font-family: 'Josefin Sans';
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #1D3178;
+    margin-top: 50px;
+}
+.FAQhead5{
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #1D3178;
+    margin-top: 61px;
+}
+.FAQtxt{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 30px;
+    color: #A1ABCC;
+    width: 85%;
+    margin-top: 10px;
+}
+.FAQgriditem2{
+    background-color: #F8F8FD;
+    width: 80%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.FAQform{
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #8990B1;
+    margin-top: 36px;
+}
+.FAQform input{
+    border: 1px solid #CDCEDC;
+    border-radius: 5px;
+    margin-top: 28px;
+    width: 95%;
+    height: 49px;
+}
+.FAQform textarea{
+    border: 1px solid #CDCEDC;
+    border-radius: 5px;
+    margin-top: 28px;
+    width: 95%;
+    height: 186px;
+}
+.FAQbtn{
+    margin-top: 14px;
+}

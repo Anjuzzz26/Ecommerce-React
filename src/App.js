@@ -2,6 +2,7 @@ import React from "react";
 import About from "./Components/About";
 import BlogPage from "./Components/BlogPage";
 import Contact from "./Components/Contact";
+import FAQ from "./Components/FAQ";
 import HektoDemo from "./Components/HektoDemo";
 import Home from "./Components/Home";
 import Login from "./Components/Login";
@@ -31,7 +32,8 @@ function App() {
       {/* <SingleBlog /> */}
       {/* <About /> */}
       {/* <Contact /> */}
-      <PageNotFound />
+      {/* <PageNotFound /> */}
+      <FAQ />
     </div>
   );
 }
