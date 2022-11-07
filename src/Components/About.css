@@ -1,0 +1,101 @@
+
+.AboutSection1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-left: 202px;
+    height: 350px;
+
+}
+
+.Aboutimg1{
+    width: 83%;
+}
+.Aboutimg2{
+    margin-top: -328px;
+    margin-left: 15px;
+    width: 84%;
+    height: 313px;
+}
+.Aboutdesc{
+    margin-left: -34px;
+}
+.Abouthead{
+    font-family: 'Josefin Sans';
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #151875;
+    width: 85%;
+    margin-top: 15px;
+}
+.Abouttxt{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8A8FB9;
+    width: 95%;
+    margin-top: 16px;
+}
+.Aboutbtn{
+    margin-top: 30px;
+}
+
+
+
+.AboutSection2{
+    margin-top: 90px;
+}
+
+.Abouthead2{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+}
+.AboutSection2 .s3grid{
+    width: 64%;
+    margin-left: 250px;
+    margin-top: 39px;
+    column-gap: 20px;
+}
+
+.AboutSection2 .s3card{
+    height: 250px;
+}
+
+.Aboutcard{
+    border-bottom: 3px solid #FF9100;
+}
+
+.AboutSection2 .grp{
+    margin-left: 77px;
+    width: 50px;
+    height: 40px;
+}
+.AboutSection2 .About_s3txt1{
+    margin-left: 46px;
+}
+.AboutSection2 .s3txt2{
+    width: 75%;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+
+
+.AboutSection3{
+    margin-top: 110px;
+    margin-bottom: 200px;
+}
+.AboutS3img1{
+
+}
+.AboutS3img2{
+    margin-top: -330px;
+    margin-left: 395px;
+}
