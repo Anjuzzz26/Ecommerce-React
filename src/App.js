@@ -6,6 +6,7 @@ import HektoDemo from "./Components/HektoDemo";
 import Home from "./Components/Home";
 import Login from "./Components/Login";
 import OrderCompleted from "./Components/OrderCompleted";
+import PageNotFound from "./Components/PageNotFound";
 import ProductDetails from "./Components/ProductDetail";
 import ShopGrid from "./Components/ShopGrid";
 import ShopLeft from "./Components/ShopLeft";
@@ -29,7 +30,8 @@ function App() {
       {/* <BlogPage /> */}
       {/* <SingleBlog /> */}
       {/* <About /> */}
-      <Contact />
+      {/* <Contact /> */}
+      <PageNotFound />
     </div>
   );
 }
