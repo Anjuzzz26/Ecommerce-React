@@ -1,6 +1,9 @@
 import React from "react";
 import About from "./Components/About";
 import BlogPage from "./Components/BlogPage";
+import Banner from "./Components/Common/Banner";
+import EcommerceItems from "./Components/Common/EcommerceItems";
+import Footer from "./Components/Common/Footer";
 import Contact from "./Components/Contact";
 import FAQ from "./Components/FAQ";
 import HektoDemo from "./Components/HektoDemo";
@@ -20,7 +23,7 @@ function App() {
   return (
     <div>
       {/* <Home /> */}
-      {/* <ShopGrid /> */}
+      <ShopGrid />
       {/* <ShopList /> */}
       {/* <ShopLeft /> */}
       {/* <ProductDetails /> */}
@@ -33,7 +36,7 @@ function App() {
       {/* <About /> */}
       {/* <Contact /> */}
       {/* <PageNotFound /> */}
-      <FAQ />
+      {/* <FAQ /> */}
     </div>
   );
 }
