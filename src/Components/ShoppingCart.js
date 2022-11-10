@@ -1,6 +1,6 @@
 import React from "react";
 import './ShoppingCart.css';
-
+import {Link} from "react-router-dom";
 import Header from "./Common/Header";
 import Footer from './Common/Footer';
 import HeadDiv from './Common/HeadDiv';
@@ -164,7 +164,7 @@ const ShoppingCart = () => {
                             <img className="green_check" src={green_check} alt="Image" />
                             <p className="carttotal_para">Shipping & taxes calculated at checkout</p>
                         </div>
-                        <button className="checkoutbtn">Proceed To Checkout</button>
+                        <Link to="/ordercompleted"><button className="checkoutbtn">Proceed To Checkout</button></Link>
                         
                     </div>
 

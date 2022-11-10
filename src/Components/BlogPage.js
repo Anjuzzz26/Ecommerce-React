@@ -1,6 +1,8 @@
 import React from "react";
 import "./BlogPage.css";
 
+import { Link } from "react-router-dom";
+
 import Header from "./Common/Header";
 import Footer from "./Common/Footer";
 import HeadDiv from "./Common/HeadDiv";
@@ -61,7 +63,7 @@ const BlogPage = () => {
               malesuada vitae ultrices in in neque, porta dignissim. Adipiscing
               purus, cursus vulputate id id dictum at.
             </p>
-            <a href="#">Read More</a>
+            <Link to="/singleblog"><a href="#">Read More</a></Link>
             <img src={bdot} alt="Image" className="Blogicon3" />
           </div>
 
@@ -87,7 +89,7 @@ const BlogPage = () => {
               malesuada vitae ultrices in in neque, porta dignissim. Adipiscing
               purus, cursus vulputate id id dictum at.
             </p>
-            <a href="#">Read More</a>
+            <Link to="/singleblog"><a href="#">Read More</a></Link>
             <img src={bdot} alt="Image" className="Blogicon3" />
           </div>
 
@@ -113,7 +115,7 @@ const BlogPage = () => {
               malesuada vitae ultrices in in neque, porta dignissim. Adipiscing
               purus, cursus vulputate id id dictum at.
             </p>
-            <a href="#">Read More</a>
+            <Link to="/singleblog"><a href="#">Read More</a></Link>
             <img src={bdot} alt="Image" className="Blogicon3" />
           </div>
 

@@ -9,4 +9,11 @@
     height: 642px;
 }
 
+.awssld_bullets{
+    z-index: 2;
+    bottom: 40% !important;
+}
 
+.awssld_bullets button{
+    background-color: #fb2e86 !important;
+}

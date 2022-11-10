@@ -204,3 +204,63 @@
 .calculatebtn{
     padding-top: 20px;
 }
+
+@media (min-width:1600px) {
+    .SCarthead5 {
+        margin-left: 1261px;
+    }
+}   
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .SCartdiv{
+        margin-left: 77px;
+    }
+    .SCarthead1 {
+        margin-left: 79px;
+    }
+    .SCarthead2 {
+        margin-left: 377px;
+    }
+    .SCarthead3 {
+        margin-left: 549px;
+    }
+    .SCarthead4 {
+        margin-left: 764px;
+    }
+    .SCarthead5 {
+        margin-left: 996px;
+    }
+    .carttotalgrid{
+        margin-left: -21px;
+    }
+    .Cartform{
+        margin-left: -19px;
+    }
+    .SCartButton{
+        margin-left: 144px;
+    }
+} 
+
+@media (min-width: 992px) and (max-width: 1199px){
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    
+}
+
+@media (max-width: 299px){
+    
+}

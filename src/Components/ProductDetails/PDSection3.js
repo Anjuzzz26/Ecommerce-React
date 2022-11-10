@@ -10,7 +10,7 @@ import Rectangle131 from '../Images/Rectangle 131.png'
 
 const PDSection3 = () => {
     return(
-        <div>
+        <div className="PDimagesdiv">
             <h3 className="PDS3head">Related Products</h3>
             <br/><br/>
             <div className="PDS3grid">

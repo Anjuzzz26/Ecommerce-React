@@ -1,4 +1,7 @@
 import React from "react";
+
+import { BrowserRouter } from "react-router-dom";
+
 import About from "./Components/About";
 import BlogPage from "./Components/BlogPage";
 import Banner from "./Components/Common/Banner";
@@ -17,13 +20,22 @@ import ShopLeft from "./Components/ShopLeft";
 import ShopList from "./Components/ShopList";
 import ShoppingCart from "./Components/ShoppingCart";
 import SingleBlog from "./Components/SingleBlog";
+import Router from "./Components/Router";
 
 
 function App() {
   return (
-    <div>
-      {/* <Home /> */}
-      <ShopGrid />
+    <BrowserRouter>
+    
+
+      <Router>
+        <Home />
+      </Router>
+
+
+
+
+      {/* <ShopGrid /> */}
       {/* <ShopList /> */}
       {/* <ShopLeft /> */}
       {/* <ProductDetails /> */}
@@ -37,7 +49,8 @@ function App() {
       {/* <Contact /> */}
       {/* <PageNotFound /> */}
       {/* <FAQ /> */}
-    </div>
+
+    </BrowserRouter>
   );
 }
 

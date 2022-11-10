@@ -1,6 +1,6 @@
 import React from "react";
 import './PageNotFound.css';
-
+import {Link} from "react-router-dom";
 import Header from "./Common/Header";
 import Footer from './Common/Footer';
 import HeadDiv from './Common/HeadDiv';
@@ -19,7 +19,7 @@ const PageNotFound = () => {
             <img src={Group123} alt="Image" className="PNFimg" />
             <h3 className="PNFtxt">oops!</h3>
             <div className="PNFbtn">
-                <Button text={"Back To Home"} />
+                <Link to="/"><Button text={"Back To Home"} /></Link>
             </div>
         </div>
 

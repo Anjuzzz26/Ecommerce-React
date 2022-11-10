@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeaderSlider.css";
-
+import {Link} from "react-router-dom";
 import banner1 from '../Images/promotional.png';
 import banner2 from '../Images/banner2.jpg';
 import banner3 from '../Images/banner3.jpg';
@@ -12,7 +12,7 @@ const Header = () => {
     return(
         <div>
             <AwesomeSlider className="aws_slider">
-                <div className="slider1"><img src={banner1} alt="image"  /></div>
+                <div className="slider1"><Link to="/shopgrid"><img src={banner1} alt="image"  /></Link></div>
                 <div className="slider2"><img src={banner2} alt="image"  /></div>
                 <div className="slider3"><img src={banner3} alt="image"  /></div>
             </AwesomeSlider>        

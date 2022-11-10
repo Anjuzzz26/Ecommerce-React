@@ -134,3 +134,440 @@
     margin-top: -20px;
     margin-left: 61px;
 }
+
+/* @media (min-width:1600px) {
+
+} */
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .PDdiv {
+        width: 81%;
+        margin-left: 125px;
+    }
+    .PDimg4 {
+        height: 499px;
+        margin-left: 0px;
+    }
+    .PDtxt1{
+        margin-top: 21px;
+    }
+} 
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .PDdiv {
+        width: 81%;
+        margin-left: 125px;
+    }
+    .PDimg4 {
+        height: 426px;
+        margin-left: 10px;
+    }
+    .PDtxt1{
+        margin-top: 21px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .PDdiv {
+        width: 84%;
+        margin-left: 76px;
+    }
+    .PDimg4 {
+        height: 426px;
+        margin-left: 10px;
+    }
+    .PDtxt1{
+        font-size: 33px;
+        margin-top: 21px;
+    }
+    .PDtxt7{
+        margin-top: 16px;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 768px){
+    .PDdiv {
+        width: 82%;
+        height: 360px;
+        margin-left: 32px;
+    }
+    
+    .PDimg4 {
+        height: 304px;
+        margin-left: 10px;
+    }
+    .PDtxt1{
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    .PDtxt3{
+        margin-top: 0px;
+    }
+    .PDtxt4{
+        margin-top: 5px;
+    }
+    .PDtxt5{
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 8px;
+    }
+    .PDtxt6{
+        margin-top: 3px;
+    }
+    .PDtxt7{
+        margin-top: 6px;
+    }
+    .PDtxt8{
+        margin-top: -6px;
+    }
+    .PDtxt9{
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 585px){
+    .PDdiv {
+        width: 82%;
+        height: 360px;
+        margin-left: 32px;
+        grid-template-columns: 1fr;
+    }
+    .PDgriditem1 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .PDimg2{
+        margin-top: 3px;
+    }
+    .PDimg3{
+        margin-top: 3px;
+    }
+    .PDimg4 {
+        height: 190px;
+        margin-left: -2px;
+        margin-top: 13px;
+    }
+    .PDgriditem3 {
+        margin-left: 159px;
+        margin-top: -201px;
+    }
+    .PDtxt1{
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: -15px;
+    }
+    .PDtxt3{
+        margin-top: -2px;
+    }
+    .PDtxt4{
+        margin-top: -1px;
+        font-size: 13px;
+    }
+    .PDtxt5{
+        font-size: 10px;
+        line-height: 13px;
+        margin-top: 3px;
+    }
+    .PDtxt6{
+        margin-top: -5px;
+        font-size: 10px;
+    }
+    .PDheart {
+        margin-left: 138px;
+        margin-top: -19px;
+        width: 6%;
+    }
+    .PDtxt7{
+        margin-top: -7px;
+        font-size: 10px;
+    }
+    .PDtxt8{
+        margin-top: -14px;
+        font-size: 10px;
+    }
+    .PDtxt9{
+        margin-top: -15px;
+        font-size: 10px;
+    }    
+}
+
+@media (min-width: 350px) and (max-width: 400px){
+    .PDdiv {
+        width: 84%;
+        height: 272px;
+        margin-left: 32px;
+        grid-template-columns: 1fr;
+        margin-top: -94px;
+    }
+    .PDgriditem1 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .PDimg1{
+        width: 100%;
+        margin-left: -6px;
+        margin-top: -7px;
+    }
+    .PDimg2{
+        width: 100%;
+        margin-left: 2px;
+        margin-top: -7px;
+    }
+    .PDimg3{
+        width: 100%;
+        margin-left: 10px;
+        margin-top: -7px;
+    }
+    .PDimg4 {
+        height: 136px;
+        margin-left: -5px;
+        margin-top: 5px;
+        width: 38%;
+    }
+    .PDgriditem3 {
+        margin-left: 125px;
+        margin-top: -156px;
+    }
+    .PDtxt1{
+        font-size: 12px;
+        margin-top: 7px;
+        margin-bottom: -26px;
+    }
+    .PDtxt2{
+        font-size: 10px;
+    }
+    .PDstar {
+        width: 6%;
+        margin-right: 2px;
+    }
+    .PDtxt3{
+        margin-top: -11px;
+        font-size: 10px;
+        margin-bottom: -5px;
+    }
+    .PDdiv span{
+        font-size: 10px;
+    }
+    .PDtxt4{
+        margin-top: -1px;
+        font-size: 10px;
+    }
+    .PDtxt5{
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 1px;
+    }
+    .PDtxt6{
+        margin-top: -5px;
+        font-size: 8px;
+    }
+    .PDheart {
+        margin-left: 125px;
+        margin-top: -19px;
+        width: 6%;
+    }
+    .PDtxt7{
+        margin-top: -10px;
+        font-size: 8px;
+    }
+    .PDtxt8{
+        margin-top: -17px;
+        font-size: 8px;
+    }
+    .PDtxt9{
+        margin-top: -18px;
+        font-size: 8px;
+    }   
+    .PDshare {
+        width: 20%;
+        margin-top: -16px;
+        margin-left: 37px;
+    } 
+}
+
+@media (min-width: 300px) and (max-width: 350px){
+    .PDdiv {
+        width: 84%;
+        height: 250px;
+        margin-left: 32px;
+        grid-template-columns: 1fr;
+        margin-top: -94px;
+    }
+    .PDgriditem1 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .PDimg1{
+        width: 100%;
+        margin-left: -6px;
+        margin-top: -7px;
+    }
+    .PDimg2{
+        width: 100%;
+        margin-left: 2px;
+        margin-top: -7px;
+    }
+    .PDimg3{
+        width: 100%;
+        margin-left: 10px;
+        margin-top: -7px;
+    }
+    .PDimg4 {
+        height: 136px;
+        margin-left: -5px;
+        margin-top: 5px;
+        width: 38%;
+    }
+    .PDgriditem3 {
+        margin-left: 107px;
+        margin-top: -156px;
+    }
+    .PDtxt1{
+        font-size: 12px;
+        margin-top: 7px;
+        margin-bottom: -26px;
+    }
+    .PDtxt2{
+        font-size: 10px;
+    }
+    .PDstar {
+        width: 6%;
+        margin-right: 2px;
+    }
+    .PDtxt3{
+        margin-top: -11px;
+        font-size: 10px;
+        margin-bottom: -5px;
+    }
+    .PDdiv span{
+        font-size: 10px;
+    }
+    .PDtxt4{
+        margin-top: -10px;
+        font-size: 10px;
+    }
+    .PDtxt5{
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 1px;
+    }
+    .PDtxt6{
+        margin-top: -5px;
+        font-size: 8px;
+        margin-left: 51px;
+    }
+    .PDheart {
+        margin-left: 104px;
+        margin-top: -19px;
+        width: 6%;
+    }
+    .PDtxt7{
+        margin-top: -10px;
+        font-size: 8px;
+    }
+    .PDtxt8{
+        margin-top: -17px;
+        font-size: 8px;
+    }
+    .PDtxt9{
+        margin-top: -18px;
+        font-size: 8px;
+    }   
+    .PDshare {
+        width: 20%;
+        margin-top: -16px;
+        margin-left: 37px;
+    } 
+}
+
+
+@media (max-width: 300px){
+    .PDdiv {
+        width: 251px;
+        height: 250px;
+        margin-left: 32px;
+        grid-template-columns: 1fr;
+        margin-top: -94px;
+    }
+    .PDgriditem1 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .PDimg1{
+        width: 100%;
+        margin-left: -6px;
+        margin-top: -7px;
+    }
+    .PDimg2{
+        width: 100%;
+        margin-left: 2px;
+        margin-top: -7px;
+    }
+    .PDimg3{
+        width: 100%;
+        margin-left: 10px;
+        margin-top: -7px;
+    }
+    .PDimg4 {
+        height: 136px;
+        margin-left: -5px;
+        margin-top: 5px;
+        width: 38%;
+    }
+    .PDgriditem3 {
+        margin-left: 107px;
+        margin-top: -156px;
+    }
+    .PDtxt1{
+        font-size: 12px;
+        margin-top: 7px;
+        margin-bottom: -26px;
+    }
+    .PDtxt2{
+        font-size: 10px;
+    }
+    .PDstar {
+        width: 6%;
+        margin-right: 2px;
+    }
+    .PDtxt3{
+        margin-top: -11px;
+        font-size: 10px;
+        margin-bottom: -5px;
+    }
+    .PDdiv span{
+        font-size: 10px;
+    }
+    .PDtxt4{
+        margin-top: -10px;
+        font-size: 10px;
+    }
+    .PDtxt5{
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 1px;
+    }
+    .PDtxt6{
+        margin-top: -5px;
+        font-size: 8px;
+        margin-left: 51px;
+    }
+    .PDheart {
+        margin-left: 104px;
+        margin-top: -19px;
+        width: 6%;
+    }
+    .PDtxt7{
+        margin-top: -10px;
+        font-size: 8px;
+    }
+    .PDtxt8{
+        margin-top: -17px;
+        font-size: 8px;
+    }
+    .PDtxt9{
+        margin-top: -18px;
+        font-size: 8px;
+    }   
+    .PDshare {
+        width: 20%;
+        margin-top: -16px;
+        margin-left: 37px;
+    }
+}

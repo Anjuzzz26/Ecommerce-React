@@ -5,6 +5,8 @@ import HeadDiv from './Common/HeadDiv';
 import EcommerceItems from './Common/EcommerceItems';
 import Banner from './Common/Banner';
 
+import { Link } from "react-router-dom";
+
 import './ShopGrid.css';
 import Group44 from './Images/Group 44.png';
 
@@ -30,7 +32,7 @@ const ShopGrid = () => {
             <EcommerceItems />
             <div className="shopgridmain">
                 <div className="SGItemgrid">
-                        <div className="SGItemsdiv">
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg1" src={Ecom1} alt="Image" />
                                 <br/>
@@ -41,8 +43,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg2">
                                 <img className="SGItemimg2" src={Ecom2} alt="Image" />
                                 <br/>
@@ -53,8 +55,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg3" src={Ecom3} alt="Image" />
                                 <br/>
@@ -65,8 +67,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg4" src={Ecom4} alt="Image" />
                                 <br/>
@@ -77,8 +79,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg5" src={Ecom5} alt="Image" />
                                 <br/>
@@ -89,8 +91,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg6" src={Ecom6} alt="Image" />
                                 <br/>
@@ -101,8 +103,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg7" src={Ecom7} alt="Image" />
                                 <br/>
@@ -113,8 +115,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg8" src={Ecom8} alt="Image" />
                                 <br/>
@@ -125,8 +127,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg9" src={Ecom9} alt="Image" />
                                 <br/>
@@ -137,8 +139,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg10" src={Ecom10} alt="Image" />
                                 <br/>
@@ -149,8 +151,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg11" src={Ecom11} alt="Image" />
                                 <br/>
@@ -161,8 +163,8 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
-                        <div className="SGItemsdiv">
+                        </div></Link>
+                        <Link to="/product"><div className="SGItemsdiv">
                             <div className="SGimg">
                                 <img className="SGItemimg4" src={Ecom4} alt="Image" />
                                 <br/>
@@ -173,7 +175,7 @@ const ShopGrid = () => {
                                 <p className="SGtxt2">$26.00 </p>
                                 <p className="SGtxt3">$42.00</p>
                             </div>
-                        </div>
+                        </div></Link>
                     </div>
                     <Banner />
             </div>

@@ -6,6 +6,8 @@ import user from "../Images/user.png";
 import wishlist from "../Images/wishlist.png";
 import cart from "../Images/cart.png";
 
+import { Link } from 'react-router-dom';
+
 const Topbar = () => {
     return(
         <div className="main">
@@ -22,11 +24,11 @@ const Topbar = () => {
                 <div className="menu">
                     <div  className="childmenu">English</div>
                     <div className="childmenu">USD</div>
-                    <div className="childmenu login">Login</div>
+                    <div className="childmenu login"><Link to="/login">Login</Link></div>
                     <div className="childmenu icon2"><img src={user} alt="User" /></div>
                     <div className="childmenu">Wishlist</div>
                     <div className="childmenu icon3"><img src={wishlist} alt="Wishlist" /></div>
-                    <div className="childmenu icon4"><img src={cart} alt="Cart" /></div>
+                    <div className="childmenu icon4"><Link to="/cart"><img src={cart} alt="Cart" /></Link></div>
                 </div>
             
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import './OrderCompleted.css';
-
+import {Link} from "react-router-dom";
 import Header from "./Common/Header";
 import Footer from './Common/Footer';
 import HeadDiv from './Common/HeadDiv';
@@ -32,7 +32,7 @@ const OrderCompleted = () => {
                 <p className="OCtxt">Thank you for your order! Your order is being processed and will be completed within 3-6
                         hours. You will receive an email confirmation when your order is completed.
                 </p>
-                <div className="OCbtn"><Button text={msg} /></div>
+                <div className="OCbtn"><Link to="/shopgrid"><Button text={msg} /></Link></div>
                 <img src={checklist} alt="Image" className="checklistimg" />      
                 <hr className="hrline" />
             </div>
