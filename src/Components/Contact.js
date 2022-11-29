@@ -38,18 +38,29 @@ const Contact = () => {
 
             <div className="Contact1_gridItem2">
                 <h3 className="Contacthead2">Contact Way</h3>
-                <img src={Ellipse44} alt="Image" className="Contactimg4" />
-                <p className="Contacttxt2">Tel: 877-67-88-99</p>
-                <p className="Contacttxt3">E-Mail: shop@store.com</p>
-                <img src={Ellipse45} alt="Image" className="Contactimg5" />
-                <p className="Contacttxt4">Support Forum</p>
-                <p className="Contacttxt5">For over 24hr</p>
-                <img src={Ellipse46}alt="Image" className="Contactimg6" />
-                <p className="Contacttxt6">20 Margaret st, London</p>
-                <p className="Contacttxt7">Great britain, 3NM98-LK</p>
-                <img src={Ellipse47} alt="Image" className="Contactimg7" />
-                <p className="Contacttxt8">Free standard shipping</p>
-                <p className="Contacttxt9">on all orders.</p>
+                <div className="Contactwaygrid">
+                    <div>
+                        <img src={Ellipse44} alt="Image" className="Contactimg4" />
+                        <p className="Contacttxt2">Tel: 877-67-88-99</p>
+                        <p className="Contacttxt3">E-Mail: shop@store.com</p>
+                    </div>
+                    <div>
+                        <img src={Ellipse45} alt="Image" className="Contactimg5" />
+                        <p className="Contacttxt4">Support Forum</p>
+                        <p className="Contacttxt5">For over 24hr</p>
+                    </div>
+                    <div>
+                        <img src={Ellipse46}alt="Image" className="Contactimg6" />
+                        <p className="Contacttxt6">20 Margaret st, London</p>
+                        <p className="Contacttxt7">Great britain, 3NM98-LK</p>
+                    </div>
+                    <div>
+                        <img src={Ellipse47} alt="Image" className="Contactimg7" />
+                        <p className="Contacttxt8">Free standard shipping</p>
+                        <p className="Contacttxt9">on all orders.</p>
+                    </div>
+                </div>
+            
             </div>  
 
         </div>

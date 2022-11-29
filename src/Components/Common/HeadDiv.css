@@ -24,6 +24,10 @@ span{
     color: #FB2E86;
 }
 
+.HeadDivimg{
+    width: 100%;
+}
+
 @media (min-width: 1200px) and (max-width: 1500px){
     .headdiv_title {
         margin-top: -134px;
