@@ -167,7 +167,6 @@
     letter-spacing: 0.01em;
     font-weight: 600;
     color: #363385;
-    margin-left: -50px;
     margin-top: 18px;
     margin-right: 36px;
     float: left;
@@ -188,7 +187,6 @@
     font-size: 12.4695px;
     line-height: 23px;
     color: #A3A2B6;
-    margin-left: -50px;
     margin-top: 15px;
 }
 
@@ -263,5 +261,384 @@
 .Sblogmaingrid2 .blogmaingrid2{
     height: 65%;
     margin-left: 83px;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .SBoffrprice{
+        float: none;
+    }
+    .SBstar1 {
+        margin-left: 10px;
+    }
+    .SBnav_next{
+        margin-left: 197px;
+    }
+    .SBimgtitle{
+        margin-left: 6px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .SBmain{
+        margin-left: 70px;
+    }
+    .SBstar5 {
+        margin-top: 30px;
+    }
+    .SBstar1 {
+        margin-left: 8px;
+    }
+    .SBimgtitle{
+        margin-left: 6px;
+    }
+    .SBnav_next{
+        margin-left: 184px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .SBmain{
+        margin-left: 45px;
+    }
+    .Blogimg{
+        width: 97%;
+    }
+    .Bloghead {
+        font-size: 26px;
+    }
+    .Blogpara{
+        width: 104%;
+    }
+    .Blogpara2{
+        width: 108%;
+    }
+    .SBgrid1desc_item1 p {
+        font-size: 14px;
+        margin-top: -12px;
+    }
+    .SBgrid1desc_item1 {
+        width: 105%;
+        height: 133px;
+    }
+    .SBgrid1desc_item2 {
+        grid-template-columns: 1fr;
+        row-gap: 44px;
+    }
+    .SBgrid1desc_item4 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+        width: 88%;
+    }
+    .SBstar1 {
+        margin-left: 8px;
+    }
+    .SBimgtitle{
+        margin-left: 6px;
+    }
+    .SBnav_next{
+        margin-left: 92px;
+    }
+    .SBCard1, .SBCard2{
+        width: 113%;
+        height: 141px;
+    }
+    .SBCardtxt1{
+        margin-top: 8px;
+    }
+    .SBCardtxt2{
+        margin-top: 13px;
+    }
+    .SBCardtxt3{
+        margin-top: 11px;
+    }
+    .SBgrid1desc_item9 {
+        margin-top: 80px;
+    }
+    .SBoffrprice{
+        float: none;
+    }
+    .SBfollowimg {
+        margin-left: 20%;
+    }
+    .SBnavigation {
+        width: 113%;
+    }
+    .SBuser {
+        grid-template-columns: 1fr;
+    }
+    .Bgrid1img {
+        margin-top: -21px;
+    }
+    .Sblogmaingrid2{
+        margin-left: -27px;
+        margin-top: -42px;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .SBmain{
+        margin-left: 45px;
+        grid-template-columns: 1fr;
+        row-gap: 71px;
+    }
+    .Blogimg{
+        width: 97%;
+    }
+    .Bloghead {
+        font-size: 26px;
+    }
+    .Blogpara{
+        width: 104%;
+    }
+    .Blogpara2{
+        width: 108%;
+    }
+    .SBgrid1desc_item1 p {
+        font-size: 14px;
+        margin-top: -12px;
+    }
+    .SBgrid1desc_item1 {
+        width: 105%;
+        height: 133px;
+    }
+    .SBgrid1desc_item2 {
+        grid-template-columns: 1fr;
+        row-gap: 44px;
+    }
+    .SBgrid1desc_item4 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+        width: 88%;
+    }
+    .SBstar1 {
+        margin-left: 8px;
+    }
+    .SBimgtitle{
+        margin-left: 6px;
+    }
+    .SBnav_next{
+        margin-left: 92px;
+    }
+    .SBCard1, .SBCard2{
+        width: 113%;
+        height: 141px;
+    }
+    .SBCardtxt1{
+        margin-top: 8px;
+    }
+    .SBCardtxt2{
+        margin-top: 13px;
+    }
+    .SBCardtxt3{
+        margin-top: 11px;
+    }
+    .SBgrid1desc_item9 {
+        margin-top: 80px;
+    }
+    .SBoffrprice{
+        float: none;
+    }
+    .SBfollowimg {
+        margin-left: 20%;
+    }
+    .SBnavigation {
+        width: 113%;
+    }
+    .SBuser {
+        grid-template-columns: 1fr;
+    }
+    .Bgrid1img {
+        margin-top: -21px;
+    }
+    .Sblogmaingrid2{
+        margin-left: -66px;
+        margin-top: -42px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .SBmain{
+        margin-left: 45px;
+        grid-template-columns: 1fr;
+        row-gap: 71px;
+    }
+    .Blogimg{
+        width: 97%;
+    }
+    .Bloghead {
+        font-size: 26px;
+    }
+    .Blogpara{
+        width: 104%;
+    }
+    .Blogpara2{
+        width: 108%;
+    }
+    .SBgrid1desc_item1 p {
+        font-size: 14px;
+        margin-top: -12px;
+    }
+    .SBgrid1desc_item1 {
+        width: 105%;
+        height: 133px;
+    }
+    .SBgrid1desc_item2 {
+        grid-template-columns: 1fr;
+        row-gap: 44px;
+    }
+    .SBgrid1desc_item4 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+        width: 88%;
+    }
+    .SBstar1 {
+        margin-left: 8px;
+    }
+    .SBimgtitle{
+        margin-left: 6px;
+    }
+    .SBnav_next{
+        margin-left: 92px;
+    }
+    .SBCard1, .SBCard2{
+        width: 113%;
+        height: 141px;
+    }
+    .SBCardtxt1{
+        margin-top: 8px;
+    }
+    .SBCardtxt2{
+        margin-top: 13px;
+    }
+    .SBCardtxt3{
+        margin-top: 11px;
+    }
+    .SBgrid1desc_item9 {
+        margin-top: 80px;
+    }
+    .SBoffrprice{
+        float: none;
+    }
+    .SBfollowimg {
+        margin-left: 20%;
+    }
+    .SBnavigation {
+        width: 113%;
+    }
+    .SBuser {
+        grid-template-columns: 1fr;
+    }
+    .Bgrid1img {
+        margin-top: -21px;
+    }
+    .Sblogmaingrid2{
+        margin-left: -66px;
+        margin-top: -42px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    .SBmain{
+        margin-left: 35px;
+        grid-template-columns: 1fr;
+        row-gap: 71px;
+    }
+    .Blogimg{
+        width: 97%;
+    }
+    .Bloghead {
+        font-size: 20px;
+    }
+    .Blogpara{
+        width: 85%;
+        font-size: 14px;
+    }
+    .Blogpara2{
+        width: 85%;
+    }
+    .SBgrid1desc_item1 p {
+        font-size: 14px;
+        margin-top: -12px;
+    }
+    .SBgrid1desc_item1 {
+        width: 86%;
+        margin-top: -43px;
+        height: 180px;
+    }
+    .SBgrid1desc_item2 {
+        grid-template-columns: 1fr;
+        row-gap: 44px;
+        width: 83%;
+    }
+    .SBgrid1desc_item4 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+        width: 80%;
+    }
+    .SBstar1 {
+        margin-left: 8px;
+    }
+    .SBimgtitle{
+        margin-left: 6px;
+    }
+    .SBnav_next{
+        margin-left: 43px;
+    }
+    .SBCard1, .SBCard2{
+        width: 83%;
+        height: 258px;
+        grid-template-columns: 1fr;
+        row-gap: 14px;
+        margin-top: 31px;
+    }
+    .SBinputcontainer{
+        width: 82%;
+    }
+    .SBtextareacontainer{
+        width: 82%;
+        margin-bottom: 14px;
+        height: 198px;
+    }
+    .SBcheckboxtxt{
+        
+    }
+    .SBCardtxt1{
+        margin-top: 8px;
+    }
+    .SBCardtxt2{
+        margin-top: 13px;
+    }
+    .SBCardtxt3{
+        margin-top: 11px;
+    }
+    .SBgrid1desc_item9 {
+        margin-top: 80px;
+    }
+    .SBoffrprice{
+        float: none;
+        margin-left: 7px;
+    }
+    .SBfollowimg {
+        margin-left: 8%;
+    }
+    .SBnavigation {
+        width: 93%;
+        margin-left: -18px;
+    }
+    .SBuser {
+        grid-template-columns: 1fr;
+    }
+    .Bgrid1img {
+        margin-top: -21px;
+    }
+    .Sblogmaingrid2{
+        margin-left: -66px;
+        margin-top: -42px;
+    }
+}
+
+@media (max-width: 299px){
+
 }
 
