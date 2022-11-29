@@ -15,5 +15,83 @@
 }
 .PNFbtn{
     margin-left: 31%;
-    margin-top: 58px;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .PNFmain{
+        margin-left: 202px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .PNFmain{
+        margin-left: 55px;
+    }
+    .PNFbtn{
+        margin-left: 35%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .PNFmain{
+        margin-left: 93px;
+    }
+    .PNFimg{
+        width: 80%;
+    }
+    .PNFbtn{
+        width: 80%;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .PNFmain{
+        margin-left: 93px;
+    }
+    .PNFimg{
+        width: 80%;
+    }
+    .PNFbtn{
+        width: 102%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .PNFmain{
+        margin-left: 50px;
+    }
+    .PNFimg{
+        width: 80%;
+    }
+    .PNFbtn{
+        width: 45%;
+        margin-left: 78px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 449px){
+    .PNFmain{
+        margin-left: 50px;
+    }
+    .PNFimg{
+        width: 80%;
+    }
+    .PNFbtn{
+        width: 45%;
+        margin-left: 78px;
+    }
+}
+
+@media (max-width: 299px){
+    .PNFmain{
+        margin-left: 27px;
+    }
+    .PNFimg{
+        width: 80%;
+    }
+    .PNFbtn{
+        width: 45%;
+        margin-left: 78px;
+    }
 }

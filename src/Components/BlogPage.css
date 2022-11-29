@@ -116,6 +116,7 @@
 .blogmaingrid2{
     display: grid;
     grid-template-rows: auto;
+    row-gap: 100px;
     margin-left: 50px;
     margin-top: 20px;
 }
@@ -194,6 +195,7 @@
 .Bsubgrid_items{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
     margin-bottom: 19px;
 }
 
@@ -312,4 +314,240 @@
     outline: none;
   }
  
+
+@media (min-width: 992px) and (max-width: 1199px){
+    
+    .Bgrid2item5 {
+        margin-top: -276px;
+    }
+    .Pageicon1{
+        margin-left: 90px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .blogmain {
+        margin-left: 75px;
+    }
+    .blogmaingrid2 {
+        margin-left: 30px;
+    }
+    .Pageicon1{
+        margin-left: 90px;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .blogmain {
+        margin-left: 75px;
+        grid-template-columns: 1fr;
+    }
+    .blogmaingrid2 {
+        margin-left: 30px;
+    }
+    .Pageicon1{
+        margin-left: 90px;
+    }
+    .Bloginput_container {
+        width: 54%;
+    }
+    .blogmaingrid2 {
+        row-gap: 325px;
+    }
+    .Bgrid2_subgrid {
+        width: 288px;
+    }
+    .Boffproductgrid {
+        width: 300px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .blogmain {
+        margin-left: 60px;
+        grid-template-columns: 1fr;
+    }
+    .Bgrid1img {
+        width: 85%;
+        margin-top: -30px;
+    }
+    .Blogitemtxt1{
+        width: 100px;
+        padding-left: 17px;
+        font-size: 12px;
+    }
+    .Blogitemtxt2{
+        width: 100px;
+        padding-left: 17px;
+        font-size: 12px;
+        margin-left: 182px;
+    }
+    .Bgrid1desc a{
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+    .Bloghead {
+        font-size: 21px;
+        width: 275px;
+    }
+    .Blogpara{
+        width: 90%;
+        font-size: 14px;
+    }
+    .blogmaingrid1 {
+        row-gap: 25px;
+    }
+    .Pageicon1{
+        margin-left: 39px;
+    }
+    .Pageicon1, .Pageicon2,.Pageicon3,.Pageicon4{
+        margin-top: 10px;
+    }
+    .Bloginput_container {
+        width: 54%;
+    }
+    .blogmaingrid2 {
+        row-gap: 325px;
+        margin-left: 0px;
+    }
+    .Bgrid2_subgrid {
+        width: 288px;
+    }
+    .Boffproductgrid {
+        width: 300px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 449px){
+    .blogmain {
+        margin-left: 60px;
+        grid-template-columns: 1fr;
+    }
+    .Bgrid1img {
+        width: 75%;
+        margin-top: -30px;
+    }
+    .Blogitemtxt1{
+        width: 100px;
+        padding-left: 17px;
+        font-size: 12px;
+        float: none;
+        margin-left: 27px;
+    }
+    .Blogicon2{
+        margin-left: 0px;
+    }
+    .Blogitemtxt2{
+        width: 100px;
+        padding-left: 17px;
+        font-size: 12px;
+        margin-left: 26px;
+    }
+    .Bgrid1desc a{
+        margin-top: 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .Bloghead {
+        font-size: 16px;
+        width: 265px;
+    }
+    .Blogpara{
+        width: 85%;
+        font-size: 12px;
+    }
+    .blogmaingrid1 {
+        row-gap: 25px;
+    }
+    .Pageicon1{
+        margin-left: 10px;
+    }
+    .Pageicon1, .Pageicon2,.Pageicon3,.Pageicon4{
+        margin-top: 10px;
+    }
+    .Bloginput_container {
+        width: 84%;
+    }
+    .blogmaingrid2 {
+        row-gap: 325px;
+        margin-left: -5px;
+    }
+    .Bgrid2_subgrid {
+        width: 288px;
+    }
+    .Boffproductgrid {
+        width: 300px;
+        margin-top: 39px;
+    }
+    .BOffgriditem {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 299px){
+    .blogmain {
+        margin-left: 29px;
+        grid-template-columns: 1fr;
+    }
+    .Bgrid1img {
+        width: 75%;
+        margin-top: -30px;
+    }
+    .Blogitemtxt1{
+        width: 100px;
+        padding-left: 17px;
+        font-size: 12px;
+        float: none;
+        margin-left: 27px;
+    }
+    .Blogicon2{
+        margin-left: 0px;
+    }
+    .Blogitemtxt2{
+        width: 100px;
+        padding-left: 17px;
+        font-size: 12px;
+        margin-left: 26px;
+    }
+    .Bgrid1desc a{
+        margin-top: 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .Bloghead {
+        font-size: 16px;
+        width: 265px;
+    }
+    .Blogpara{
+        width: 85%;
+        font-size: 12px;
+    }
+    .blogmaingrid1 {
+        row-gap: 25px;
+    }
+    .Pageicon1{
+        margin-left: 10px;
+    }
+    .Pageicon1, .Pageicon2,.Pageicon3,.Pageicon4{
+        margin-top: 10px;
+    }
+    .Bloginput_container {
+        width: 84%;
+    }
+    .blogmaingrid2 {
+        row-gap: 325px;
+        margin-left: -5px;
+    }
+    .Bgrid2_subgrid {
+        width: 288px;
+    }
+    .Boffproductgrid {
+        width: 300px;
+        margin-top: 39px;
+    }
+    .BOffgriditem {
+        grid-template-columns: 1fr;
+    }
+}
 

@@ -64,7 +64,6 @@ const BlogPage = () => {
               purus, cursus vulputate id id dictum at.
             </p>
             <Link to="/singleblog"><a href="#">Read More</a></Link>
-            <img src={bdot} alt="Image" className="Blogicon3" />
           </div>
 
           <div className="Bgrid1img">
@@ -90,7 +89,6 @@ const BlogPage = () => {
               purus, cursus vulputate id id dictum at.
             </p>
             <Link to="/singleblog"><a href="#">Read More</a></Link>
-            <img src={bdot} alt="Image" className="Blogicon3" />
           </div>
 
           <div className="Bgrid1img">
@@ -116,7 +114,6 @@ const BlogPage = () => {
               purus, cursus vulputate id id dictum at.
             </p>
             <Link to="/singleblog"><a href="#">Read More</a></Link>
-            <img src={bdot} alt="Image" className="Blogicon3" />
           </div>
 
           <div className="Bgrid1pages">

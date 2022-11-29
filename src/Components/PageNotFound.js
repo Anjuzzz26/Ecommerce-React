@@ -17,7 +17,7 @@ const PageNotFound = () => {
 		
         <div className="PNFmain">
             <img src={Group123} alt="Image" className="PNFimg" />
-            <h3 className="PNFtxt">oops!</h3>
+            {/* <h3 className="PNFtxt">oops!</h3> */}
             <div className="PNFbtn">
                 <Link to="/"><Button text={"Back To Home"} /></Link>
             </div>
