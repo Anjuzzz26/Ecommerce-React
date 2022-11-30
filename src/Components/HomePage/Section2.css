@@ -17,6 +17,7 @@
     margin: 56px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
     justify-items: center;
     margin-left: 274px;
 }
@@ -140,4 +141,110 @@ a:hover {
     width: 30px;
     margin-top: 42px;
     margin-left: 25px;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .leatest_nav ul{
+        margin-left: 382px;
+    }
+    .leatest{
+        margin-left: 209px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .leatest_nav ul{
+        margin-left: 274px;
+    }
+    .leatest{
+        margin-left: 54px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .section2main{
+        height: 100%;
+    }
+    .leatest_nav ul{
+        margin-left: 187px;
+    }
+    .leatest{
+        margin-left: 98px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+    }
+    .lproducts2 {
+        margin-top: -1px;
+    }
+    .lpheading{
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .section2main{
+        height: 100%;
+    }
+    .leatest_nav ul{
+        margin-left: 94px;
+    }
+    .leatest{
+        margin-left: 103px;
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+    }
+    .lproducts2 {
+        margin-top: -1px;
+    }
+    .lpheading{
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .section2main{
+        height: 100%;
+    }
+    .leatest_nav ul{
+        margin-left: 20px;
+    }
+    .leatest{
+        margin-left: 60px;
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+    }
+    .lproducts2 {
+        margin-top: -1px;
+    }
+    .lpheading{
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    .section2main{
+        height: 100%;
+    }
+    .leatest_nav ul{
+        margin-left: 5px;
+    }
+    .leatest{
+        margin-left: 20px;
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+    }
+    .lproducts2 {
+        margin-top: -1px;
+    }
+    .lpheading{
+        margin-left: -20px;
+        font-size: 30px;
+    }
+    .leatest_nav li{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 299px){
+
 }

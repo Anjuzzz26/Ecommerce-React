@@ -14,6 +14,7 @@
 .s8grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
 }
 
 
@@ -27,5 +28,81 @@
     margin-left: 52px;
 }.s8img3{
     margin-left: -71px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+    .s8grid{
+        margin-left: -142px;
+        width: 120%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .s8grid{
+        margin-left: -22px;
+        width: 93%;
+        column-gap: 115px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .s8grid{
+        margin-left: -142px;
+        width: 114%;
+        column-gap: 115px;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .s8grid{
+        margin-left: -168px;
+        width: 135%;
+        column-gap: 115px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .section8main{
+        height: 100%;
+    }
+    .s8grid{
+        grid-template-columns: 1fr;
+        margin-left: -173px;
+        width: 135%;
+    }
+    .s8img2, .s8img3 {
+        margin-left: 192px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    .section8main{
+        height: 100%;
+    }
+    .s8grid{
+        grid-template-columns: 1fr;
+        margin-left: -173px;
+        width: 93%;
+    }
+    .s8img2, .s8img3 {
+        margin-left: 192px;
+    }
+}
+
+@media (max-width: 299px){
+    .section8main{
+        height: 100%;
+    }
+    .s8grid{
+        grid-template-columns: 1fr;
+        margin-left: -173px;
+        width: 85%;
+    }
+    .s8head{
+        font-size: 38px;
+    }
+    .s8img2, .s8img3 {
+        margin-left: 192px;
+    }
 }
 

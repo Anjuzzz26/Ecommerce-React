@@ -14,6 +14,7 @@
 .s7grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
 }
 
 .s7img1, .s7img2, .s7img3, .s7img4{
@@ -29,4 +30,125 @@
 }
 .s7img4{
     margin-left: -119px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+    .s7grid {
+        column-gap: 90px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .s7grid {
+        column-gap: 78px;
+        margin-left: -32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .s7grid {
+        column-gap: 78px;
+        margin-left: -32px;
+    }
+    .s7img1 {
+        margin-left: 146px;
+        width: 232px;
+    }
+    .s7img2 {
+        margin-left: 56px;
+    }
+    .s7img3 {
+        margin-left: -33px;
+    }
+}
+
+@media (min-width: 725px) and (max-width: 767px){
+    .s7grid {
+        column-gap: 78px;
+        margin-left: -32px;
+    }
+    .s7img1 {
+        margin-left: 146px;
+        width: 232px;
+    }
+    .s7img2 {
+        margin-left: 56px;
+    }
+    .s7img3 {
+        margin-left: -33px;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 724px){
+    .s7grid {
+        column-gap: 78px;
+        margin-left: -113px;
+        width: 130%;
+    }
+    .s7img1 {
+        margin-left: 146px;
+        width: 232px;
+    }
+    .s7img2 {
+        margin-left: 56px;
+    }
+    .s7img3 {
+        margin-left: -33px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .section7main{
+        height: 100%;
+    }
+    .s7img2, .s7img3, .s7img4 {
+        margin-left: 149px;
+    }
+    .s7img1 {
+        margin-left: 155px;
+    }
+    
+    .s7grid {
+        grid-template-columns: 1fr;
+        column-gap: 78px;
+        margin-left: -113px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    .section7main{
+        height: 100%;
+    }
+    .s7img2, .s7img3, .s7img4 {
+        margin-left: 108px;
+    }
+    .s7img1 {
+        margin-left: 109px;
+    }
+    
+    .s7grid {
+        grid-template-columns: 1fr;
+        column-gap: 78px;
+        margin-left: -113px;
+    }
+}
+
+@media (max-width: 299px){
+    .section7main{
+        height: 100%;
+    }
+    .s7img2, .s7img3, .s7img4 {
+        margin-left: 108px;
+        width: 70%;
+    }
+    .s7img1 {
+        width: 67%;
+        margin-left: 109px;
+    }
+    
+    .s7grid {
+        grid-template-columns: 1fr;
+        column-gap: 78px;
+        margin-left: -113px;
+    }
 }

@@ -14,6 +14,7 @@
 .s3grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
     width: 50%;
     margin-left: 24%;
 }
@@ -50,4 +51,141 @@
     text-align: center;
     color: rgba(26, 11, 91, 0.3);
     margin-top: 5px;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .s3grid{
+
+    }
+    .s3card{
+        width: 104%;
+    }
+    .grp{
+        margin-left: 58px;
+    }
+    .s3txt1{
+        margin-left: 28px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .s3grid{
+        width: 60%;
+        margin-left: 19%;
+        column-gap: 50px;
+    }
+    .s3card{
+        width: 126%;
+    }
+    .grp{
+        margin-left: 58px;
+    }
+    .s3txt1{
+        margin-left: 28px;
+    }
+    .s3txt2{
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .s3grid{
+        width: 83%;
+        margin-left: 7%;
+        column-gap: 50px;
+    }
+    .s3card{
+        width: 126%;
+    }
+    .grp{
+        margin-left: 58px;
+    }
+    .s3txt1{
+        margin-left: 28px;
+    }
+    .s3txt2{
+        font-size: 11px;
+        width: 94%;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .section3main{
+        height: 100%;
+    }
+    .s3grid{
+        width: 83%;
+        margin-left: 15%;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+    .s3card{
+        width: 76%;
+    }
+    .grp{
+        margin-left: 70px;
+    }
+    .s3txt1{
+        margin-left: 37px;
+    }
+    .s3txt2{
+        font-size: 11px;
+        width: 94%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .section3main{
+        height: 100%;
+    }
+    .s3grid{
+        width: 61%;
+        margin-left: 26%;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .s3card{
+        width: 76%;
+    }
+    .grp{
+        margin-left: 70px;
+    }
+    .s3txt1{
+        margin-left: 37px;
+    }
+    .s3txt2{
+        font-size: 11px;
+        width: 94%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    .section3main{
+        height: 100%;
+    }
+    .s3grid{
+        width: 79%;
+        margin-left: 20%;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .s3card{
+        width: 76%;
+    }
+    .grp{
+        margin-left: 70px;
+    }
+    .s3txt1{
+        margin-left: 37px;
+    }
+    .s3txt2{
+        font-size: 11px;
+        width: 94%;
+    }
+
+}
+
+@media (max-width: 299px){
+
 }
