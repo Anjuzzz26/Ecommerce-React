@@ -601,7 +601,7 @@
         height: 198px;
     }
     .SBcheckboxtxt{
-        
+
     }
     .SBCardtxt1{
         margin-top: 8px;
@@ -639,6 +639,110 @@
 }
 
 @media (max-width: 299px){
-
+    .SBmain{
+        margin-left: 15px;
+        grid-template-columns: 1fr;
+        row-gap: 71px;
+    }
+    .Blogimg{
+        width: 97%;
+    }
+    .Bloghead {
+        font-size: 20px;
+    }
+    .Blogpara{
+        width: 85%;
+        font-size: 14px;
+    }
+    .Blogpara2{
+        width: 85%;
+    }
+    .SBgrid1desc_item1 p {
+        font-size: 15px;
+        margin-top: -12px;
+    }
+    .SBgrid1desc_item1 {
+        width: 81%;
+        margin-top: -43px;
+        height: 180px;
+    }
+    .SBgrid1desc_item2 {
+        grid-template-columns: 1fr;
+        row-gap: 44px;
+        width: 80%;
+    }
+    .SBgrid1desc_item4 {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+        width: 77%;
+    }
+    .SBgrid1desc_item4 span {
+        margin-left: 5px;
+    }
+    .SBstar1 {
+        margin-left: 8px;
+    }
+    .SBimgtitle{
+        margin-left: 6px;
+    }
+    .SBnav_next{
+        margin-left: 43px;
+    }
+    .SBCard1, .SBCard2{
+        width: 70%;
+        margin-left: 19px;
+        height: 258px;
+        grid-template-columns: 1fr;
+        row-gap: 14px;
+        margin-top: 31px;
+    }
+    .SBinputcontainer{
+        width: 82%;
+    }
+    .SBtextareacontainer{
+        width: 82%;
+        margin-bottom: 14px;
+        height: 198px;
+    }
+    .SBcheckboxtxt{
+        
+    }
+    .SBCardtxt1{
+        margin-top: 8px;
+        margin-right: 15px;
+    }
+    .SBCardtxt2{
+        margin-top: 13px;
+    }
+    .SBCardtxt3{
+        margin-top: 11px;
+    }
+    .SBgrid1desc_item9 {
+        margin-top: 80px;
+    }
+    .SBoffrprice{
+        float: none;
+        margin-left: 7px;
+    }
+    .SBfollowimg {
+        margin-left: 8%;
+    }
+    .SBnavigation {
+        width: 83%;
+        margin-left: -6px;
+    }
+    .SBnav_next, .SBnav_prev{
+        font-size: 15.1538px;
+    }
+    .SBuser {
+        grid-template-columns: 1fr;
+    }
+    .Bgrid1img {
+        margin-top: -21px;
+    }
+    .Sblogmaingrid2{
+        margin-left: -82px;
+        margin-top: -42px;
+    }
 }
 
