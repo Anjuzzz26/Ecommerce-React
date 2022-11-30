@@ -30,7 +30,7 @@ const ShoppingCart = () => {
             <h2 className="SCarthead2">Price</h2>
             <h2 className="SCarthead3">Quantity</h2>
             <h2 className="SCarthead4">Total</h2>
-            <h2 className="SCarthead5">Cart Totals</h2>
+            {/* <h2 className="SCarthead5">Cart Totals</h2> */}
             <br/>
             <div className="SCartdiv">
                 <div className="Cartgrid1">
@@ -150,8 +150,9 @@ const ShoppingCart = () => {
                 </div>
 
                 <div className="Cartgrid2">
-                    
+                <h3 className="SCarthead5">Cart Total</h3>
                     <div className="carttotalgrid">
+                        
                         <div className="carttotals_subitems">
                             <text className="subitem1">Subtotals:</text>
                             <p className="subitem2">£219.00</p>
