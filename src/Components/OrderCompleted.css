@@ -8,7 +8,7 @@
 }
 .vrline{
     height: 272px;
-    border-left: 1px dashed #D2D1D1;
+    border-left: 1px dashed #dd2424;
     margin-left: 332px;
 }
 .checklistimg{
@@ -31,7 +31,7 @@
     width: 44px;
 }
 .hrline{
-    border-top: 1px dashed #D2D1D1;
+    border-top: 1px dashed #370707;
     width: 52%;
     margin-left: 333px;
     margin-top: -26px;
@@ -61,4 +61,279 @@
 .OCbtn{
     margin-left: 43.5%;
     margin-top: 39px;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .v1img {
+        margin-left: 612px;
+    }
+    .v3img {
+        margin-left: 621px;
+    }
+    .v2img {
+        margin-left: 626px;
+    }
+    .OCtxt{
+        margin-left: 385px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .v1img {
+        margin-left: 554px;
+    }
+    .v3img {
+        margin-left: 563px;
+    }
+    .v2img {
+        margin-left: 572px;
+    }
+    .OCtxt{
+        margin-left: 394px;
+    }
+    .OChead{
+        margin-left: 177px;
+    }
+    .OCbtn {
+        margin-left: 48.5%;
+    }
+    .hrline{
+        margin-top: -27px;
+    }
+    .checklistimg {
+        margin-left: 83%;
+        margin-top: 1px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .clockimg{
+        margin-left: 97px;
+    }
+    .vrline{
+        margin-left: 129px;
+    }
+    .v1img {
+        margin-left: 399px;
+    }
+    .v3img {
+        margin-left: 409px;
+    }
+    .v2img {
+        margin-left: 414px;
+    }
+    .OCtxt{
+        margin-left: 256px;
+    }
+    .OChead{
+        margin-left: 60px;
+    }
+    .OCbtn {
+        margin-left: 44.5%;
+        margin-top: 21px;
+    }
+    .hrline{
+        margin-top: -27px;
+        margin-left: 128px;
+        width: 68%;
+    }
+    .checklistimg {
+        margin-left: 83%;
+        margin-top: 1px;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .clockimg{
+        margin-left: 34px;
+        margin-top: -81px;
+    }
+    .vrline{
+        margin-left: 71px;
+    }
+    .v1img {
+        margin-left: 292px;
+        margin-top: -72px;
+        margin-bottom: 63px;
+    }
+    .v3img {
+        margin-left: 302px;
+        margin-top: -115px;
+    }
+    .v2img {
+        margin-left: 308px;
+        margin-top: -31px;
+        margin-bottom: 63px;
+    }
+    .OCtxt{
+        margin-left: 175px;
+        width: 53%;
+    }
+    .OChead{
+        margin-left: 70px;
+    }
+    .OCbtn {
+        margin-left: 47.5%;
+        margin-top: 21px;
+    }
+    .hrline{
+        margin-top: -27px;
+        margin-left: 72px;
+        width: 71%;
+    }
+    .checklistimg {
+        margin-left: 83%;
+        margin-top: 1px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .clockimg{
+        margin-left: 19px;
+        margin-top: -81px;
+    }
+    .vrline{
+        margin-left: 57px;
+        height: 190px;
+    }
+    .v1img {
+        width: 57px;
+        margin-left: 193px;
+        margin-top: -72px;
+        margin-bottom: 63px;
+    }
+    .v3img {
+        width: 40px;
+        margin-left: 202px;
+        margin-top: -110px;
+    }
+    .v2img {
+        width: 26px;
+        margin-left: 210px;
+        margin-top: -31px;
+        margin-bottom: 63px;
+    }
+    .OCtxt{
+        margin-left: 103px;
+        margin-top: 2px;
+        width: 65%;
+        font-size: 10px;
+        line-height: 22px;
+    }
+    .OChead{
+        margin-top: -216px;
+        margin-left: 70px;
+        font-size: 24px;
+    }
+    .OCbtn {
+        margin-left: 35.5%;
+        margin-top: 3px;
+    }
+    .hrline{
+        margin-top: -28px;
+        margin-left: 58px;
+        width: 71%;
+    }
+    .checklistimg {
+        margin-left: 83%;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    .clockimg{
+        margin-left: 19px;
+        margin-top: -81px;
+    }
+    .vrline{
+        margin-left: 57px;
+        height: 190px;
+    }
+    .v1img {
+        width: 57px;
+        margin-left: 193px;
+        margin-top: -72px;
+        margin-bottom: 63px;
+    }
+    .v3img {
+        width: 40px;
+        margin-left: 202px;
+        margin-top: -110px;
+    }
+    .v2img {
+        width: 26px;
+        margin-left: 210px;
+        margin-top: -31px;
+        margin-bottom: 63px;
+    }
+    .OCtxt{
+        margin-left: 103px;
+        margin-top: 2px;
+        width: 65%;
+        font-size: 10px;
+        line-height: 22px;
+    }
+    .OChead{
+        margin-top: -216px;
+        margin-left: 70px;
+        font-size: 24px;
+    }
+    .OCbtn {
+        margin-left: 35.5%;
+        margin-top: 3px;
+    }
+    .hrline{
+        margin-top: -28px;
+        margin-left: 58px;
+        width: 71%;
+    }
+    .checklistimg {
+        margin-left: 83%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 299px){
+    .clockimg{
+        margin-left: 34px;
+        margin-top: -81px;
+    }
+    .vrline{
+        margin-left: 71px;
+    }
+    .v1img {
+        margin-left: 292px;
+        margin-top: -72px;
+        margin-bottom: 63px;
+    }
+    .v3img {
+        margin-left: 302px;
+        margin-top: -115px;
+    }
+    .v2img {
+        margin-left: 308px;
+        margin-top: -31px;
+        margin-bottom: 63px;
+    }
+    .OCtxt{
+        margin-left: 175px;
+        width: 53%;
+    }
+    .OChead{
+        margin-left: 70px;
+    }
+    .OCbtn {
+        margin-left: 47.5%;
+        margin-top: 21px;
+    }
+    .hrline{
+        margin-top: -27px;
+        margin-left: 72px;
+        width: 71%;
+    }
+    .checklistimg {
+        margin-left: 83%;
+        margin-top: 1px;
+    }
 }

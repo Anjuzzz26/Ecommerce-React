@@ -246,3 +246,394 @@
     margin-bottom: 24px;
 
 }
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .HDhead{
+        margin-top: 90px;
+        margin-left: 147px;
+    }
+    .HDsubhead{
+        margin-left: 147px;
+    }
+    .HDgrid1{
+        margin-left: 151px;
+    }
+    .HDcontactdetails{
+        margin-bottom: 90px;
+    }
+    .HDbtn{
+        margin-top: -43px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .HDhead{
+        margin-top: 90px;
+        margin-left: 110px;
+    }
+    .HDsubhead{
+        margin-left: 110px;
+    }
+    .HDgrid1{
+        margin-left: 112px;
+    }
+    .HDcontactdetails{
+        margin-bottom: 90px;
+    }
+    .HDbtn{
+        margin-top: -43px;
+    }
+    .HDtxt1 {
+        width: 50%;
+    }
+    .HDtxt2{
+        margin-top: 30px;
+    }
+    .HDcontactdetails form input{
+        margin-top: 31px;
+    }
+    .HDinfogrid{
+        height: 87%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .HDhead{
+        margin-top: 90px;
+        margin-left: 110px;
+    }
+    .HDsubhead{
+        margin-left: 110px;
+    }
+    .HDgrid1{
+        margin-left: 112px;
+        grid-template-columns: 1fr;
+        row-gap: 80px;
+    }
+    .HDcontactdetails{
+        margin-bottom: 90px;
+    }
+    .HDbtn{
+        margin-top: -43px;
+        width: 135%;
+    }
+    .HDtxt1 {
+        width: 50%;
+    }
+    .HDtxt2{
+        margin-top: 30px;
+    }
+    .HDcontactdetails form input{
+        margin-top: 31px;
+    }
+    .HDinfogrid{
+        height: 105%;
+    }
+    .HDcarttotalgrid{
+        width: 75%;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .HDhead{
+        margin-top: 20px;
+        margin-left: 66px;
+    }
+    .HDsubhead{
+        margin-left: 66px;
+    }
+    .HDgrid1{
+        margin-left: 70px;
+        grid-template-columns: 1fr;
+        row-gap: 80px;
+    }
+    .HDcontactdetails{
+        margin-bottom: 90px;
+    }
+    .HDbtn{
+        margin-top: -43px;
+        width: 135%;
+    }
+    .HDtxt1 {
+        width: 50%;
+    }
+    .HDtxt2{
+        margin-top: 30px;
+    }
+    .HDcontactdetails form input{
+        margin-top: 31px;
+    }
+    .HDinfogrid{
+        height: 105%;
+        width: 116%;
+    }
+    .HDcarttotalgrid{
+        width: 95%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .HDhead{
+        margin-top: 13px;
+        margin-left: 34px;
+    }
+    .HDsubhead{
+        margin-left: 34px;
+    }
+    .HDgrid1{
+        margin-left: 32px;
+        grid-template-columns: 1fr;
+        row-gap: 80px;
+    }
+    .HDcontactdetails{
+        margin-bottom: 90px;
+    }
+    .HDbtn{
+        margin-top: -43px;
+        width: 135%;
+    }
+    .HDtxt1 {
+        width: 50%;
+    }
+    .HDtxt2{
+        margin-top: 30px;
+    }
+    .HDcontactdetails form input{
+        margin-top: 31px;
+    }
+    .HDinfogrid{
+        height: 105%;
+        width: 86%;
+    }
+    .HDcarttotalgrid{
+        width: 103%;
+        margin-left: -4px;
+    }
+    .textbox {
+        width: 91%;
+    }
+    .textbox2{
+        width: 91%;
+        margin-top: 55px;
+        margin-left: -1px;
+    }
+    .HDitemsgrid {
+        margin-left: -5px;
+        width: 85%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    .HDhead{
+        margin-top: 13px;
+        margin-left: 30px;
+    }
+    .HDsubhead{
+        margin-left: 30px;
+    }
+    .HDgrid1{
+        margin-left: 25px;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    .HDcontactdetails{
+        margin-bottom: 90px;
+        padding-left: 20px;
+    }
+    .HDshippingdetails{
+        margin-bottom: 90px;
+        padding-left: 20px;
+        margin-top: -44px;
+    }
+    .HDbtn{
+        margin-top: -43px;
+        width: 135%;
+    }
+    .HDtxt1 {
+        width: 70%;
+    }
+    .HDtxt2{
+        margin-top: 30px;
+    }
+    .HDcontactdetails form input{
+        margin-top: 31px;
+        font-size: 13px;
+        width: 85%;
+    }
+    .HDtxt3{
+        font-size: 11px;
+    }
+    .HDinfogrid{
+        height: 95%;
+        width: 68%;
+    }
+    .HDcarttotalgrid{
+        width: 82%;
+        margin-left: -4px;
+    }
+    .HDcarttotals_subitems {
+        width: 215px;
+    }
+    .HDsubitem1, .HDsubitem2{
+        font-size: 16px;
+    }
+    
+    .HDsubitem1{
+        margin-right: 76px;
+    }
+    .HDgreen_check{
+        margin-left: 31px;
+    }
+    .textbox {
+        width: 85%;
+        font-size: 13px;
+    }
+    .textbox2{
+        width: 85%;
+        margin-top: 55px;
+        margin-left: -1px;
+        font-size: 13px;
+    }
+    .HDitemsgrid {
+        margin-left: -5px;
+        width: 85%;
+    }
+    .HDshippingdetails form .inputtextbox {
+        width: 85%;
+        font-size: 13px;
+    }
+    .HDitems{
+        grid-template-columns: 1fr 1fr;
+        width: 75%;
+    }
+    .HDitemname{
+        margin-left: -56px;
+    }
+    .HDitemcolor{
+        margin-left: -56px;
+    }
+    .HDitemsize{
+        margin-left: -56px;
+    }
+    .HDitemprice{
+        margin-top: -3px;
+        margin-left: 114px;
+    }
+    .HDcheckoutbtn{
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 299px){
+    .HDhead{
+        margin-top: 13px;
+        margin-left: 30px;
+    }
+    .HDsubhead{
+        margin-left: 30px;
+    }
+    .HDgrid1{
+        margin-left: 25px;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    .HDcontactdetails{
+        margin-bottom: 90px;
+        padding-left: 20px;
+    }
+    .HDshippingdetails{
+        margin-bottom: 90px;
+        padding-left: 20px;
+        margin-top: -44px;
+    }
+    .HDbtn{
+        margin-top: -89px;
+        width: 104%;
+        margin-left: -10px;
+    }
+    .HDtxt1 {
+        font-size: 15px;
+        width: 70%;
+        margin-top: -28px;
+    }
+    .HDtxt2{
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .HDcontactdetails form input{
+        margin-top: 31px;
+        font-size: 10px;
+        width: 85%;
+    }
+    .HDcarttotal_para{
+        font-size: 10px;
+    }
+    .HDtxt3{
+        font-size: 11px;
+        margin-top: 21px;
+    }
+    .HDinfogrid{
+        height: 95%;
+        width: 55%;
+    }
+    .HDcarttotalgrid{
+        width: 68%;
+        margin-left: -4px;
+    }
+    .HDcarttotals_subitems {
+        width: 190px;
+        margin-left: 16px;
+        margin-top: -12px;
+    }
+    .HDsubitem1, .HDsubitem2{
+        font-size: 16px;
+    }
+
+    .HDsubitem1{
+        margin-right: 50px;
+    }
+    .HDgreen_check{
+        margin-left: 16px;
+    }
+    .textbox {
+        width: 85%;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    .textbox2{
+        width: 85%;
+        margin-top: 55px;
+        margin-left: -1px;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    .HDitemsgrid {
+        margin-left: -5px;
+        width: 85%;
+    }
+    .HDshippingdetails form .inputtextbox {
+        width: 85%;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    .HDitems{
+        grid-template-columns: 1fr 1fr;
+        width: 75%;
+    }
+    .HDitemname{
+        margin-left: -56px;
+    }
+    .HDitemcolor{
+        margin-left: -56px;
+    }
+    .HDitemsize{
+        margin-left: -56px;
+    }
+    .HDitemprice{
+        margin-top: -3px;
+        margin-left: 114px;
+    }
+    .HDcheckoutbtn{
+        margin-left: 25px;
+    }
+}
