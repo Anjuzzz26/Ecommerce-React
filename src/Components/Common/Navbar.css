@@ -81,3 +81,88 @@ form.example input[type=text] {
     clear: both;
     display: table;
   }
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .title{
+        margin-left: 111px;
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    form.example button{
+        width: 13%;
+        height: 27px;
+    }
+    .title{
+        margin-left: 30px;
+    }
+    .searchdiv{
+        margin-left: 22px;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .navbar{
+        grid-template-columns: 1fr;
+    }
+    .links{
+        margin-left: 17px;
+    }
+    form.example button{
+        width: 8%;
+        height: 27px;
+        font-size: 15px;
+    }
+    .title{
+        margin-left: 30px;
+    }
+    .searchdiv{
+        margin-left: 22px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .navbar{
+        grid-template-columns: 1fr;
+    }
+    .links{
+        margin-left: 17px;
+    }
+    form.example button{
+        width: 8%;
+        height: 27px;
+        font-size: 15px;
+    }
+    .title{
+        margin-left: 30px;
+    }
+    .searchdiv{
+        margin-left: 22px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    .navbar{
+        grid-template-columns: 1fr;
+    }
+    .links{
+        margin-left: 0px;
+    }
+    form.example button{
+        width: 8%;
+        height: 27px;
+        font-size: 15px;
+    }
+    .title{
+        margin-left: 10px;
+    }
+    .searchdiv{
+        margin-left: 7px;
+    }
+}
+
+@media (max-width: 299px){
+    
+}

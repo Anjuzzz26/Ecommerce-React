@@ -10,5 +10,49 @@
 }
 
 .awssld__bullets {
-    display: none;
+    bottom: 18px;
 }
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    .aws_slider {
+        height: 497px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .aws_slider {
+        height: 415px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .aws_slider {
+        height: 320px;
+    }
+}
+
+@media (min-width: 585px) and (max-width: 767px){
+    .aws_slider {
+        height: 240px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 584px){
+    .aws_slider {
+        height: 168px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+    .aws_slider {
+        height: 109px;
+    }
+}
+
+@media (max-width: 299px){
+    .aws_slider {
+        height: 66px;
+    }
+}
+
+
