@@ -73,6 +73,12 @@
     margin-top: 12px;
     margin-right: 10px;
 }
+
+.checkbox:checked:before{
+    background-color:green;
+}
+
+
 .filter_list{
     font-family: 'Lato';
     font-style: normal;

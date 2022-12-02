@@ -49,34 +49,34 @@ const ShopLeft = () => {
                 <div className="Sleft_filtergrid">
                     <div className="Sleft_brand">
                         <h3 className="filter_head">Product Brand</h3>
-                        <img className="checkbox" src={check} alt="Image" />
-                        <p className="filter_list">Coaster Furniture</p>
-                        <img className="checkbox" src={check} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="Coaster" name="PB1" />
+                         <p className="filter_list">Coaster Furniture</p>
+                        <input type="checkbox" className="checkbox" value="Fusion" name="PB2" />
                         <p className="filter_list">Fusion Dot High Fashion</p>
-                        <img className="checkbox" src={check_filled} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="Unique" name="PB3" />
                         <p className="filter_list">Unique Furnitture Restor</p>
-                        <img className="checkbox" src={check} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="Dream" name="PB4" />
                         <p className="filter_list">Dream Furnitture Flipping</p>
-                       <img className="checkbox" src={check} alt="Image" />
+                       <input type="checkbox" className="checkbox" value="Young" name="PB5" />
                         <p className="filter_list">Young Repurposed</p>
-                        <img className="checkbox" src={check} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="Green" name="PB6" />
                         <p className="filter_list">Green DIY furniture</p>
                     </div>
 
                     <div className="Sleft_discount">
                         <h3 className="filter_head">Discount Offer</h3>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="CashBack_20" name="DO1" />
                         <p className="filter_list">20% Cashback</p>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="CashBack_5" name="DO2" />
                         <p className="filter_list">5% Cashback Offer</p>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="CashBack_25" name="DO3" />
                         <p className="filter_list">25% Cashback Offer</p>
                     </div>
 
                     <div className="Sleft_rating">
                         <h3 className="filter_head">Rating Item</h3>
 
-                        <img className="checkbox" src={checkyellow} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="star_4" name="Rating1" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
@@ -84,7 +84,7 @@ const ShopLeft = () => {
                         <img className="rating_star" src={notfilledstar} alt="Image" />
                         <p className="rating_list">(2341)</p>
 
-                        <img className="checkbox" src={check_yfill} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="star_3" name="Rating2" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
@@ -92,7 +92,7 @@ const ShopLeft = () => {
                         <img className="rating_star" src={notfilledstar} alt="Image" />
                         <p className="rating_list">(1726)</p>
 
-                        <img className="checkbox" src={checkyellow} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="star_2" name="Rating3" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
@@ -100,7 +100,7 @@ const ShopLeft = () => {
                         <img className="rating_star" src={notfilledstar} alt="Image" />
                         <p className="rating_list">(258)</p>
 
-                        <img className="checkbox" src={checkyellow} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="star_2" name="Rating4" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
@@ -114,21 +114,23 @@ const ShopLeft = () => {
 
                         <h3 className="filter_head">Categories</h3>
 
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="Prestashop" name="Categories1" />
                         <p className="filter_list">Prestashop</p>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="Magneto" name="Categories1" />
                         <p className="filter_list">Magento</p>
-                        <img className="checkbox" src={check_pfill} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="Bigcommerce" name="Categories1" />
                         <p className="filter_list">Bigcommerce</p>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="osCommerce" name="Categories1" />
                         <p className="filter_list">osCommerce</p>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="3dcart" name="Categories1" />
                         <p className="filter_list">3dcart</p>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="Bags" name="Categories1" />
                         <p className="filter_list">Bags</p>
+                        <input type="checkbox" className="checkbox" value="Accessories" name="Categories1" />
                         <p className="filter_list independent">Accessories</p>
+                        <input type="checkbox" className="checkbox" value="Jewellery" name="Categories1" />
                         <p className="filter_list independent">Jewellery</p>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" value="Watches" name="Categories1" />
                         <p className="filter_list">Watches</p>
 
                     </div>
@@ -137,13 +139,13 @@ const ShopLeft = () => {
 
                         <h3 className="filter_head">Price Filter</h3>
                         
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" name="Price1" />
                         <p className="filter_list">$0.00 - $150.00</p>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                       <input type="checkbox" className="checkbox" name="Price2" />
                         <p className="filter_list">$150.00 - $350.00</p>
-                        <img className="checkbox" src={check_pfill} alt="Image" />
+                        <input type="checkbox" className="checkbox" name="Price3" />
                         <p className="filter_list">$150.00 - $504.00</p>
-                        <img className="checkbox" src={checkpink} alt="Image" />
+                        <input type="checkbox" className="checkbox" name="Price4" />
                         <p className="filter_list">$450.00 +</p>
                         <form className="filter_price_search">
                             <input type="text" name="pricefilter" />

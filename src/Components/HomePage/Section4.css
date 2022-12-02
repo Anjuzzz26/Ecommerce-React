@@ -170,6 +170,7 @@
 @media (min-width: 585px) and (max-width: 767px){
     .section4main{
         height: 483px;
+        margin-top: 50px;
     }
     .s4bg {
         margin-top: 67px;
@@ -212,6 +213,7 @@
     .section4main{
         grid-template-columns: 1fr;
         height: 988px;
+        margin-top: 50px;
     }
     .s4bg {
         margin-top: 77px;
@@ -255,6 +257,8 @@
 @media (min-width: 300px) and (max-width: 399px){
     .section4main{
         grid-template-columns: 1fr;
+        height: 890px;
+        margin-top: 50px;
     }
     .s4bg {
         margin-top: 77px;
