@@ -14,12 +14,23 @@ const EcommerceItems = () => {
                         <form className="Ecomform">
                             <div>
                                 <text className="Ecomtxt">Per Page: </text>
-                                <input type="text" name="perpage" />
+                                <select name="perpage">
+                                    <option value="0">Select</option>
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                    <option value="40">40</option>
+                                    <option value="50">50</option>
+                                </select>
                             </div>
                             <div>
                                 <text className="Ecomtxt">Sort By: </text>
                                 <select name="sort">
                                     <option value="0">Best Match</option>
+                                    <option value="Popularity">Popularity</option>
+                                    <option value="Relevance">Relevance</option>
+                                    <option value="lowtohigh">Low to High</option>
+                                    <option value="hightolow">High to Low</option>
                                 </select>
                             </div>
                             <div className="Ecomviewdiv">

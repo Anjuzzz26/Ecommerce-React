@@ -28,6 +28,7 @@
      font-size: 16px;
      line-height: 19px;
      color: #3F509E;
+     margin-left: 10px;
  }
  .Ecomform{
      margin-top: 58px;
@@ -44,6 +45,10 @@
  .Ecomform select{
      border: 1px solid #E7E6EF;
      transform: matrix(1, 0, 0, 1, 0, 0);
+     height: 30px;
+     width: 107px;
+     font-size: 14px;
+     padding-left: 10px;
  }
  .Ecomicon1{
      width: 10px;

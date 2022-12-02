@@ -25,6 +25,23 @@ import Ecom11 from './Images/Ecom11.png';
 
 const ShopGrid = () => {
     const text="Shop Grid Default"
+
+    const productdetails = [
+        {"Image": Ecom1 ,"Title":"Vel elit euismod", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom2 ,"Title":"Ultricies condimentum", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom3 ,"Title":"Vitae suspendisse", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom4 ,"Title":"Sed at fermentum", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom5 ,"Title":" pellentesque at", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom6 ,"Title":"Vestibulum magna", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom7 ,"Title":"Sollicitudin amet orci", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom8 ,"Title":"Ultrices mauris sit", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom9 ,"Title":"Pellentesque  ac", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom10 ,"Title":"Cras scelerisque velit", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom11 ,"Title":"Lectus vulputate ", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+        {"Image": Ecom4 ,"Title":"Purus risus, ut", "Image2":Group44,"Offerprice":"$26.00","Price":"$42.00"},
+    ]
+
+
     return(
         <div>
             <Header />
@@ -32,152 +49,25 @@ const ShopGrid = () => {
             <EcommerceItems />
             <div className="shopgridmain">
                 <div className="SGItemgrid">
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg1" src={Ecom1} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem1txt1">Vel elit euismod</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg2">
-                                <img className="SGItemimg2" src={Ecom2} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem2txt1">Ultricies condimentum imperdiet</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg3" src={Ecom3} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem3txt1">Vitae suspendisse sed</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg4" src={Ecom4} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem4txt1">Sed at fermentum</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg5" src={Ecom5} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem5txt1">Fusce pellentesque at</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg6" src={Ecom6} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem6txt1">Vestibulum magna laoreet</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg7" src={Ecom7} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem7txt1">Sollicitudin amet orci</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg8" src={Ecom8} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem8txt1">Ultrices mauris sit</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg9" src={Ecom9} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem9txt1">Pellentesque condimentum ac</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg10" src={Ecom10} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem10txt1">Cras scelerisque velit</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg11" src={Ecom11} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem11txt1">Lectus vulputate faucibus</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                        <Link to="/product"><div className="SGItemsdiv">
-                            <div className="SGimg">
-                                <img className="SGItemimg4" src={Ecom4} alt="Image" />
-                                <br/>
-                            </div>
-                            <div className="SGdesc">
-                                <text className="SGItem12txt1">Purus risus, ut</text>
-                                <img className="SGgrp44" src={Group44} alt="Image" />
-                                <p className="SGtxt2">$26.00 </p>
-                                <p className="SGtxt3">$42.00</p>
-                            </div>
-                        </div></Link>
-                    </div>
-                    <Banner />
+                    {
+                        productdetails.map( (item) => (
+                            <Link to="/product"><div className="SGItemsdiv">
+                                <div className="SGimg">
+                                    <img className="SGItemimg1" src={item.Image} alt="Image" />
+                                    <br/>
+                                </div>
+                                <div className="SGdesc">
+                                    <text className="SGItem1txt1">{item.Title}</text>
+                                    <img className="SGgrp44" src={item.Image2} alt="Image" />
+                                    <p className="SGtxt2">{item.Offerprice} </p>
+                                    <p className="SGtxt3">{item.Price}</p>
+                                </div>
+                            </div></Link>
+                        ))
+                        
+                    }      
+                </div>
+                <Banner />
             </div>
 
             <Footer />

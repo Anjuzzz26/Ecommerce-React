@@ -13,6 +13,11 @@
     margin-left: 200px;
 }
 
+.titlelink:hover{
+    color: #0D0E43;
+    text-decoration: none;
+}
+
 .links{
     margin-top: 9px;
     margin-left: -87px;
