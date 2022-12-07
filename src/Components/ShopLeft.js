@@ -49,64 +49,64 @@ const ShopLeft = () => {
                 <div className="Sleft_filtergrid">
                     <div className="Sleft_brand">
                         <h3 className="filter_head">Product Brand</h3>
-                        <input type="checkbox" className="checkbox" value="Coaster" name="PB1" />
-                         <p className="filter_list">Coaster Furniture</p>
-                        <input type="checkbox" className="checkbox" value="Fusion" name="PB2" />
-                        <p className="filter_list">Fusion Dot High Fashion</p>
-                        <input type="checkbox" className="checkbox" value="Unique" name="PB3" />
-                        <p className="filter_list">Unique Furnitture Restor</p>
-                        <input type="checkbox" className="checkbox" value="Dream" name="PB4" />
-                        <p className="filter_list">Dream Furnitture Flipping</p>
-                       <input type="checkbox" className="checkbox" value="Young" name="PB5" />
-                        <p className="filter_list">Young Repurposed</p>
-                        <input type="checkbox" className="checkbox" value="Green" name="PB6" />
-                        <p className="filter_list">Green DIY furniture</p>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Coaster" id="PB1" />
+                        <label for="PB1" className="filter_list">Coaster Furniture</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Fusion" id="PB2" />
+                        <label for="PB2" className="filter_list">Fusion Dot High Fashion</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Unique" id="PB3" />
+                        <label for="PB3" className="filter_list">Unique Furnitture Restor</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Dream" id="PB4" />
+                        <label for="PB4" className="filter_list">Dream Furnitture Flipping</label></div>
+                       <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Young" id="PB5" />
+                        <label for="PB5" className="filter_list">Young Repurposed</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Green" id="PB6" />
+                        <label for="PB6" className="filter_list">Green DIY furniture</label></div>
                     </div>
 
                     <div className="Sleft_discount">
                         <h3 className="filter_head">Discount Offer</h3>
-                        <input type="checkbox" className="checkbox" value="CashBack_20" name="DO1" />
-                        <p className="filter_list">20% Cashback</p>
-                        <input type="checkbox" className="checkbox" value="CashBack_5" name="DO2" />
-                        <p className="filter_list">5% Cashback Offer</p>
-                        <input type="checkbox" className="checkbox" value="CashBack_25" name="DO3" />
-                        <p className="filter_list">25% Cashback Offer</p>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="CashBack_20" id="DO1" />
+                        <label for="DO1" className="filter_list">20% Cashback</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="CashBack_5" id="DO2" />
+                        <label for="DO2" className="filter_list">5% Cashback Offer</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="CashBack_25" id="DO3" />
+                        <label for="DO3" className="filter_list">25% Cashback Offer</label></div>
                     </div>
 
                     <div className="Sleft_rating">
                         <h3 className="filter_head">Rating Item</h3>
 
-                        <input type="checkbox" className="checkbox" value="star_4" name="Rating1" />
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="star_4" id="Rating1" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
-                        <p className="rating_list">(2341)</p>
+                        <p className="rating_list">(2341)</p></div>
 
-                        <input type="checkbox" className="checkbox" value="star_3" name="Rating2" />
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="star_3" id="Rating2" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
-                        <p className="rating_list">(1726)</p>
+                        <p className="rating_list">(1726)</p></div>
 
-                        <input type="checkbox" className="checkbox" value="star_2" name="Rating3" />
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="star_2" name="Rating3" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
-                        <p className="rating_list">(258)</p>
+                        <p className="rating_list">(258)</p></div>
 
-                        <input type="checkbox" className="checkbox" value="star_2" name="Rating4" />
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="star_2" name="Rating4" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={filledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
                         <img className="rating_star" src={notfilledstar} alt="Image" />
-                        <p className="rating_list">(25)</p>
+                        <p className="rating_list">(25)</p></div>
 
                     </div>
 
@@ -114,24 +114,24 @@ const ShopLeft = () => {
 
                         <h3 className="filter_head">Categories</h3>
 
-                        <input type="checkbox" className="checkbox" value="Prestashop" name="Categories1" />
-                        <p className="filter_list">Prestashop</p>
-                        <input type="checkbox" className="checkbox" value="Magneto" name="Categories1" />
-                        <p className="filter_list">Magento</p>
-                        <input type="checkbox" className="checkbox" value="Bigcommerce" name="Categories1" />
-                        <p className="filter_list">Bigcommerce</p>
-                        <input type="checkbox" className="checkbox" value="osCommerce" name="Categories1" />
-                        <p className="filter_list">osCommerce</p>
-                        <input type="checkbox" className="checkbox" value="3dcart" name="Categories1" />
-                        <p className="filter_list">3dcart</p>
-                        <input type="checkbox" className="checkbox" value="Bags" name="Categories1" />
-                        <p className="filter_list">Bags</p>
-                        <input type="checkbox" className="checkbox" value="Accessories" name="Categories1" />
-                        <p className="filter_list independent">Accessories</p>
-                        <input type="checkbox" className="checkbox" value="Jewellery" name="Categories1" />
-                        <p className="filter_list independent">Jewellery</p>
-                        <input type="checkbox" className="checkbox" value="Watches" name="Categories1" />
-                        <p className="filter_list">Watches</p>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Prestashop" id="Categories1" />
+                        <label for="Categories1" className="filter_list" >Prestashop</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Magneto" id="Categories2" />
+                        <label for="Categories2" className="filter_list" >Magento</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Bigcommerce" id="Categories3" />
+                        <label for="Categories3" className="filter_list" >Bigcommerce</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="osCommerce" id="Categories4" />
+                        <label for="Categories4" className="filter_list" >osCommerce</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="3dcart" id="Categories5" />
+                        <label for="Categories5" className="filter_list" >3dcart</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Bags" id="Categories6" />
+                        <label for="Categories6" className="filter_list" >Bags</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Accessories" id="Categories7" />
+                        <label for="Categories7" className="filter_list">Accessories</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Jewellery" id="Categories8" />
+                        <label for="Categories8" className="filter_list">Jewellery</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" value="Watches" id="Categories9" />
+                        <label for="Categories9" className="filter_list" >Watches</label></div>
 
                     </div>
 
@@ -139,14 +139,14 @@ const ShopLeft = () => {
 
                         <h3 className="filter_head">Price Filter</h3>
                         
-                        <input type="checkbox" className="checkbox" name="Price1" />
-                        <p className="filter_list">$0.00 - $150.00</p>
-                       <input type="checkbox" className="checkbox" name="Price2" />
-                        <p className="filter_list">$150.00 - $350.00</p>
-                        <input type="checkbox" className="checkbox" name="Price3" />
-                        <p className="filter_list">$150.00 - $504.00</p>
-                        <input type="checkbox" className="checkbox" name="Price4" />
-                        <p className="filter_list">$450.00 +</p>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" id="Price1" />
+                        <label for="Price1" className="filter_list">$0.00 - $150.00</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" id="Price2" />
+                        <label for="Price2" className="filter_list">$150.00 - $350.00</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" id="Price3" />
+                        <label for="Price3" className="filter_list">$150.00 - $504.00</label></div>
+                        <div className="checkbox_container"><input type="checkbox" className="checkbox" id="Price4" />
+                        <label for="Price4" className="filter_list">$450.00 +</label></div>
                         <form className="filter_price_search">
                             <input type="text" name="pricefilter" />
                         </form>

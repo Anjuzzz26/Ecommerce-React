@@ -70,13 +70,125 @@
 .checkbox{
     float: left;
     margin-left: 200px;
-    margin-top: 12px;
+    margin-top: 7px;
     margin-right: 10px;
 }
 
-.checkbox:checked:before{
-    background-color:green;
+.checkbox_container{
+    display: flex;
+    align-items: center;
 }
+
+.checkbox_container label{
+    cursor: pointer;
+    display: flex;
+}
+
+.checkbox_container input[type='checkbox'] {
+    cursor: pointer;
+    opacity: 0;
+}
+
+.checkbox_container label::before{
+    margin-right: 0.5em;
+    margin-top: 10px;
+    margin-left: -25px;
+    content: '';
+    font-size: 12px;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 0.18em;
+}
+
+.checkbox_container input[type='checkbox']:checked + label::before{
+    content: '\002714';
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sleft_brand .checkbox_container label::before{
+    border: 0.05em solid #cdc3fb;
+}
+
+.Sleft_brand .checkbox_container label:hover::before{
+    background-color: #E5E0FC;
+}
+
+.Sleft_brand .checkbox_container input[type='checkbox']:checked + label::before{
+    color: #603EFF;
+    background-color: #c9d4f9;
+}
+
+.Sleft_brand .checkbox_container input[type='checkbox']:focus + label::before{
+    color: white;
+    background-color: #603EFF;
+}
+
+.Sleft_brand .checkbox_container label::before{
+    border: 0.05em solid #cdc3fb;
+}
+
+.Sleft_brand .checkbox_container label:hover::before{
+    background-color: #E5E0FC;
+}
+
+.Sleft_brand .checkbox_container input[type='checkbox']:checked + label::before{
+    color: #603EFF;
+    background-color: #cdc3fb;
+}
+
+.Sleft_brand .checkbox_container input[type='checkbox']:focus + label::before{
+    color: white;
+    background-color: #603EFF;
+}
+
+
+.Sleft_discount .checkbox_container label::before,
+ .Sleft_categories .checkbox_container label::before,
+ .Sleft_price .checkbox_container label::before{
+    border: 0.05em solid #f2b1d9;
+}
+
+.Sleft_discount .checkbox_container label:hover::before,
+ .Sleft_categories .checkbox_container label:hover::before,
+ .Sleft_price .checkbox_container label:hover::before{
+    background-color: #FFDBF1;
+}
+
+.Sleft_discount .checkbox_container input[type='checkbox']:checked + label::before,
+ .Sleft_categories .checkbox_container input[type='checkbox']:checked + label::before,
+ .Sleft_price .checkbox_container input[type='checkbox']:checked + label::before{
+    color: #FF3EB2;
+    background-color: #FFDBF1;
+}
+
+.Sleft_discount .checkbox_container input[type='checkbox']:focus + label::before, 
+.Sleft_categories .checkbox_container input[type='checkbox']:focus + label::before,
+.Sleft_price .checkbox_container input[type='checkbox']:focus + label::before{
+    color: white;
+    background-color: #FF3EB2;
+}
+
+.Sleft_rating .checkbox_container label::before{
+    border: 0.05em solid #FFF6DA;
+}
+
+.Sleft_rating .checkbox_container label:hover::before{
+    background-color: #FFF6DA;
+}
+
+.Sleft_rating .checkbox_container input[type='checkbox']:checked + label::before{
+    color: #FFCC2E;
+    background-color: #FFF6DA;
+}
+
+.Sleft_rating .checkbox_container input[type='checkbox']:focus + label::before{
+    color: white;
+    background-color: #FFCC2E;
+}
+
 
 
 .filter_list{
@@ -264,7 +376,7 @@
 
 @media (min-width: 400px) and (max-width: 584px){
     .Sleft_div {
-        margin-left: -98px;
+        margin-left: -119px;
     }
     .Sleft_filtergrid {
         margin-left: -54px;
