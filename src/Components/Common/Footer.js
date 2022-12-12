@@ -2,6 +2,7 @@ import React from "react";
 import './Footer.css';
 import Footerbar from "./Footerbar";
 import {Link} from "react-router-dom";
+import Button from "./Button";
 
 const Footer = () => {
     return(
@@ -10,8 +11,8 @@ const Footer = () => {
             <div className="block1">
                 <h3>Hekto</h3>
                 <form className="example footersearch" action="#">
-                    <input type="text"name="search" /><i>
-                    <button type="submit"><i className="fa fa-search"></i></button></i>
+                    <input type="text" name="search" placeholder="Enter Email Address" />
+                    <Button text={"Sign Up"} />
                 </form>
                 <p className="contactinfo">Contact Info</p>
                 <p className="fp">17 Princess Road, London, Greater London NW1 8JR, UK</p>

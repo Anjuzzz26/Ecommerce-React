@@ -87,21 +87,22 @@
 }
 
 .SGdesc{
-    margin-left: 25px;
+    text-align: center;
+    padding-left: 15px;
 }
 
 .SGItem1txt1, .SGItem2txt1, .SGItem3txt1, .SGItem4txt1,
 .SGItem5txt1, .SGItem6txt1, .SGItem7txt1, .SGItem8txt1,
 .SGItem9txt1, .SGItem10txt1, .SGItem11txt1, .SGItem12txt1{
     font-family: 'Josefin Sans';
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 600;
     line-height: 21px;
-    text-align: center;
     color: #151875;
 }
-.SGItem1txt1{
+/* .SGItem1txt1{
     margin-left: 48px;
-}
+} */
 .SGItem2txt1{
     margin-left: -13px;
 }
@@ -142,10 +143,10 @@
     text-align: center;
     color: #151875;
     margin-top: 15px;
-    margin-left: -70px;
+    margin-left: -61px;
 }
 .SGgrp44{
-    margin-left: 88px;
+    margin-left: 99px;
     margin-top: 10px;
 }
 .SGtxt3{
@@ -156,7 +157,7 @@
     text-decoration-line: line-through;
     color: #FB2E86;
     margin-top: -16px;
-    margin-left: 41px;
+    margin-left: 55px;
 }
 
 

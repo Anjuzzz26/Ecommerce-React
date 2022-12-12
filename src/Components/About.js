@@ -1,6 +1,7 @@
 import React from "react";
 import './About.css';
 import './HomePage/Section3.css'
+import {Link} from 'react-router-dom';
 
 import Header from "./Common/Header";
 import Footer from './Common/Footer';
@@ -36,7 +37,7 @@ const About = () => {
                     Accumsan faucibus vitae lobortis quis bibendum quam.
                 </p>
                 <div className="Aboutbtn">
-                    <Button text={"Contact us"} />
+                    <Link to="/contact"><Button text={"Contact us"} /></Link>
                 </div>
             </div>
 

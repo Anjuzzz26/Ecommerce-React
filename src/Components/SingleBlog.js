@@ -1,6 +1,7 @@
 import React from "react";
 import './SingleBlog.css';
 import './BlogPage.css';
+import {Link} from "react-router-dom";
 
 import Header from "./Common/Header";
 import Footer from './Common/Footer';
@@ -212,7 +213,7 @@ const SingleBlog = () => {
                                 <input type="checkbox" className="SBcheckbox" />
                                 <label className="SBcheckboxtxt">Save my name, email, and website in this browser for the next time I comment.</label>
                                 <div className="SBbtn">
-                                    <Button text={"Continue Shipping"} />
+                                    <Link to="/shopgrid"><Button text={"Continue Shipping"} /></Link>
                                 </div>
 
                             </form>

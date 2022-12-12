@@ -4,6 +4,7 @@ import './HektoDemo.css';
 import Header from "./Common/Header";
 import Footer from './Common/Footer';
 import Button from './Common/Button';
+import {Link} from 'react-router-dom';
 
 import Rectangle115 from './Images/Rectangle 115.png';
 import Rectangle144 from './Images/Rectangle 144.png';
@@ -55,7 +56,7 @@ const HektoDemo = () => {
                             <input type="text" placeholder="Postal Code" className="textbox2" />
                         </form>
                         <div className="HDbtn">
-                            <Button text={txt} />
+                            <Link to="/shopgrid"><Button text={txt} /></Link>
                         </div>
                     </div>
 
@@ -137,7 +138,7 @@ const HektoDemo = () => {
                                     <img className="HDgreen_check" src={green_check} alt="Image" />
                                     <p className="HDcarttotal_para">Shipping & taxes calculated at checkout</p>
                                 </div>
-                                <button className="HDcheckoutbtn">Proceed To Checkout</button>
+                                <Link to="/ordercompleted"><button className="HDcheckoutbtn">Proceed To Checkout</button></Link>
                                 
                             </div>
 
