@@ -4,7 +4,7 @@ import './Button.css';
 const Button = (props) => {
     return(
         <div>
-            <button type="button">{props.text}</button>
+            <button type="submit">{props.text}</button>
         </div>
     );
 }

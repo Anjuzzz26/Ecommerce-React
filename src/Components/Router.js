@@ -19,6 +19,7 @@ import ShopGrid from "./ShopGrid";
 import ShopLeft from "./ShopLeft";
 import ShopList from "./ShopList";
 import ShoppingCart from "./ShoppingCart";
+import SignUp from "./SignUp";
 import SingleBlog from "./SingleBlog";
 
 
@@ -40,6 +41,7 @@ const Router = () => {
             <Route path="contact" element={ <Contact /> } />
             <Route path="page" element={ <PageNotFound /> } />
             <Route path="faq" element={ <FAQ /> } />
+            <Route path="signup" element={ <SignUp /> } />
         </Routes>
     );
 }
