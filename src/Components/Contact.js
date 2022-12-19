@@ -31,31 +31,31 @@ const Contact = () => {
                     Malesuada sem tristique amet erat vitae eget dolor lobortis. 
                     Accumsan faucibus vitae lobortis quis bibendum quam.
                 </p>
-                <img src={blue} alt="Image" className="Contactimg1" />
-                <img src={Ellipse65} alt="Image" className="Contactimg2" />
-                <img src={sky} alt="Image" className="Contactimg3" />
+                <img src={blue} alt="Img" className="Contactimg1" />
+                <img src={Ellipse65} alt="Img" className="Contactimg2" />
+                <img src={sky} alt="Img" className="Contactimg3" />
             </div>
 
             <div className="Contact1_gridItem2">
                 <h3 className="Contacthead2">Contact Way</h3>
                 <div className="Contactwaygrid">
                     <div>
-                        <img src={Ellipse44} alt="Image" className="Contactimg4" />
+                        <img src={Ellipse44} alt="Img" className="Contactimg4" />
                         <p className="Contacttxt2">Tel: 877-67-88-99</p>
                         <p className="Contacttxt3">E-Mail: shop@store.com</p>
                     </div>
                     <div>
-                        <img src={Ellipse45} alt="Image" className="Contactimg5" />
+                        <img src={Ellipse45} alt="Img" className="Contactimg5" />
                         <p className="Contacttxt4">Support Forum</p>
                         <p className="Contacttxt5">For over 24hr</p>
                     </div>
                     <div>
-                        <img src={Ellipse46}alt="Image" className="Contactimg6" />
+                        <img src={Ellipse46}alt="Img" className="Contactimg6" />
                         <p className="Contacttxt6">20 Margaret st, London</p>
                         <p className="Contacttxt7">Great britain, 3NM98-LK</p>
                     </div>
                     <div>
-                        <img src={Ellipse47} alt="Image" className="Contactimg7" />
+                        <img src={Ellipse47} alt="Img" className="Contactimg7" />
                         <p className="Contacttxt8">Free standard shipping</p>
                         <p className="Contacttxt9">on all orders.</p>
                     </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                 </form>
             </div>
             <div>
-                <img src={Grp124} alt="Image" className="Contactimgmain" />
+                <img src={Grp124} alt="Img" className="Contactimgmain" />
             </div>
         </div>
 

@@ -5,7 +5,7 @@ import S8Img from '../Images/S8Img.png';
 const Banner = () => {
     return(
         <div>
-            <img className="SGbanner" src={S8Img} alt="Image" />
+            <img className="SGbanner" src={S8Img} alt="Banner" />
             <br/><br/><br/>
         </div>
     );

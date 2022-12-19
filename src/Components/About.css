@@ -8,6 +8,10 @@
 
 }
 
+.AboutSection2 .s3txt1{
+    margin-left: 35px;
+}
+
 .Aboutimg1{
     width: 83%;
 }
@@ -66,11 +70,12 @@
 }
 
 .AboutSection2 .s3card{
-    height: 250px;
+    height: 273px;
 }
 
 .Aboutcard{
     border-bottom: 3px solid #FF9100;
+
 }
 
 .AboutSection2 .grp{
@@ -93,9 +98,7 @@
     margin-top: 110px;
     margin-bottom: 200px;
 }
-.AboutS3img1{
 
-}
 .AboutS3img2{
     margin-top: -330px;
     margin-left: 440px;

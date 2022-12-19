@@ -10,49 +10,85 @@
 }
 
 .awssld__bullets {
-    bottom: 18px;
+    opacity: 0;
+}
+.awssld__controls button {
+    opacity:0;
 }
 
-@media (min-width: 1200px) and (max-width: 1500px){
+@media (min-width: 1360px) and (max-width: 1500px){
     .aws_slider {
-        height: 497px;
+        height: 580px;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 1200px) and (max-width:  1359px){
     .aws_slider {
-        height: 415px;
+        height: 512px;
+    }
+}  
+
+@media (min-width: 1150px) and (max-width: 1200px){
+    .aws_slider {
+        height: 487px;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1150px){
+    .aws_slider {
+        height: 423px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 900px) and (max-width: 1000px){
     .aws_slider {
-        height: 320px;
+        height: 385px;
+    }
+}
+@media (min-width: 800px) and (max-width: 900px){
+    .aws_slider {
+        height: 342px;
+    }
+}
+@media (min-width: 700px) and (max-width: 800px){
+    .aws_slider {
+        height: 299px;
     }
 }
 
-@media (min-width: 585px) and (max-width: 767px){
+@media (min-width: 600px) and (max-width: 700px){
     .aws_slider {
-        height: 240px;
+        height: 256px;
+    }
+}
+@media (min-width: 500px) and (max-width: 600px){
+    .aws_slider {
+        height: 211px;
     }
 }
 
-@media (min-width: 400px) and (max-width: 584px){
+@media (min-width: 420px) and (max-width: 500px){
     .aws_slider {
-        height: 168px;
+        height: 171px;
     }
 }
 
-@media (min-width: 300px) and (max-width: 399px){
+@media (min-width: 400px) and (max-width: 420px){
     .aws_slider {
-        height: 109px;
+        height: 171px;
     }
 }
-
-@media (max-width: 299px){
+@media (min-width: 380px) and (max-width: 400px){
     .aws_slider {
-        height: 66px;
+        height: 162px;
     }
 }
-
-
+@media (min-width: 300px) and (max-width: 380px){
+    .aws_slider {
+        height: 128px;
+    }
+}
+@media (min-width: 200px) and (max-width: 300px){
+    .aws_slider {
+        height: 102px;
+    }
+}

@@ -2,11 +2,11 @@ import React from "react";
 import './HektoDemo.css';
 
 import Header from "./Common/Header";
+import HeadDiv from "./Common/HeadDiv";
 import Footer from './Common/Footer';
 import Button from './Common/Button';
 import {Link} from 'react-router-dom';
 
-import Rectangle115 from './Images/Rectangle 115.png';
 import Rectangle144 from './Images/Rectangle 144.png';
 import Rectangle145 from './Images/Rectangle 145.png';
 import Rectangle146 from './Images/Rectangle 146.png';
@@ -23,10 +23,7 @@ const HektoDemo = () => {
         <div>
             <Header />
 
-            <div>
-                <img src={Rectangle115} alt="Image" />
-                <h1 className="headdiv_title">Hekto Demo</h1><br/><br/><br/>
-            </div>
+            <HeadDiv text={"Hekto Demo"} />
 
             <h3 className="HDhead">Hekto Demo</h3>
             <p className="HDsubhead">Cart/ Information/ Shipping/ Payment</p>
@@ -36,11 +33,11 @@ const HektoDemo = () => {
 
                     <div className="HDcontactdetails">
                         <h3 className="HDtxt1">Contact Information</h3>
-                        <p className="HDtxt2">Already have an account? <a href="#">Log In</a></p>
+                        <p className="HDtxt2">Already have an account? <a href="/#">Log In</a></p>
                         <form>
                             <input type="text" placeholder="Email or mobile phone number" />
                         </form>
-                        <img className="green_check1" src={green_check1} alt="Image" />
+                        <img className="green_check1" src={green_check1} alt="Img" />
                         <p className="HDtxt3">Keep me up to date on news and excluive offers</p>
                     </div>
 
@@ -68,7 +65,7 @@ const HektoDemo = () => {
 
                         <div className="HDitems">
                         
-                            <div><img src={Rectanglebag} alt="Image" className="HDimg" /></div>
+                            <div><img src={Rectanglebag} alt="Img" className="HDimg" /></div>
                             <div><text className="HDitemname">Ut diam consequat</text>
                             <p className="HDitemcolor">Color: Brown</p>
                             <p className="HDitemsize">Size: XL</p></div>
@@ -79,7 +76,7 @@ const HektoDemo = () => {
 
                         <div className="HDitems">
                         
-                            <div><img src={Rectangle144} alt="Image" className="HDimg" /></div>
+                            <div><img src={Rectangle144} alt="Img" className="HDimg" /></div>
                             <div><text className="HDitemname">Ut diam consequat</text>
                             <p className="HDitemcolor">Color: Brown</p>
                             <p className="HDitemsize">Size: XL</p></div>
@@ -90,7 +87,7 @@ const HektoDemo = () => {
 
                         <div className="HDitems">
                         
-                            <div><img src={Rectangle145} alt="Image" className="HDimg" /></div>
+                            <div><img src={Rectangle145} alt="Img" className="HDimg" /></div>
                             <div><text className="HDitemname">Ut diam consequat</text>
                             <p className="HDitemcolor">Color: Brown</p>
                             <p className="HDitemsize">Size: XL</p></div>
@@ -101,7 +98,7 @@ const HektoDemo = () => {
 
                         <div className="HDitems">
                         
-                            <div><img src={Rectangle146} alt="Image" className="HDimg" /></div>
+                            <div><img src={Rectangle146} alt="Img" className="HDimg" /></div>
                             <div><text className="HDitemname">Ut diam consequat</text>
                             <p className="HDitemcolor">Color: Brown</p>
                             <p className="HDitemsize">Size: XL</p></div>
@@ -112,7 +109,7 @@ const HektoDemo = () => {
 
                         <div className="HDitems">
                         
-                            <div><img src={Rectangle147} alt="Image" className="HDimg" /></div>
+                            <div><img src={Rectangle147} alt="Img" className="HDimg" /></div>
                             <div><text className="HDitemname">Ut diam consequat</text>
                             <p className="HDitemcolor">Color: Brown</p>
                             <p className="HDitemsize">Size: XL</p></div>
@@ -135,7 +132,7 @@ const HektoDemo = () => {
                                     <p className="HDsubitem2">£325.00</p>
                                 </div>
                                 <div>
-                                    <img className="HDgreen_check" src={green_check} alt="Image" />
+                                    <img className="HDgreen_check" src={green_check} alt="Img" />
                                     <p className="HDcarttotal_para">Shipping & taxes calculated at checkout</p>
                                 </div>
                                 <Link to="/ordercompleted"><button className="HDcheckoutbtn">Proceed To Checkout</button></Link>

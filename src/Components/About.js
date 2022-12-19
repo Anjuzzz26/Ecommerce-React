@@ -27,8 +27,8 @@ const About = () => {
         <div className="AboutSection1">
 
             <div>
-                <img src={Rect57} alt="Image" className="Aboutimg1" />
-                <img src={Rect56} alt="Image" className="Aboutimg2" />
+                <img src={Rect57} alt="Img" className="Aboutimg1" />
+                <img src={Rect56} alt="Img" className="Aboutimg2" />
             </div>
             <div className="Aboutdesc">
                 <h3 className="Abouthead">Know About Our Ecomerce Business, History</h3>
@@ -91,8 +91,8 @@ const About = () => {
 
         </div>        
         <div className="AboutSection3">
-            <img src={Rect1} alt="Image" className="AboutS3img1" />
-            <img src={comments} alt="Image" className="AboutS3img2" />
+            <img src={Rect1} alt="Img" className="AboutS3img1" />
+            <img src={comments} alt="Img" className="AboutS3img2" />
         </div>
 
 		<br/><br/><br/>

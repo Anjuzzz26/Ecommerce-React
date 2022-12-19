@@ -19,13 +19,17 @@
 }
 
 .links{
-    margin-top: 9px;
-    margin-left: -87px;
+    margin-top: 3px;
+    margin-left: -139px;
     
 }
 
 .searchdiv{
+    width: 287px;
+    height: 38px;
     margin-top: 11px;
+    margin-left: -54px;
+    border: 1px solid #E7E6EF;
 }
 
 ul{
@@ -44,6 +48,7 @@ header ul {
 }
 header li {
     margin: 2%;
+    margin-right: 6px;
 }
 header li a {
     color: #0D0E43;
@@ -55,25 +60,29 @@ a:hover {
 }
 
 form.example input[type=text] {
-    margin-top: 5px;
-    height: 27px;
+    height: 35px;
     padding: 5px;
-    border: 1px solid #E7E6EF;
     float: left;
-    width: 42%;
+    width: 84%;
     background: white;
+    
   }
+
+.navbarsearchbtn button{
+    margin-top: -1px;
+    margin-left: -5px;
+}
 
   form.example button {
     float: left;
-    width: 8%;
-    padding: 0.5px;
+    width: 17%;
+    padding: 4.5px;
     background: #FB2E86;
     color: white;
-    font-size: 17px;
-    border: 1px solid #E7E6EF;
-    border-left: none;
+    font-size: 21px;
     cursor: pointer;
+    height: 38px;
+    border-radius: 0px;
   }
 
   form.example button:hover {
@@ -87,38 +96,117 @@ form.example input[type=text] {
     display: table;
   }
 
+@media (min-width: 1200px) and (max-width: 1250px){
+    .title{
+        margin-left: 147px;
+    }
+    .links{
+        margin-left: -98px;
+    }
+    .searchdiv{
+        margin-left: -32px;
+    }
+}
 
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 1199px) and (max-width: 1400px){
+    .title{
+        margin-left: 147px;
+    }
+    .links{
+        margin-left: -122px;
+    }
+    .searchdiv{
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px){
     .title{
         margin-left: 111px;
+    }
+    .searchdiv{
+        margin-left: -14px;
+    }
+    .links{
+        margin-left: -100px;
     }
    
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 900px) and (max-width: 991px){
     form.example button{
         width: 13%;
         height: 27px;
     }
     .title{
-        margin-left: 30px;
+        margin-left: 120px;
     }
     .searchdiv{
         margin-left: 22px;
+        width: 224px;
+        height: 39px;
+        margin-top: 5px;
+    }
+    form.example button{
+        width: 17%;
+        height: 37px;
+        font-size: 16px;
+    }
+    .links {
+        margin-top: 3px;
+        margin-left: -63px;
+    }
+    .links header li{
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 900px){
+    form.example button{
+        width: 13%;
+        height: 27px;
+    }
+    .title{
+        margin-left: 95px;
+        font-size: 30px;
+    }
+    .searchdiv{
+        margin-left: 44px;
+        width: 199px;
+        height: 39px;
+        margin-top: 5px;
+    }
+    form.example button{
+        width: 17%;
+        height: 37px;
+        font-size: 16px;
+    }
+    .links {
+        margin-top: 3px;
+        margin-left: -29px;
+        width: 120%;
+    }
+    .links header li{
+        font-size: 13px;
     }
 }
 
-@media (min-width: 585px) and (max-width: 767px){
+@media (min-width: 700px) and (max-width: 767px){
     .navbar{
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     .links{
-        margin-left: 17px;
+        margin-left: 109px;
+        width: 62%;
     }
     form.example button{
-        width: 8%;
-        height: 27px;
-        font-size: 15px;
+        width: 15%;
+        height: 36px;
+        font-size: 16px;
+        padding-top: 7px;
+    }
+    form.example input[type=text]{
+        width: 86%;
     }
     .title{
         margin-left: 30px;
@@ -126,19 +214,26 @@ form.example input[type=text] {
     .searchdiv{
         margin-left: 22px;
     }
+    
 }
 
-@media (min-width: 400px) and (max-width: 584px){
+@media (min-width: 641px) and (max-width: 700px){
     .navbar{
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     .links{
-        margin-left: 17px;
+        margin-left: 60px;
+        width: 62%;
     }
     form.example button{
-        width: 8%;
-        height: 27px;
-        font-size: 15px;
+        width: 15%;
+        height: 36px;
+        font-size: 16px;
+        padding-top: 7px;
+    }
+    form.example input[type=text]{
+        width: 86%;
     }
     .title{
         margin-left: 30px;
@@ -146,19 +241,73 @@ form.example input[type=text] {
     .searchdiv{
         margin-left: 22px;
     }
+    
 }
-
-@media (min-width: 300px) and (max-width: 399px){
+@media (min-width: 580px) and (max-width: 640px){
     .navbar{
         grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .links{
+        margin-left: 20px;
+        width: 62%;
+    }
+    form.example button{
+        width: 15%;
+        height: 36px;
+        font-size: 16px;
+        padding-top: 7px;
+    }
+    form.example input[type=text]{
+        width: 86%;
+    }
+    .title{
+        margin-left: 30px;
+    }
+    .searchdiv{
+        margin-left: 22px;
+    }
+    
+}
+
+
+@media (min-width: 400px) and (max-width: 580px){
+    .navbar{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .links{
+        margin-left: 30px;
+    }
+    form.example button{
+        width: 17%;
+        height: 37px;
+        font-size: 16px;
+    }
+    .title{
+        margin-left: 8px;
+    }
+    .searchdiv{
+        margin-left: 22px;
+    }
+    .navbar header{
+        width: 162%;
+        margin-left: -73px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px){
+    .navbar{
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
     .links{
         margin-left: 0px;
     }
     form.example button{
-        width: 8%;
-        height: 27px;
-        font-size: 15px;
+        width: 17%;
+        height: 37px;
+        font-size: 16px;
     }
     .title{
         margin-left: 10px;
@@ -166,8 +315,42 @@ form.example input[type=text] {
     .searchdiv{
         margin-left: 7px;
     }
+    .navbar header li {
+        margin: 1%;
+    }
+    .navbar header{
+        width: 79%;
+        text-align: center;
+        margin-left: 28px;
+    }
+    .navbar header li ::after {
+        content: "\a    ";
+    }
 }
 
-@media (max-width: 299px){
+@media (max-width: 300px){
+    .navbar{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .links{
+        margin-left: 0px;
+        width: 19%;
+    }
+    form.example button{
+        width: 17%;
+        height: 37px;
+        font-size: 16px;
+    }
+    .title{
+        margin-left: 10px;
+    }
+    .searchdiv{
+        margin-left: 7px;
+        width: 208px;
+    }
+    .navbar header li ::after {
+        content: "\a    ";
+    }
     
 }

@@ -17,13 +17,13 @@ const ProductDetails = () => {
         <div>
             <Header />
             <HeadDiv text={txt} />
-            <br/><br/>
+            <br/>
             <PDSection1 />
             <br/><br/><br/>
             <PDSection2 />
             <br/><br/><br/>   
             <PDSection3 />
-            <br/><br/><br/>            
+            <br/>          
             <Banner />
             <Footer />
         </div>

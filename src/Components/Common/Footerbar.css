@@ -44,7 +44,8 @@
         
     }
     .copyright{
-        margin-left: 10px;
+        margin-left: 100px;
+        width: 85%;
     }
     .social{
         margin-left: 110px;
@@ -53,21 +54,22 @@
 
 @media (min-width: 400px) and (max-width: 584px){
     .fbar{
+        text-align: -webkit-center;
         width: 100%;
-        padding: 5px;
+        height: fit-content;
+        padding: 28px;
+        grid-template-columns: 1fr;
     }
     .copyright{
-        margin-top: 10px;
-        
-        margin-left: 30px;
+        margin-left: 60px;
     }
     .social{
-        margin-top: 10px;
-        margin-left: 110px;
+        margin-left: 26px;
+        margin-top: 15px;
     }
 }
 
-@media (min-width: 300px) and (max-width: 449px){
+@media (min-width: 300px) and (max-width: 399px){
     .fbar{
         width: 100%;
         height: fit-content;
@@ -83,7 +85,7 @@
     }
 }
 
-@media (max-width: 299px){
+@media (max-width: 300px){
     .fbar{
         width: 100%;
         height: fit-content;

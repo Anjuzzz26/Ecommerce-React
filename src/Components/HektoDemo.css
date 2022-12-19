@@ -315,7 +315,7 @@
     }
     .HDbtn{
         margin-top: -43px;
-        width: 135%;
+        width: 90%;
     }
     .HDtxt1 {
         width: 50%;
@@ -372,7 +372,60 @@
     }
 }
 
-@media (min-width: 400px) and (max-width: 584px){
+@media (min-width: 500px) and (max-width: 584px){
+    .HDhead{
+        margin-top: 13px;
+        margin-left: 72px;
+    }
+    .HDsubhead{
+        margin-left: 72px;
+    }
+    .HDgrid1{
+        margin-left: 32px;
+        grid-template-columns: 1fr;
+        row-gap: 80px;
+    }
+    .HDcontactdetails{
+        margin-bottom: 90px;
+    }
+    .HDbtn{
+        margin-top: -43px;
+        width: 90%;
+    }
+    .HDtxt1 {
+        width: 50%;
+    }
+    .HDtxt2{
+        margin-top: 30px;
+    }
+    .HDcontactdetails form input{
+        margin-top: 31px;
+    }
+    .HDinfogrid{
+        height: 105%;
+        width: 86%;
+        margin-left: 35px;
+    }
+    .HDcarttotalgrid{
+        width: 103%;
+        margin-left: -4px;
+    }
+    .textbox {
+        width: 91%;
+    }
+    .textbox2{
+        width: 91%;
+        margin-top: 55px;
+        margin-left: -1px;
+    }
+    .HDitemsgrid {
+        margin-left: 40px;
+        width: 85%;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 500px){
     .HDhead{
         margin-top: 13px;
         margin-left: 34px;
@@ -390,7 +443,7 @@
     }
     .HDbtn{
         margin-top: -43px;
-        width: 135%;
+        width: 90%;
     }
     .HDtxt1 {
         width: 50%;
@@ -404,6 +457,7 @@
     .HDinfogrid{
         height: 105%;
         width: 86%;
+        
     }
     .HDcarttotalgrid{
         width: 103%;
@@ -426,10 +480,10 @@
 @media (min-width: 300px) and (max-width: 399px){
     .HDhead{
         margin-top: 13px;
-        margin-left: 30px;
+        margin-left: 53px;
     }
     .HDsubhead{
-        margin-left: 30px;
+        margin-left: 55px;
     }
     .HDgrid1{
         margin-left: 25px;
@@ -447,7 +501,7 @@
     }
     .HDbtn{
         margin-top: -43px;
-        width: 135%;
+        width: 90%;
     }
     .HDtxt1 {
         width: 70%;
@@ -466,6 +520,7 @@
     .HDinfogrid{
         height: 95%;
         width: 68%;
+        margin-left: 15px;
     }
     .HDcarttotalgrid{
         width: 82%;
@@ -495,8 +550,8 @@
         font-size: 13px;
     }
     .HDitemsgrid {
-        margin-left: -5px;
-        width: 85%;
+        margin-left: 40px;
+        width: 48%;
     }
     .HDshippingdetails form .inputtextbox {
         width: 85%;
@@ -575,6 +630,7 @@
     .HDinfogrid{
         height: 95%;
         width: 55%;
+        margin-left: 8px;
     }
     .HDcarttotalgrid{
         width: 68%;

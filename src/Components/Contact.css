@@ -115,9 +115,7 @@
     margin-bottom: 95px;
 }
 
-.Contactimgmain{
 
-}
 
 .Contacthead3{
     font-family: 'Josefin Sans';
@@ -136,9 +134,7 @@
     color: #8A8FB9;
 }
 
-.Contactform{
-    /* margin-top: 10px; */
-}
+
 .Contactform input{
     font-family: 'Lato';
     font-style: normal;
@@ -179,6 +175,7 @@
     margin-top: 37px;
 }
 
+
 @media (min-width: 1200px) and (max-width: 1530px){
     .Contactwaygrid{
         width: 130%;
@@ -191,6 +188,9 @@
     }
     .Contactimg4, .Contactimg5, .Contactimg6, .Contactimg7{
         width: 25px;
+    }
+    .Contacthead1{
+        width: 123%;
     }
     .Contact1_gridItem1{
         width: 300px;
@@ -219,6 +219,9 @@
     }
     .Contactbtn {
         width: 157%;
+    }
+    .Contactbtn button {
+        padding: 0;
     }
     .Contactimg4, .Contactimg5, .Contactimg6, .Contactimg7{
         width: 25px;

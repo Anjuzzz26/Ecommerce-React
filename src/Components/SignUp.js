@@ -35,7 +35,7 @@ export default function SignUp() {
       setColor("red");
       setShow(!show);
     });
-    if(data.success==true){
+    if(data.success===true){
       setStatus("Success");
       setColor("#228B22");
       setMessage(data.message);

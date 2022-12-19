@@ -100,7 +100,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 766px) and (max-width: 991px){
     .FAQdiv {
         margin-top: -75px;
     }
@@ -113,14 +113,17 @@
         margin-left: -54px;
     }
     .FAQbtn {
-        width: 185%;
+        width: 85%;
+    }
+    .FAQbtn button{
+        width: 60%;
     }
     .FAQsubhead{
         margin-top: 34px;
     }
 }
 
-@media (min-width: 585px) and (max-width: 767px){
+@media (min-width: 585px) and (max-width: 768px){
     .FAQdiv{
         margin-top: -98px;
         grid-template-columns: 1fr;
@@ -138,7 +141,7 @@
         margin-left: -112px;
     }
     .FAQbtn {
-        width: 185%;
+        width: 85%;
     }
     .FAQsubhead{
         margin-top: 34px;
@@ -171,7 +174,7 @@
         padding-right: 11px;
     }
     .FAQbtn {
-        width: 185%;
+        width: 80%;
     }
     .FAQsubhead{
         margin-top: 34px;
@@ -211,7 +214,7 @@
         height: 135px;
     }
     .FAQbtn {
-        width: 185%;
+        width: 80%;
     }
     .FAQsubhead{
         margin-top: 34px;

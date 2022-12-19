@@ -50,13 +50,13 @@ const SingleBlog = () => {
             <div className="blogmaingrid1">
 
                     <div className="Bgrid1img">
-                                <img src={Blog1} alt="Image" className="Blogimg" />
+                                <img src={Blog1} alt="Img" className="Blogimg" />
                     </div>
 
                     <div className="Bgrid1desc">
-                                <img src={pen} alt="Image" className="Blogicon1" />
+                                <img src={pen} alt="Img" className="Blogicon1" />
                                 <div className="Blogitemtxt1"><text>Surf Auxion</text></div>
-                                <img src={calender} alt="Image" className="Blogicon2" />
+                                <img src={calender} alt="Img" className="Blogicon2" />
                                 <div className="Blogitemtxt2"><text>Aug 09 2020</text></div>
                                 <h3 className="Bloghead">Mauris at orci non vulputate diam tincidunt nec.</h3>
                                 <p className="Blogpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -83,8 +83,8 @@ const SingleBlog = () => {
                         </div>
 
                         <div className="SBgrid1desc_item2">
-                            <div><img src={Group92} alt="Image" /></div>
-                            <div><img src={Rectangle70} alt="Image" /></div>
+                            <div><img src={Group92} alt="Img" /></div>
+                            <div><img src={Rectangle70} alt="Img" /></div>
                         </div>
 
                         <div className="SBgrid1desc_item3">
@@ -99,44 +99,44 @@ const SingleBlog = () => {
 
                         <div className="SBgrid1desc_item4">
                             <div>
-                                <img src={SB1} alt="Image" />
+                                <img src={SB1} alt="Img" />
                                 <h3 className="SBimgtitle">Quam sed</h3>
                                 <p className="SBoffrprice">$32.00 <span>$56.00</span></p>
-                                <img className="SBstar1" src={filledstar} alt="Image" />
-                                <img className="SBstar2" src={filledstar} alt="Image" />
-                                <img className="SBstar3" src={filledstar} alt="Image" />
-                                <img className="SBstar4" src={filledstar} alt="Image" />
-                                <img className="SBstar5" src={notfilledstar} alt="Image" />
+                                <img className="SBstar1" src={filledstar} alt="Img" />
+                                <img className="SBstar2" src={filledstar} alt="Img" />
+                                <img className="SBstar3" src={filledstar} alt="Img" />
+                                <img className="SBstar4" src={filledstar} alt="Img" />
+                                <img className="SBstar5" src={notfilledstar} alt="Img" />
                             </div>
                             <div>
-                                <img src={SB2} alt="Image" />
+                                <img src={SB2} alt="Img" />
                                 <h3 className="SBimgtitle">Tristique sed</h3>
                                 <p className="SBoffrprice">$32.00 <span>$56.00</span></p>
-                                <img className="SBstar1" src={filledstar} alt="Image" />
-                                <img className="SBstar2" src={filledstar} alt="Image" />
-                                <img className="SBstar3" src={filledstar} alt="Image" />
-                                <img className="SBstar4" src={filledstar} alt="Image" />
-                                <img className="SBstar5" src={notfilledstar} alt="Image" />
+                                <img className="SBstar1" src={filledstar} alt="Img" />
+                                <img className="SBstar2" src={filledstar} alt="Img" />
+                                <img className="SBstar3" src={filledstar} alt="Img" />
+                                <img className="SBstar4" src={filledstar} alt="Img" />
+                                <img className="SBstar5" src={notfilledstar} alt="Img" />
                             </div>
                             <div>
-                                <img src={SB3} alt="Image" />
+                                <img src={SB3} alt="Img" />
                                 <h3 className="SBimgtitle">A etiam</h3>
                                 <p className="SBoffrprice">$32.00 <span>$56.00</span></p>
-                                <img className="SBstar1" src={filledstar} alt="Image" />
-                                <img className="SBstar2" src={filledstar} alt="Image" />
-                                <img className="SBstar3" src={filledstar} alt="Image" />
-                                <img className="SBstar4" src={filledstar} alt="Image" />
-                                <img className="SBstar5" src={notfilledstar} alt="Image" />
+                                <img className="SBstar1" src={filledstar} alt="Img" />
+                                <img className="SBstar2" src={filledstar} alt="Img" />
+                                <img className="SBstar3" src={filledstar} alt="Img" />
+                                <img className="SBstar4" src={filledstar} alt="Img" />
+                                <img className="SBstar5" src={notfilledstar} alt="Img" />
                             </div>
                             <div>
-                                <img src={SB4} alt="Image" />
+                                <img src={SB4} alt="Img" />
                                 <h3 className="SBimgtitle">Mi nisi</h3>
                                 <p className="SBoffrprice">$32.00 <span>$56.00</span></p>
-                                <img className="SBstar1" src={filledstar} alt="Image" />
-                                <img className="SBstar2" src={filledstar} alt="Image" />
-                                <img className="SBstar3" src={filledstar} alt="Image" />
-                                <img className="SBstar4" src={filledstar} alt="Image" />
-                                <img className="SBstar5" src={notfilledstar} alt="Image" />
+                                <img className="SBstar1" src={filledstar} alt="Img" />
+                                <img className="SBstar2" src={filledstar} alt="Img" />
+                                <img className="SBstar3" src={filledstar} alt="Img" />
+                                <img className="SBstar4" src={filledstar} alt="Img" />
+                                <img className="SBstar5" src={notfilledstar} alt="Img" />
                             </div>
                         </div>
 
@@ -162,12 +162,12 @@ const SingleBlog = () => {
 
                         <div className="SBgrid1desc_item7">
                              <hr className="SBhrline" />
-                             <img src={Group224} alt="Image" className="SBfollowimg" />
+                             <img src={Group224} alt="Img" className="SBfollowimg" />
                              <div className="SBnavigation">
-                                <div><img src={prev_arrow} alt="Image" className="SBprev_arrow" />
+                                <div><img src={prev_arrow} alt="Img" className="SBprev_arrow" />
                                 <p className="SBnav_prev">Previous Post</p></div>
                                 <div><p className="SBnav_next">Next Post</p>
-                                <img src={next_arrow} alt="Image" className="SBnext_arrow" /></div>
+                                <img src={next_arrow} alt="Img" className="SBnext_arrow" /></div>
                              </div>
                         </div>
 
@@ -175,7 +175,7 @@ const SingleBlog = () => {
 
                     <div className="SBgrid1desc_item8">
                         <div className="SBCard1">
-                            <div><img src={SBCard1} alt="Image" className="SBCardimg" /></div>
+                            <div><img src={SBCard1} alt="Img" className="SBCardimg" /></div>
                             <div>
                                 <text className="SBCardtxt1">Sapien ac</text>
                                 <p className="SBCardtxt2">Jan 09 2020</p>
@@ -184,7 +184,7 @@ const SingleBlog = () => {
                             </div>
                         </div>
                         <div className="SBCard2">
-                            <div><img src={SBCard2} alt="Image" className="SBCardimg" /></div>
+                            <div><img src={SBCard2} alt="Img" className="SBCardimg" /></div>
                             <div>
                                 <text className="SBCardtxt1">Augue conva</text>
                                 <p className="SBCardtxt2">Aug 18 2020</p>
@@ -248,7 +248,7 @@ const SingleBlog = () => {
                         <div className="Bgrid2_subgrid">
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={RecentPost1} alt="Image" />
+                                    <img src={RecentPost1} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">It is a long established fact</text>
@@ -258,7 +258,7 @@ const SingleBlog = () => {
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={RecentPost2} alt="Image" />
+                                    <img src={RecentPost2} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">It is a long established fact</text>
@@ -268,7 +268,7 @@ const SingleBlog = () => {
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={RecentPost3} alt="Image" />
+                                    <img src={RecentPost3} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">It is a long established fact</text>
@@ -278,7 +278,7 @@ const SingleBlog = () => {
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={RecentPost4} alt="Image" />
+                                    <img src={RecentPost4} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">It is a long established fact</text>
@@ -294,7 +294,7 @@ const SingleBlog = () => {
                         <div className="Bgrid2_subgrid">
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={Sale1} alt="Image" />
+                                    <img src={Sale1} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">Sale Product</text>
@@ -304,7 +304,7 @@ const SingleBlog = () => {
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={Sale2} alt="Image" />
+                                    <img src={Sale2} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">Viverra pulvinar et enim.</text>
@@ -314,7 +314,7 @@ const SingleBlog = () => {
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={Sale3} alt="Image" />
+                                    <img src={Sale3} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">Mattis varius donec fdsfd</text>
@@ -331,12 +331,12 @@ const SingleBlog = () => {
                             <div className="BOffgriditem">
                                 
                                 <div className="BOfferproducts">
-                                    <img src={OfferProduct1} alt="Image" className="Boffimg"/>
+                                    <img src={OfferProduct1} alt="Img" className="Boffimg"/>
                                     <h4 className="Offitemname">Duis lectus est.</h4>
                                     <p className="Offitemprice">$12.00 - $15.00</p>
                                 </div>
                                 <div className="BOfferproducts">
-                                    <img src={OfferProduct2} alt="Image" className="Boffimg" />
+                                    <img src={OfferProduct2} alt="Img" className="Boffimg" />
                                     <h4 className="Offitemname">Sed placerat.</h4>
                                     <p className="Offitemprice">$12.00 - $15.00</p>
                                 </div>
@@ -346,12 +346,12 @@ const SingleBlog = () => {
                             <div className="BOffgriditem">
                                 
                                 <div className="BOfferproducts">
-                                    <img src={OfferProduct3} alt="Image" className="Boffimg"/>
+                                    <img src={OfferProduct3} alt="Img" className="Boffimg"/>
                                     <h4 className="Offitemname">Netus proin.</h4>
                                     <p className="Offitemprice">$12.00 - $15.00</p>
                                 </div>
                                 <div className="BOfferproducts">
-                                    <img src={OfferProduct4} alt="Image" className="Boffimg" />
+                                    <img src={OfferProduct4} alt="Img" className="Boffimg" />
                                     <h4 className="Offitemname">Platea in.</h4>
                                     <p className="Offitemprice">$12.00 - $15.00</p>
                                 </div>
@@ -364,13 +364,13 @@ const SingleBlog = () => {
 
                     <div className="Bgrid2item5">
                         <h3 className="Blog_head">Follow</h3> 
-                        <img src={Group224} alt="Image" className="Bfollowimg" />
+                        <img src={Group224} alt="Img" className="Bfollowimg" />
                         <h3 className="Blog_head">Tags</h3>
-                        <a href="#" className="Btag1">General</a>
-                        <a href="#" className="Btag2">Atsanil</a>
-                        <a href="#" className="Btag3">Insas.</a><br/><br/>
-                        <a href="#" className="Btag4">Bibsaas</a>
-                        <a href="#" className="Btag5">Nulla.</a>
+                        <a href="/#" className="Btag1">General</a>
+                        <a href="/#" className="Btag2">Atsanil</a>
+                        <a href="/#" className="Btag3">Insas.</a><br/><br/>
+                        <a href="/#" className="Btag4">Bibsaas</a>
+                        <a href="/#" className="Btag5">Nulla.</a>
                     </div>
             
         </div>

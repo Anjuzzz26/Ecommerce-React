@@ -18,13 +18,21 @@
   }
 
   .menu{
-    margin-left: 200px;
+    margin-left: 353px;
     display: flex;
     width:500px;
   }
 
+  .menu .login{
+    margin-right: -35px;
+    margin-left: -11px;
+  }
+  .menu .wishlist{
+    margin-right: -16px;
+  }
+
   .childmenu{
-    width: 60px;
+    width: 76px;
     height:10px;
   }
 
@@ -39,23 +47,24 @@
 
   .icon1{
     width: 15px;
-    height: 14px;
+    height: 11px;
     margin: 5px;
+    margin-right: 10px;
   }
 
   .icon2{
-    margin-left: -20px;
-    margin-top: 2px;
+    margin-top: 1px;
+    width: 15px;
+    margin-right: 14px;
   }
 
   .icon3{
-    margin-left: -6px;
-    margin-top: 3px;
+    margin-top: 2px;
   }
 
   .icon4{
-    margin-left: -16px;
-    margin-top: -2px;
+    margin-left: -40px;
+    margin-top: -3px;
   }
 
   @media (min-width: 1500px) {
@@ -65,71 +74,269 @@
     
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 1200px) and (max-width: 1360px) {
     .sec1{
-        margin-left: 190px;
+      margin-left: 155px;
+    }
+    .sec2{
+      margin-left: -59px;
+    }
+    .menu {
+      margin-left: 242px;
+    }
+  }
+
+  @media (min-width: 1113px) and (max-width: 1199px) {
+    .sec1{
+        margin-left: 119px;
       }
 
       .sec2{
-        margin-left: -50px;
+        margin-left: -46px;
       }
 
       .menu{
-        margin-left: 138px;
+        margin-left: 230px;
       }
     
   }
-  @media (min-width: 800px) and (max-width: 991px) {
+  @media (min-width: 1000px) and (max-width: 1112px) {
+    .sec1{
+        margin-left: 119px;
+      }
+
+      .sec2{
+        margin-left: -46px;
+      }
+
+      .menu{
+        margin-left: 230px;
+      }
+      .main > div{
+        font-size: 12px;
+      }
+      .icon1 {
+        width: 13px;
+        margin: 3px;
+        margin-right: 5px;
+      }
+      .childmenu {
+        width: 65px;
+      }
+      .menu .login {
+        margin-right: -30px;
+      }
+      .icon2{
+        margin-top: 0px;
+        margin-right: -37px;
+      }
+      .menu .wishlist {
+        margin-right: -12px;
+    }
+    .icon3 {
+      margin-top: 0px;
+  }
+  .icon4 {
+    margin-left: -39px;
+    margin-top: -5px;
+}
+
+    
+  }
+
+  @media (min-width: 900px) and (max-width: 1000px) {
 
     .main > div {
         font-size: 12px;
       }
 
     .sec1{
-        margin-left: 83px;
+        margin-left: 143px;
       }
-
+      .main{
+        padding-top: 4px;
+      }
       .sec2{
-        margin-left: -88px;
+        margin-left: 26px;
       }
 
       .menu{
-        margin-left: 64px;
+        margin-left: 156px;
       }
 
       .icon1{
         width: 11px;
-        height: 9px;
-        margin: 6px;
+        height: 10px;
+        margin: 3px;
+        margin-right: 7px;
       }
     
       .icon2{
         margin-left: -26px;
+        margin-right: -41px;
+        margin-top: -1px;
       }
+      .menu .wishlist {
+        margin-right: 3px;
+    }
+
+    .icon4 {
+      margin-left: -32px;
+      margin-top: -5px;
+    }
     
       .icon3{
         margin-left: -15px;
+        margin-top: 0px;
       }
     
+      .childmenu {
+        width: 66px;
+      }
+      .menu .login {
+        margin-right: -1px;
+      }
     
   }
 
-  @media (min-width: 700px) and (max-width: 799px) {
+  @media (min-width: 900px) and (max-width: 990px) {
+
+    .main > div {
+        font-size: 12px;
+      }
+
+    .sec1{
+        margin-left: 113px;
+      }
+      .main{
+        padding-top: 4px;
+      }
+      .sec2{
+        margin-left: -8px;
+      }
+
+      .menu{
+        margin-left: 141px;
+      }
+
+      .icon1{
+        width: 11px;
+        height: 10px;
+        margin: 3px;
+        margin-right: 7px;
+      }
+    
+      .icon2{
+        margin-left: -26px;
+        margin-right: -41px;
+        margin-top: -1px;
+      }
+      .menu .wishlist {
+        margin-right: 3px;
+    }
+
+    .icon4 {
+      margin-left: -32px;
+      margin-top: -5px;
+    }
+    
+      .icon3{
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+    
+      .childmenu {
+        width: 66px;
+      }
+      .menu .login {
+        margin-right: -1px;
+      }
+    
+  }
+  
+
+  @media (min-width: 800px) and (max-width: 900px) {
+
+    .main > div {
+        font-size: 12px;
+      }
+
+    .sec1{
+        margin-left: 82px;
+      }
+      .main{
+        padding-top: 4px;
+      }
+      .sec2{
+        margin-left: 27px;
+      }
+
+      .menu{
+        margin-left: 102px;
+      }
+
+      .icon1{
+        width: 11px;
+        height: 10px;
+        margin: 3px;
+        margin-right: 7px;
+      }
+    
+      .icon2{
+        margin-left: -26px;
+        margin-right: -41px;
+        margin-top: -1px;
+      }
+      .menu .wishlist {
+        margin-right: 3px;
+    }
+
+    .icon4 {
+      margin-left: -32px;
+      margin-top: -5px;
+    }
+    
+      .icon3{
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+    
+      .childmenu {
+        width: 66px;
+      }
+      .menu .login {
+        margin-right: -1px;
+      }
+    
+  }
+
+  @media (min-width: 700px) and (max-width: 800px) {
 
     .main > div {
         font-size: 10px;
+      }
+      .main{
+        padding-top: 4px;
+      }
+
+      .childmenu {
+        width: 56px;
       }
 
     .sec1{
         margin-left: 75px;
       }
 
+      .menu .login {
+        margin-right: 11px;
+      }
+
       .sec2{
-        margin-left: 17px;
+        margin-left: -16px;
       }
 
       .menu{
-        margin-left: 48px;
+        margin-left: 103px;
       }
     
       .icon1{
@@ -140,16 +347,18 @@
     
       .icon2{
         width: 11px;
-        margin-left: -34px;
-        margin-top: 2px;
-        margin-right: 10px;
+      margin-left: -34px;
+      margin-top: 1px;
+      margin-right: 10px;
       }
-    
+      .menu .wishlist {
+        margin-right: 12px;
+      }
       .icon3{
         width: 11px;
         margin-left: -23px;
-        margin-top: 2px;
-        margin-right: 39px;
+        margin-top: 1px;
+        margin-right: 55px;
       }
 
       .icon4{
@@ -157,29 +366,146 @@
       }
     
   }
-  @media (min-width: 500px) and (max-width: 699px) {
+  @media (min-width: 600px) and (max-width: 700px) {
+
+    .main > div {
+        font-size: 10px;
+      }
+      .main{
+        padding-top: 4px;
+      }
+
+      .childmenu {
+        width: 56px;
+      }
+
+    .sec1{
+        margin-left: 43px;
+      }
+
+    
+
+      .sec2{
+        margin-left: 19px;
+      }
+
+      .menu{
+        margin-left: 68px;
+      }
+    
+      .icon1{
+        width: 11px;
+        height: 9px;
+        margin: 4px;
+      }
+    
+      .icon2{
+        display: none;
+      }
+      
+      .icon3{
+        display: none;
+      }
+
+      .icon4{
+        width: 19px;
+      }
+      .menu .wishlist {
+        margin-right: 40px;
+    }
+    .menu .login {
+      margin-right: -19px;
+      margin-left: -6px;
+  }
+    
+  }
+
+  @media(min-width: 599px) and (max-width: 600px){
+    .main > div {
+      font-size: 10px;
+    }
+    .main{
+      padding-top: 4px;
+    }
+
+    .childmenu {
+      width: 56px;
+    }
+
+  .sec1{
+      margin-left: 43px;
+    }
+
+  
+
+    .sec2{
+      margin-left: 19px;
+    }
+
+    .menu{
+      margin-left: 68px;
+    }
+  
+    .icon1{
+      width: 11px;
+      height: 9px;
+      margin: 4px;
+    }
+  
+    .icon2{
+      display: none;
+    }
+    
+    .icon3{
+      display: none;
+    }
+
+    .icon4{
+      width: 19px;
+    }
+    .menu .wishlist {
+      margin-right: 40px;
+  }
+  .menu .login {
+    margin-right: -19px;
+    margin-left: -6px;
+}
+  }
+
+  @media (min-width: 500px) and (max-width: 599px) {
 
     .main > div {
         font-size: 10px;
       }
 
-    .sec1{
-        margin-left: 35px;
+      .main{
+        padding-top: 4px;
       }
 
-      .sec2{
-        margin-left: -55px;
+      .menu .wishlist {
+        margin-right: 48px;
+    }
+
+      .sec1 {
+        margin-left: 66px;
+        margin-right: -190px;
+    }
+
+      .sec1 p, .sec2 p{
+        display: none;
       }
+
 
       .menu{
-        margin-left: 75px;
-        width: 187px;
+        margin-left: 140px;
+        width: 206px;
         margin-right: 11px;
       }
 
-      .login{
-        margin-left: -10px;
-      }
+      .menu .login {
+        margin-right: 7px;
+        margin-left: 9px;
+    }
     
       .icon1{
         width: 11px;
@@ -188,74 +514,118 @@
       }
     
       .icon2{
-        width: 14px;
-        margin-left: -10px;
-        margin-top: 3px;
-        margin-right: 9px;
+       display: none;
       }
     
       .icon3{
-        width: 12px;
-        margin-left: 1px;
-        margin-top: 4px;
-        margin-right: 39px;
+        display: none;
       }
+      .icon4 {
+        margin-top: -2px;
+    }
 
-      .icon4{
-        margin-left: -28px;
-        width: 22px;
-        margin-top: 1px;
-      }
-    
   }
-  @media (min-width: 300px) and (max-width: 499px) {
+  @media (min-width: 345px) and (max-width: 500px) {
 
     .main > div {
-        font-size: 6px;
-      }
+      font-size: 10px;
+    }
 
-    .sec1{
-        margin-left: 4px;
-      }
+    .main{
+      padding-top: 4px;
+    }
 
-      .sec2{
-        margin-left: -55px;
-      }
+    .menu .wishlist {
+      margin-right: 48px;
+  }
 
-      .menu{
-        margin-left: 5px;
-        width: 153px;
-        margin-right: 11px;
-      }
+    .sec1 {
+      margin-left: 28px;
+      margin-right: -189px;
+    }
 
-      .login{
-        margin-left: -10px;
-      }
-    
-      .icon1{
-        width: 11px;
-        height: 9px;
-        margin: 4px;
-      }
-    
-      .icon2{
-        width: 14px;
-        margin-left: -10px;
-        margin-top: 3px;
-        margin-right: 9px;
-      }
-    
-      .icon3{
-        width: 12px;
-        margin-left: 1px;
-        margin-top: 4px;
-        margin-right: 39px;
-      }
 
-      .icon4{
-        margin-left: -28px;
-        width: 22px;
-        margin-top: 1px;
-      }
-    
+    .sec1 p, .sec2 p{
+      display: none;
+    }
+
+
+    .menu{
+      margin-left: 67px;
+      width: 206px;
+      margin-right: 11px;
+    }
+
+    .menu .login {
+      margin-right: 7px;
+      margin-left: 9px;
+  }
+  
+    .icon1{
+      width: 11px;
+      height: 9px;
+      margin: 1px;
+    }
+  
+    .icon2{
+     display: none;
+    }
+  
+    .icon3{
+      display: none;
+    }
+    .icon4 {
+      margin-top: -2px;
+  } 
+  }
+  @media (min-width: 200px) and (max-width: 345px) {
+
+    .main > div {
+      font-size: 10px;
+    }
+
+    .main{
+      padding-top: 4px;
+    }
+
+    .menu .wishlist {
+      margin-right: 48px;
+  }
+
+    .sec1 {
+      display: none;
+    }
+    .sec2{
+      display: none;
+    }
+    .sec1 p, .sec2 p{
+      display: none;
+    }
+
+
+    .menu{
+      margin-left: -110px;
+      width: 206px;
+      margin-right: 11px;
+    }
+
+    .menu .login {
+      margin-right: 7px;
+      margin-left: 9px;
+  }
+  
+    .icon1{
+      display: none;
+    }
+  
+    .icon2{
+     display: none;
+    }
+  
+    .icon3{
+      display: none;
+    }
+    .icon4 {
+      margin-top: -2px;
+  } 
   }

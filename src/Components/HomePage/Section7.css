@@ -1,5 +1,6 @@
 .section7main{
-    height: 920px;
+    height: 850px;
+    text-align: -webkit-center;
 }
 
 .s7head{
@@ -14,141 +15,243 @@
 .s7grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
+    column-gap: 0px;
+    width: 67%;
+    justify-items: inherit;
 }
 
 .s7img1, .s7img2, .s7img3, .s7img4{
-    width: 330px;
-}
-.s7img1{
-    margin-left: 191px;
-}
-.s7img2{
-    margin-left: 94px;
-}.s7img3{
-    margin-left: -10px;
-}
-.s7img4{
-    margin-left: -119px;
+    width: 62%;
+    margin-top: 30px;
 }
 
+.topgrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 275px;
+    row-gap: 18px;
+    height: 296px;
+    justify-items: center;
+}
+
+.s7imgdiv{
+    background-color: #F6F7FB;
+    background-color: #F6F7FB;
+    width: 89%;
+    height: 212px;
+    border-radius: 106px;
+}
+
+.s7imgdiv:hover {
+    border-left: 5px solid rgb(93, 50, 222);;
+    border-bottom: 10px solid rgb(93, 50, 222);
+}
+
+.s7imgdiv:hover  button{
+    opacity: 2;
+}
+
+.s7imgdiv button{
+    background-color: #08D15F;
+    width: 31%;
+    height: 24px;
+    padding: 0;
+    padding-top: 5px;
+    font-size: 10px;
+    opacity: 0;
+}
+
+
+.toptxt1{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 23px;
+    color: #151875;
+}
+
+.toptxt2{
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 23px;
+    color: #151875;
+}
+
+
 @media (min-width: 1200px) and (max-width: 1400px){
-    .s7grid {
-        column-gap: 90px;
+    .s7imgdiv{
+        width: 88%;
+        height: 172px;
+    }
+    .s7img1, .s7img2, .s7img3, .s7img4{
+        margin-top: 40px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
-    .s7grid {
-        column-gap: 78px;
-        margin-left: -32px;
+
+    .s7imgdiv{
+        width: 88%;
+        height: 145px;
+    }
+    .s7img1, .s7img2, .s7img3, .s7img4{
+        margin-top: 30px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 900px) and (max-width: 991px){
     .s7grid {
-        column-gap: 78px;
-        margin-left: -32px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
     }
-    .s7img1 {
-        margin-left: 146px;
-        width: 232px;
-    }
-    .s7img2 {
-        margin-left: 56px;
-    }
-    .s7img3 {
-        margin-left: -33px;
+    .s7imgdiv{
+        width: 79%;
+        height: 229px;
     }
 }
 
-@media (min-width: 725px) and (max-width: 767px){
+@media (min-width: 768px) and (max-width: 899px){
     .s7grid {
-        column-gap: 78px;
-        margin-left: -32px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
     }
-    .s7img1 {
-        margin-left: 146px;
-        width: 232px;
-    }
-    .s7img2 {
-        margin-left: 56px;
-    }
-    .s7img3 {
-        margin-left: -33px;
+    .s7imgdiv{
+        width: 93%;
+        height: 229px;
     }
 }
 
-@media (min-width: 585px) and (max-width: 724px){
-    .s7grid {
-        column-gap: 78px;
-        margin-left: -113px;
-        width: 130%;
-    }
-    .s7img1 {
-        margin-left: 146px;
-        width: 232px;
-    }
-    .s7img2 {
-        margin-left: 56px;
-    }
-    .s7img3 {
-        margin-left: -33px;
-    }
-}
-
-@media (min-width: 400px) and (max-width: 584px){
+@media (min-width: 701px) and (max-width: 767px){
     .section7main{
         height: 100%;
-    }
-    .s7img2, .s7img3, .s7img4 {
-        margin-left: 149px;
-    }
-    .s7img1 {
-        margin-left: 155px;
     }
     
     .s7grid {
         grid-template-columns: 1fr;
-        column-gap: 78px;
-        margin-left: -113px;
+        row-gap: 30px;
     }
+    .s7imgdiv{
+        width: 58%;
+        height: 229px;
+    }   
 }
 
-@media (min-width: 300px) and (max-width: 399px){
+@media (min-width: 585px) and (max-width: 700px){
     .section7main{
         height: 100%;
-    }
-    .s7img2, .s7img3, .s7img4 {
-        margin-left: 108px;
-    }
-    .s7img1 {
-        margin-left: 109px;
     }
     
     .s7grid {
         grid-template-columns: 1fr;
-        column-gap: 78px;
-        margin-left: -113px;
+        row-gap: 30px;
+    }
+    .s7imgdiv{
+        width: 58%;
+        height: 229px;
     }
 }
 
-@media (max-width: 299px){
+@media (min-width: 500px) and (max-width: 584px){
     .section7main{
         height: 100%;
     }
-    .s7img2, .s7img3, .s7img4 {
-        margin-left: 108px;
+    
+    .s7grid {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .s7imgdiv{
+        width: 69%;
+        height: 229px;
+    }
+}
+@media (min-width: 431px) and (max-width: 500px){
+    .section7main{
+        height: 100%;
+    }
+    .s7imgdiv{
         width: 70%;
     }
-    .s7img1 {
-        width: 67%;
-        margin-left: 109px;
+    .s7grid {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 430px){
+    .section7main{
+        height: 100%;
     }
     
     .s7grid {
         grid-template-columns: 1fr;
-        column-gap: 78px;
-        margin-left: -113px;
+        row-gap: 30px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 399px){
+    .section7main{
+        height: 100%;
+    }
+    
+    .s7grid {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 360px){
+    .section7main{
+        height: 100%;
+    }
+
+    .s7imgdiv{
+        height: 178px;
+    }
+    
+    .s7grid {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
+
+@media (min-width: 299px) and (max-width: 300px){
+    .section7main{
+        height: 100%;
+    }
+    
+    .s7grid {
+        grid-template-columns: 1fr;
+        row-gap: 0px;
+    }
+    .s7imgdiv{
+        width: 81%;
+        height: 147px;
+    }
+    .topgrid{
+        height: 265px;
+    }
+    .s7head{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 300px){
+    .section7main{
+        height: 100%;
+    }
+    
+    .s7grid {
+        grid-template-columns: 1fr;
+        row-gap: 0px;
+    }
+    .s7imgdiv{
+        width: 81%;
+        height: 147px;
+    }
+    .topgrid{
+        height: 265px;
+    }
+    .s7head{
+        font-size: 30px;
     }
 }

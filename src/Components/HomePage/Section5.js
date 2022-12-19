@@ -24,8 +24,8 @@ const Section5 = () => {
                     </div>
                     <div>
                         <p className="s5txt1">Cantilever chair</p>
-                        <p className="s5txt2">$26.00</p>
-                        <p className="s5txt3">$42.00</p>
+                        <p className="s5txt2">$26.00
+                        <span className="s5txt3">$42.00</span></p>
                     </div>
                 </div>
                 <div className="s5products">
@@ -34,8 +34,8 @@ const Section5 = () => {
                     </div>
                     <div>
                         <p className="s5txt1">Cantilever chair</p>
-                        <p className="s5txt2">$26.00</p>
-                        <p className="s5txt3">$42.00</p>
+                        <p className="s5txt2">$26.00
+                        <span className="s5txt3">$42.00</span></p>
                     </div>
                 </div>
                 <div className="s5products">
@@ -44,8 +44,8 @@ const Section5 = () => {
                     </div>
                     <div>
                         <p className="s5txt1">Cantilever chair</p>
-                        <p className="s5txt2">$26.00</p>
-                        <p className="s5txt3">$42.00</p>
+                        <p className="s5txt2">$26.00
+                        <span className="s5txt3">$42.00</span></p>
                     </div>
                 </div>
                 <div className="s5products">
@@ -54,8 +54,8 @@ const Section5 = () => {
                     </div>
                     <div>
                         <p className="s5txt1">Cantilever chair</p>
-                        <p className="s5txt2">$26.00</p>
-                        <p className="s5txt3">$42.00</p>
+                        <p className="s5txt2">$26.00
+                        <span className="s5txt3">$42.00</span></p>
                     </div>
                 </div>
             </div>
@@ -63,18 +63,18 @@ const Section5 = () => {
             <div className="s5grid2">
                 <div className="s5grid2_1">
                     <text className="s5txt4">23% off in all products</text><br/>
-                    <a href="#" className="s5link">Shop Now</a>
-                    <img className="s5img5" src={image_1162} alt="Image" />
+                    <a href="/#" className="s5link">Shop Now</a>
+                    <div className="s5gridimg"><img className="s5img5" src={image_1162} alt="Img" /></div>
                 </div>
                 <div className="s5grid2_2">
                     <text className="s5txt4">23% off in all products</text><br/>
-                    <a href="#" className="s5link">View Collection</a>
-                    <img className="s5img6" src={image_1161} alt="Iamge" />
+                    <a href="/#" className="s5link">View Collection</a>
+                    <div className="s5gridimg"><img className="s5img6" src={image_1161} alt="Iamge" /></div>
                 </div>
                 <div className="s5grid2_3">
                     <div className="s5chairs">
                         <div className="chairimg">
-                            <img className="s5chairimg" src={image_30} alt="Image" />
+                            <img className="s5chairimg" src={image_30} alt="Img" />
                         </div>
                         <div className="chairdetails">
                             <text className="chairname">Executive Seat chair</text><br/>
@@ -83,7 +83,7 @@ const Section5 = () => {
                     </div>
                     <div className="s5chairs">
                         <div className="chairimg">
-                            <img className="s5chairimg" src={image_19} alt="Image" />
+                            <img className="s5chairimg" src={image_19} alt="Img" />
                         </div>
                         <div className="chairdetails">
                             <text className="chairname">Executive Seat chair</text><br/>
@@ -92,7 +92,7 @@ const Section5 = () => {
                     </div>
                     <div className="s5chairs">
                         <div className="chairimg">
-                            <img className="s5chairimg" src={image_28} alt="Image" />
+                            <img className="s5chairimg" src={image_28} alt="Img" />
                         </div>
                         <div className="chairdetails">
                             <text className="chairname">Executive Seat chair</text><br/>

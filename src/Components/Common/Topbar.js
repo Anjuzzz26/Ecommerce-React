@@ -22,11 +22,19 @@ const Topbar = () => {
                 </div>
 
                 <div className="menu">
-                    <div  className="childmenu">English</div>
-                    <div className="childmenu">USD</div>
+                    <div  className="childmenu">
+                        <select style={{background:"#7E33E0"}}>
+                            <option value="0">English</option>
+                        </select>
+                    </div>
+                    <div className="childmenu">
+                        <select style={{background:"#7E33E0"}}>
+                            <option value="0">USD</option>
+                        </select>
+                    </div>
                     <div className="childmenu login"><Link to="/login">Login</Link></div>
                     <div className="childmenu icon2"><img src={user} alt="User" /></div>
-                    <div className="childmenu">Wishlist</div>
+                    <div className="childmenu wishlist">Wishlist</div>
                     <div className="childmenu icon3"><img src={wishlist} alt="Wishlist" /></div>
                     <div className="childmenu icon4"><Link to="/cart"><img src={cart} alt="Cart" /></Link></div>
                 </div>

@@ -22,12 +22,12 @@ import searchplus from './Images/uil_search-plus.png';
 import Ellipse_65 from './Images/Ellipse 65.png';
 import Ellipse_66 from './Images/Ellipse 66.png';
 import Ellipse_24 from './Images/Ellipse 24.png';
-import check from './Images/uil_check.png';
-import checkpink from './Images/uil_check_pink.png';
-import checkyellow from './Images/uil_check_yellow.png';
-import check_filled from './Images/uil_check_filled.png';
-import check_pfill from './Images/uil_check_pinkfilled.png';
-import check_yfill from './Images/uil_check_yellowfilled.png';
+// import check from './Images/uil_check.png';
+// import checkpink from './Images/uil_check_pink.png';
+// import checkyellow from './Images/uil_check_yellow.png';
+// import check_filled from './Images/uil_check_filled.png';
+// import check_pfill from './Images/uil_check_pinkfilled.png';
+// import check_yfill from './Images/uil_check_yellowfilled.png';
 
 import blue from './Images/blue.png';
 import orange from './Images/orange.png';
@@ -77,35 +77,35 @@ const ShopLeft = () => {
                         <h3 className="filter_head">Rating Item</h3>
 
                         <div className="checkbox_container"><input type="checkbox" className="checkbox" value="star_4" id="Rating1" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={notfilledstar} alt="Image" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={notfilledstar} alt="Img" />
                         <p className="rating_list">(2341)</p></div>
 
                         <div className="checkbox_container"><input type="checkbox" className="checkbox" value="star_3" id="Rating2" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={notfilledstar} alt="Image" />
-                        <img className="rating_star" src={notfilledstar} alt="Image" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={notfilledstar} alt="Img" />
+                        <img className="rating_star" src={notfilledstar} alt="Img" />
                         <p className="rating_list">(1726)</p></div>
 
                         <div className="checkbox_container"><input type="checkbox" className="checkbox" value="star_2" name="Rating3" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={notfilledstar} alt="Image" />
-                        <img className="rating_star" src={notfilledstar} alt="Image" />
-                        <img className="rating_star" src={notfilledstar} alt="Image" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={notfilledstar} alt="Img" />
+                        <img className="rating_star" src={notfilledstar} alt="Img" />
+                        <img className="rating_star" src={notfilledstar} alt="Img" />
                         <p className="rating_list">(258)</p></div>
 
                         <div className="checkbox_container"><input type="checkbox" className="checkbox" value="star_2" name="Rating4" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={filledstar} alt="Image" />
-                        <img className="rating_star" src={notfilledstar} alt="Image" />
-                        <img className="rating_star" src={notfilledstar} alt="Image" />
-                        <img className="rating_star" src={notfilledstar} alt="Image" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={filledstar} alt="Img" />
+                        <img className="rating_star" src={notfilledstar} alt="Img" />
+                        <img className="rating_star" src={notfilledstar} alt="Img" />
+                        <img className="rating_star" src={notfilledstar} alt="Img" />
                         <p className="rating_list">(25)</p></div>
 
                     </div>
@@ -157,17 +157,17 @@ const ShopLeft = () => {
 
                         <h3 className="filter_head">Filter By Color</h3>
 
-                        <img className="colordot1" src={blue} alt="Image" />
+                        <img className="colordot1" src={blue} alt="Img" />
                         <p className="color_list1">Blue</p>
-                        <img className="colordot2" src={orange} alt="Image" />
+                        <img className="colordot2" src={orange} alt="Img" />
                         <p className="color_list2">Orange</p>
-                        <img className="colordot3" src={brown} alt="Image" />
+                        <img className="colordot3" src={brown} alt="Img" />
                         <p className="color_list3">Brown</p>
-                        <img className="colordot4" src={green} alt="Image" />
+                        <img className="colordot4" src={green} alt="Img" />
                         <p className="color_list4">Green</p>
-                        <img className="colordot5" src={purple} alt="Image" />
+                        <img className="colordot5" src={purple} alt="Img" />
                         <p className="color_list5">Purple</p>
-                        <img className="colordot6" src={sky} alt="Image" />
+                        <img className="colordot6" src={sky} alt="Img" />
                         <p className="color_list6">Sky</p>
 
                     </div>
@@ -177,156 +177,156 @@ const ShopLeft = () => {
                 <div className="Sleft_Itemgrid">
                     <div className="SLeft_gridItems">
                         <div className="SLimggrid">
-                            <img src={Pic8} alt="Image" />
+                            <img src={Pic8} alt="Img" />
                         </div>
                         <div className="SLeft_descgrid">
                             <text className="SLtxt1">Dictum morbi</text>
-                            <img className="SLdot1" src={Ellipse_24} alt="Image" />
-                            <img className="SLdot2" src={Ellipse_65} alt="Image" />
-                            <img className="SLdot3" src={Ellipse_66} alt="Image" />
+                            <img className="SLdot1" src={Ellipse_24} alt="Img" />
+                            <img className="SLdot2" src={Ellipse_65} alt="Img" />
+                            <img className="SLdot3" src={Ellipse_66} alt="Img" />
                             <p className="SLtxt2">$26.00 &nbsp;&nbsp;&nbsp;<span>$52.00</span></p>
-                            <img className="SLstar1" src={filledstar} alt="Image" />
-                            <img className="SLstar2" src={filledstar} alt="Image" />
-                            <img className="SLstar3" src={filledstar} alt="Image" />
-                            <img className="SLstar4" src={filledstar} alt="Image" />
-                            <img className="SLnfstar" src={notfilledstar} alt="Image" />
+                            <img className="SLstar1" src={filledstar} alt="Img" />
+                            <img className="SLstar2" src={filledstar} alt="Img" />
+                            <img className="SLstar3" src={filledstar} alt="Img" />
+                            <img className="SLstar4" src={filledstar} alt="Img" />
+                            <img className="SLnfstar" src={notfilledstar} alt="Img" />
                             <p className="SLtxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Magna in est adipiscing in phasellus non in justo.</p>
-                            <img className="SLcart" src={cart} alt="Image" />
-                            <img className="SLheart" src={heart} alt="Image" />
-                            <img className="SLsearch" src={searchplus} alt="Image" />
+                            <img className="SLcart" src={cart} alt="Img" />
+                            <img className="SLheart" src={heart} alt="Img" />
+                            <img className="SLsearch" src={searchplus} alt="Img" />
                         </div>
                     </div>
                     <div className="SLeft_gridItems">
                         <div className="SLimggrid">
-                            <img src={Pic9} alt="Image" />
+                            <img src={Pic9} alt="Img" />
                         </div>
                         <div className="SLeft_descgrid">
                             <text className="SLtxt1">Sodales sit</text>
-                            <img className="SLdot1" src={Ellipse_24} alt="Image" />
-                            <img className="SLdot2" src={Ellipse_65} alt="Image" />
-                            <img className="SLdot3" src={Ellipse_66} alt="Image" />
+                            <img className="SLdot1" src={Ellipse_24} alt="Img" />
+                            <img className="SLdot2" src={Ellipse_65} alt="Img" />
+                            <img className="SLdot3" src={Ellipse_66} alt="Img" />
                             <p className="SLtxt2">$26.00  &nbsp;&nbsp;&nbsp;<span>$52.00</span></p>
-                            <img className="SLstar1" src={filledstar} alt="Image" />
-                            <img className="SLstar2" src={filledstar} alt="Image" />
-                            <img className="SLstar3" src={filledstar} alt="Image" />
-                            <img className="SLstar4" src={filledstar} alt="Image" />
-                            <img className="SLnfstar" src={notfilledstar} alt="Image" />
+                            <img className="SLstar1" src={filledstar} alt="Img" />
+                            <img className="SLstar2" src={filledstar} alt="Img" />
+                            <img className="SLstar3" src={filledstar} alt="Img" />
+                            <img className="SLstar4" src={filledstar} alt="Img" />
+                            <img className="SLnfstar" src={notfilledstar} alt="Img" />
                             <p className="SLtxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Magna in est adipiscing in phasellus non in justo.</p>
-                            <img className="SLcart" src={cart} alt="Image" />
-                            <img className="SLheart" src={heart} alt="Image" />
-                            <img className="SLsearch" src={searchplus} alt="Image" />
+                            <img className="SLcart" src={cart} alt="Img" />
+                            <img className="SLheart" src={heart} alt="Img" />
+                            <img className="SLsearch" src={searchplus} alt="Img" />
                         </div>
                     </div>
                     <div className="SLeft_gridItems">
                         <div className="SLimggrid">
-                            <img src={Pic10} alt="Image" />
+                            <img src={Pic10} alt="Img" />
                         </div>
                         <div className="SLeft_descgrid">
                             <text className="SLtxt1">Nibh varius</text>
-                            <img className="SLdot1" src={Ellipse_24} alt="Image" />
-                            <img className="SLdot2" src={Ellipse_65} alt="Image" />
-                            <img className="SLdot3" src={Ellipse_66} alt="Image" />
+                            <img className="SLdot1" src={Ellipse_24} alt="Img" />
+                            <img className="SLdot2" src={Ellipse_65} alt="Img" />
+                            <img className="SLdot3" src={Ellipse_66} alt="Img" />
                             <p className="SLtxt2">$26.00  &nbsp;&nbsp;&nbsp;<span>$52.00</span></p>
-                            <img className="SLstar1" src={filledstar} alt="Image" />
-                            <img className="SLstar2" src={filledstar} alt="Image" />
-                            <img className="SLstar3" src={filledstar} alt="Image" />
-                            <img className="SLstar4" src={filledstar} alt="Image" />
-                            <img className="SLnfstar" src={notfilledstar} alt="Image" />
+                            <img className="SLstar1" src={filledstar} alt="Img" />
+                            <img className="SLstar2" src={filledstar} alt="Img" />
+                            <img className="SLstar3" src={filledstar} alt="Img" />
+                            <img className="SLstar4" src={filledstar} alt="Img" />
+                            <img className="SLnfstar" src={notfilledstar} alt="Img" />
                             <p className="SLtxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Magna in est adipiscing in phasellus non in justo.</p>
-                            <img className="SLcart" src={cart} alt="Image" />
-                            <img className="SLheart" src={heart} alt="Image" />
-                            <img className="SLsearch" src={searchplus} alt="Image" />
+                            <img className="SLcart" src={cart} alt="Img" />
+                            <img className="SLheart" src={heart} alt="Img" />
+                            <img className="SLsearch" src={searchplus} alt="Img" />
                         </div>
                     </div>
                     <div className="SLeft_gridItems">
                         <div className="SLimggrid">
-                            <img src={Pic11} alt="Image" />
+                            <img src={Pic11} alt="Img" />
                         </div>
                         <div className="SLeft_descgrid">
                             <text className="SLtxt1">Mauris quis</text>
-                            <img className="SLdot1" src={Ellipse_24} alt="Image" />
-                            <img className="SLdot2" src={Ellipse_65} alt="Image" />
-                            <img className="SLdot3" src={Ellipse_66} alt="Image" />
+                            <img className="SLdot1" src={Ellipse_24} alt="Img" />
+                            <img className="SLdot2" src={Ellipse_65} alt="Img" />
+                            <img className="SLdot3" src={Ellipse_66} alt="Img" />
                             <p className="SLtxt2">$26.00  &nbsp;&nbsp;&nbsp;<span>$52.00</span></p>
-                            <img className="SLstar1" src={filledstar} alt="Image" />
-                            <img className="SLstar2" src={filledstar} alt="Image" />
-                            <img className="SLstar3" src={filledstar} alt="Image" />
-                            <img className="SLstar4" src={filledstar} alt="Image" />
-                            <img className="SLnfstar" src={notfilledstar} alt="Image" />
+                            <img className="SLstar1" src={filledstar} alt="Img" />
+                            <img className="SLstar2" src={filledstar} alt="Img" />
+                            <img className="SLstar3" src={filledstar} alt="Img" />
+                            <img className="SLstar4" src={filledstar} alt="Img" />
+                            <img className="SLnfstar" src={notfilledstar} alt="Img" />
                             <p className="SLtxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Magna in est adipiscing in phasellus non in justo.</p>
-                            <img className="SLcart" src={cart} alt="Image" />
-                            <img className="SLheart" src={heart} alt="Image" />
-                            <img className="SLsearch" src={searchplus} alt="Image" />
+                            <img className="SLcart" src={cart} alt="Img" />
+                            <img className="SLheart" src={heart} alt="Img" />
+                            <img className="SLsearch" src={searchplus} alt="Img" />
                         </div>
                     </div>
                     <div className="SLeft_gridItems">
                         <div className="SLimggrid">
-                            <img src={Pic12} alt="Image" />
+                            <img src={Pic12} alt="Img" />
                         </div>
                         <div className="SLeft_descgrid">
                             <text className="SLtxt1">Morbi sagittis</text>
-                            <img className="SLdot1" src={Ellipse_24} alt="Image" />
-                            <img className="SLdot2" src={Ellipse_65} alt="Image" />
-                            <img className="SLdot3" src={Ellipse_66} alt="Image" />
+                            <img className="SLdot1" src={Ellipse_24} alt="Img" />
+                            <img className="SLdot2" src={Ellipse_65} alt="Img" />
+                            <img className="SLdot3" src={Ellipse_66} alt="Img" />
                             <p className="SLtxt2">$26.00  &nbsp;&nbsp;&nbsp;<span>$52.00</span></p>
-                            <img className="SLstar1" src={filledstar} alt="Image" />
-                            <img className="SLstar2" src={filledstar} alt="Image" />
-                            <img className="SLstar3" src={filledstar} alt="Image" />
-                            <img className="SLstar4" src={filledstar} alt="Image" />
-                            <img className="SLnfstar" src={notfilledstar} alt="Image" />
+                            <img className="SLstar1" src={filledstar} alt="Img" />
+                            <img className="SLstar2" src={filledstar} alt="Img" />
+                            <img className="SLstar3" src={filledstar} alt="Img" />
+                            <img className="SLstar4" src={filledstar} alt="Img" />
+                            <img className="SLnfstar" src={notfilledstar} alt="Img" />
                             <p className="SLtxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Magna in est adipiscing in phasellus non in justo.</p>
-                            <img className="SLcart" src={cart} alt="Image" />
-                            <img className="SLheart" src={heart} alt="Image" />
-                            <img className="SLsearch" src={searchplus} alt="Image" />
+                            <img className="SLcart" src={cart} alt="Img" />
+                            <img className="SLheart" src={heart} alt="Img" />
+                            <img className="SLsearch" src={searchplus} alt="Img" />
                         </div>
                     </div>
                     <div className="SLeft_gridItems">
                         <div className="SLimggrid">
-                            <img src={Pic13} alt="Image" />
+                            <img src={Pic13} alt="Img" />
                         </div>
                         <div className="SLeft_descgrid">
                             <text className="SLtxt1">Ultricies venenatis</text>
-                            <img className="SLdot1" src={Ellipse_24} alt="Image" />
-                            <img className="SLdot2" src={Ellipse_65} alt="Image" />
-                            <img className="SLdot3" src={Ellipse_66} alt="Image" />
+                            <img className="SLdot1" src={Ellipse_24} alt="Img" />
+                            <img className="SLdot2" src={Ellipse_65} alt="Img" />
+                            <img className="SLdot3" src={Ellipse_66} alt="Img" />
                             <p className="SLtxt2">$26.00  &nbsp;&nbsp;&nbsp;<span>$52.00</span></p>
-                            <img className="SLstar1" src={filledstar} alt="Image" />
-                            <img className="SLstar2" src={filledstar} alt="Image" />
-                            <img className="SLstar3" src={filledstar} alt="Image" />
-                            <img className="SLstar4" src={filledstar} alt="Image" />
-                            <img className="SLnfstar" src={notfilledstar} alt="Image" />
+                            <img className="SLstar1" src={filledstar} alt="Img" />
+                            <img className="SLstar2" src={filledstar} alt="Img" />
+                            <img className="SLstar3" src={filledstar} alt="Img" />
+                            <img className="SLstar4" src={filledstar} alt="Img" />
+                            <img className="SLnfstar" src={notfilledstar} alt="Img" />
                             <p className="SLtxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Magna in est adipiscing in phasellus non in justo.</p>
-                            <img className="SLcart" src={cart} alt="Image" />
-                            <img className="SLheart" src={heart} alt="Image" />
-                            <img className="SLsearch" src={searchplus} alt="Image" />
+                            <img className="SLcart" src={cart} alt="Img" />
+                            <img className="SLheart" src={heart} alt="Img" />
+                            <img className="SLsearch" src={searchplus} alt="Img" />
                         </div>
                     </div>
                     <div className="SLeft_gridItems">
                         <div className="SLimggrid">
-                            <img src={Pic14} alt="Image" />
+                            <img src={Pic14} alt="Img" />
                         </div>
                         <div className="SLeft_descgrid">
                             <text className="SLtxt1">Scelerisque dignissim</text>
-                            <img className="SLdot1" src={Ellipse_24} alt="Image" />
-                            <img className="SLdot2" src={Ellipse_65} alt="Image" />
-                            <img className="SLdot3" src={Ellipse_66} alt="Image" />
+                            <img className="SLdot1" src={Ellipse_24} alt="Img" />
+                            <img className="SLdot2" src={Ellipse_65} alt="Img" />
+                            <img className="SLdot3" src={Ellipse_66} alt="Img" />
                             <p className="SLtxt2">$26.00  &nbsp;&nbsp;&nbsp;<span>$52.00</span></p>
-                            <img className="SLstar1" src={filledstar} alt="Image" />
-                            <img className="SLstar2" src={filledstar} alt="Image" />
-                            <img className="SLstar3" src={filledstar} alt="Image" />
-                            <img className="SLstar4" src={filledstar} alt="Image" />
-                            <img className="SLnfstar" src={notfilledstar} alt="Image" />
+                            <img className="SLstar1" src={filledstar} alt="Img" />
+                            <img className="SLstar2" src={filledstar} alt="Img" />
+                            <img className="SLstar3" src={filledstar} alt="Img" />
+                            <img className="SLstar4" src={filledstar} alt="Img" />
+                            <img className="SLnfstar" src={notfilledstar} alt="Img" />
                             <p className="SLtxt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Magna in est adipiscing in phasellus non in justo.</p>
-                            <img className="SLcart" src={cart} alt="Image" />
-                            <img className="SLheart" src={heart} alt="Image" />
-                            <img className="SLsearch" src={searchplus} alt="Image" />
+                            <img className="SLcart" src={cart} alt="Img" />
+                            <img className="SLheart" src={heart} alt="Img" />
+                            <img className="SLsearch" src={searchplus} alt="Img" />
                         </div>
                 </div>
             </div>

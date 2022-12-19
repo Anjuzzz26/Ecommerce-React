@@ -15,44 +15,44 @@ const PDSection1 = () => {
                 <div className="PDgriditem1">
                     
                     <div className="PDgridimg">
-                        <img className="PDimg1" src={Rectangle_134} alt="Image" />
+                        <img className="PDimg1" src={Rectangle_134} alt="Img" />
                     </div>
                     
                     <div className="PDgridimg">
-                        <img className="PDimg2" src={Rectangle_136} alt="Image" />
+                        <img className="PDimg2" src={Rectangle_136} alt="Img" />
                     </div>
                     
                     <div className="PDgridimg">
-                        <img className="PDimg3" src={Rectangle_137} alt="Image" />
+                        <img className="PDimg3" src={Rectangle_137} alt="Img" />
                     
                     </div>
                 </div>
                 
                 
                 <div className="PDgriditem2">
-                    <img className="PDimg4" src={Rectangle_138} alt="Image" />
+                    <img className="PDimg4" src={Rectangle_138} alt="Img" />
                 </div>
                 
                 
                 <div className="PDgriditem3">
 
                     <h1 className="PDtxt1">Playwood arm chair</h1>
-                    <img className="PDstar" src={filledstar} alt="Image" />
-                    <img className="PDstar" src={filledstar} alt="Image" />
-                    <img className="PDstar" src={filledstar} alt="Image" />
-                    <img className="PDstar" src={filledstar} alt="Image" />
-                    <img className="PDstar" src={filledstar} alt="Image" />
+                    <img className="PDstar" src={filledstar} alt="Img" />
+                    <img className="PDstar" src={filledstar} alt="Img" />
+                    <img className="PDstar" src={filledstar} alt="Img" />
+                    <img className="PDstar" src={filledstar} alt="Img" />
+                    <img className="PDstar" src={filledstar} alt="Img" />
                     <p className="PDtxt2">(22)</p>
                     <p className="PDtxt3">$32.00 &nbsp;&nbsp;&nbsp;<span>$32.00</span></p>
                     <p className="PDtxt4">Color</p>
                     <p className="PDtxt5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Mauris tellus porttitor purus, et volutpat sit.</p>
                     <p className="PDtxt6">Add To cart</p>
-                    <img className="PDheart" src={heart} alt="Image" />
+                    <img className="PDheart" src={heart} alt="Img" />
                     <p className="PDtxt7">Categories:</p>
                     <p className="PDtxt8">Tags</p>
                     <p className="PDtxt9">Share</p>
-                    <img className="PDshare" src={Group_205} alt="Image" />
+                    <img className="PDshare" src={Group_205} alt="Img" />
 
                 </div>
             </div>

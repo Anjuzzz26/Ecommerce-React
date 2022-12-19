@@ -40,7 +40,7 @@ const BlogSection = () =>{
                         <div className="Bgrid2_subgrid">
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={RecentPost1} alt="Image" />
+                                    <img src={RecentPost1} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">It is a long established fact</text>
@@ -50,7 +50,7 @@ const BlogSection = () =>{
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={RecentPost2} alt="Image" />
+                                    <img src={RecentPost2} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">It is a long established fact</text>
@@ -60,7 +60,7 @@ const BlogSection = () =>{
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={RecentPost3} alt="Image" />
+                                    <img src={RecentPost3} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">It is a long established fact</text>
@@ -70,7 +70,7 @@ const BlogSection = () =>{
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={RecentPost4} alt="Image" />
+                                    <img src={RecentPost4} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">It is a long established fact</text>
@@ -86,7 +86,7 @@ const BlogSection = () =>{
                         <div className="Bgrid2_subgrid">
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={Sale1} alt="Image" />
+                                    <img src={Sale1} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">Sale Product</text>
@@ -96,7 +96,7 @@ const BlogSection = () =>{
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={Sale2} alt="Image" />
+                                    <img src={Sale2} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">Viverra pulvinar et enim.</text>
@@ -106,7 +106,7 @@ const BlogSection = () =>{
 
                             <div className="Bsubgrid_items">
                                 <div className="Bsubgrid_itemimg">
-                                    <img src={Sale3} alt="Image" />
+                                    <img src={Sale3} alt="Img" />
                                 </div>
                                 <div className="Bsubgrid_itemdesc">
                                     <text className="Bsubgrid_txt1">Mattis varius donec fdsfd</text>
@@ -123,12 +123,12 @@ const BlogSection = () =>{
                             <div className="BOffgriditem">
                                 
                                 <div className="BOfferproducts">
-                                    <img src={OfferProduct1} alt="Image" className="Boffimg"/>
+                                    <img src={OfferProduct1} alt="Img" className="Boffimg"/>
                                     <h4 className="Offitemname">Duis lectus est.</h4>
                                     <p className="Offitemprice">$12.00 - $15.00</p>
                                 </div>
                                 <div className="BOfferproducts">
-                                    <img src={OfferProduct2} alt="Image" className="Boffimg" />
+                                    <img src={OfferProduct2} alt="Img" className="Boffimg" />
                                     <h4 className="Offitemname">Sed placerat.</h4>
                                     <p className="Offitemprice">$12.00 - $15.00</p>
                                 </div>
@@ -138,12 +138,12 @@ const BlogSection = () =>{
                             <div className="BOffgriditem">
                                 
                                 <div className="BOfferproducts">
-                                    <img src={OfferProduct3} alt="Image" className="Boffimg"/>
+                                    <img src={OfferProduct3} alt="Img" className="Boffimg"/>
                                     <h4 className="Offitemname">Netus proin.</h4>
                                     <p className="Offitemprice">$12.00 - $15.00</p>
                                 </div>
                                 <div className="BOfferproducts">
-                                    <img src={OfferProduct4} alt="Image" className="Boffimg" />
+                                    <img src={OfferProduct4} alt="Img" className="Boffimg" />
                                     <h4 className="Offitemname">Platea in.</h4>
                                     <p className="Offitemprice">$12.00 - $15.00</p>
                                 </div>
@@ -156,13 +156,13 @@ const BlogSection = () =>{
 
                     <div className="Bgrid2item5">
                         <h3 className="Blog_head">Follow</h3> 
-                        <img src={Group224} alt="Image" className="Bfollowimg" />
+                        <img src={Group224} alt="Img" className="Bfollowimg" />
                         <h3 className="Blog_head">Tags</h3>
-                        <a href="#" className="Btag1">General</a>
-                        <a href="#" className="Btag2">Atsanil</a>
-                        <a href="#" className="Btag3">Insas.</a><br/><br/>
-                        <a href="#" className="Btag4">Bibsaas</a>
-                        <a href="#" className="Btag5">Nulla.</a>
+                        <a href="/#" className="Btag1">General</a>
+                        <a href="/#" className="Btag2">Atsanil</a>
+                        <a href="/#" className="Btag3">Insas.</a><br/><br/>
+                        <a href="/#" className="Btag4">Bibsaas</a>
+                        <a href="/#" className="Btag5">Nulla.</a>
                     </div>
             
         </div>

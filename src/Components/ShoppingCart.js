@@ -38,7 +38,7 @@ const ShoppingCart = () => {
                     <div className="CartItem">
 
                         <div className="Cartimg">
-                            <img src={Rect34} alt="Image" />
+                            <img src={Rect34} alt="Img" />
                         </div>
                         <div>
                             <p className="Carttxt1">Ut diam consequat</p>
@@ -50,7 +50,7 @@ const ShoppingCart = () => {
 
                         </div>
                         <div>
-                            <img className="CartQty" src={Group52} alt="Image" />
+                            <img className="CartQty" src={Group52} alt="Img" />
                         </div>
                         <div>
                             <p className="Carttotal">£219.00</p>
@@ -61,7 +61,7 @@ const ShoppingCart = () => {
                     <div className="CartItem">
                         
                         <div className="Cartimg">
-                            <img src={Rect35} alt="Image" /> 
+                            <img src={Rect35} alt="Img" /> 
                         </div>
                         <div>
                             <p className="Carttxt1">Vel faucibus posuere</p>
@@ -73,7 +73,7 @@ const ShoppingCart = () => {
 
                         </div>
                         <div>
-                            <img className="CartQty" src={Group52} alt="Image" />
+                            <img className="CartQty" src={Group52} alt="Img" />
                         </div>
                         <div>
                             <p className="Carttotal">£219.00</p>
@@ -84,7 +84,7 @@ const ShoppingCart = () => {
                     <div className="CartItem">
                         
                         <div className="Cartimg">
-                            <img src={Rect36} alt="Image" />
+                            <img src={Rect36} alt="Img" />
                         </div>
                         <div>
                             <p className="Carttxt1">Ac vitae vestibulum</p>
@@ -96,7 +96,7 @@ const ShoppingCart = () => {
 
                         </div>
                         <div>
-                            <img className="CartQty" src={Group52} alt="Image" />
+                            <img className="CartQty" src={Group52} alt="Img" />
                         </div>
                         <div>
                             <p className="Carttotal">£219.00</p>
@@ -106,7 +106,7 @@ const ShoppingCart = () => {
                     <div className="CartItem">
                         
                         <div className="Cartimg">
-                            <img src={Rect37} alt="Image" />
+                            <img src={Rect37} alt="Img" />
                         </div>
                         <div>
                             <p className="Carttxt1">Elit massa diam</p>
@@ -118,7 +118,7 @@ const ShoppingCart = () => {
 
                         </div>
                         <div>
-                            <img className="CartQty" src={Group52} alt="Image" />
+                            <img className="CartQty" src={Group52} alt="Img" />
                         </div>
                         <div>
                             <p className="Carttotal">£219.00</p>
@@ -129,7 +129,7 @@ const ShoppingCart = () => {
                     <div className="CartItem">
                         
                         <div className="Cartimg">
-                            <img src={Rect38} alt="Image" />
+                            <img src={Rect38} alt="Img" />
                         </div>
                         <div>
                             <p className="Carttxt1">Proin pharetra elementum</p>
@@ -141,7 +141,7 @@ const ShoppingCart = () => {
 
                         </div>
                         <div>
-                            <img className="CartQty" src={Group52} alt="Image" />
+                            <img className="CartQty" src={Group52} alt="Img" />
                         </div>
                         <div>
                             <p className="Carttotal">£219.00</p>
@@ -162,7 +162,7 @@ const ShoppingCart = () => {
                             <p className="subitem2">£325.00</p>
                         </div>
                         <div>
-                            <img className="green_check" src={green_check} alt="Image" />
+                            <img className="green_check" src={green_check} alt="Img" />
                             <p className="carttotal_para">Shipping & taxes calculated at checkout</p>
                         </div>
                         <Link to="/ordercompleted"><button className="checkoutbtn">Proceed To Checkout</button></Link>

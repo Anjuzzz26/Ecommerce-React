@@ -16,57 +16,57 @@ const PDSection3 = () => {
             <div className="PDS3grid">
                 <div>
                     <div className="PD3imgdiv">
-                        <img src={Rectangle128} alt="Image" className="PD3img" />
+                        <img src={Rectangle128} alt="Img" className="PD3img" />
                     </div>
                     <div className="PD3desc">
                         <text className="PDS3txt1">Mens Fashion Wear</text>
-                        <img className="PDS3star1" src={filledstar} alt="Image" />
-                        <img className="PDS3star2" src={filledstar} alt="Image" />
-                        <img className="PDS3star3" src={filledstar} alt="Image" />
-                        <img className="PDS3star4" src={filledstar} alt="Image" />
-                        <img className="PDS3star5" src={notfilledstar} alt="Image" />
+                        <img className="PDS3star1" src={filledstar} alt="Img" />
+                        <img className="PDS3star2" src={filledstar} alt="Img" />
+                        <img className="PDS3star3" src={filledstar} alt="Img" />
+                        <img className="PDS3star4" src={filledstar} alt="Img" />
+                        <img className="PDS3star5" src={notfilledstar} alt="Img" />
                         <p className="PDS3txt2">$43.00</p>
                     </div>
                 </div>
                 <div>
                     <div className="PD3imgdiv">
-                        <img src={Rectangle133} alt="Image" className="PD3img" />
+                        <img src={Rectangle133} alt="Img" className="PD3img" />
                     </div>
                     <div className="PD3desc">
                         <text className="PDS3txt1">Women’s Fashion</text>
-                        <img className="PDS3star1" src={filledstar} alt="Image" />
-                        <img className="PDS3star2" src={filledstar} alt="Image" />
-                        <img className="PDS3star3" src={filledstar} alt="Image" />
-                        <img className="PDS3star4" src={filledstar} alt="Image" />
-                        <img className="PDS3star5" src={filledstar} alt="Image" />
+                        <img className="PDS3star1" src={filledstar} alt="Img" />
+                        <img className="PDS3star2" src={filledstar} alt="Img" />
+                        <img className="PDS3star3" src={filledstar} alt="Img" />
+                        <img className="PDS3star4" src={filledstar} alt="Img" />
+                        <img className="PDS3star5" src={filledstar} alt="Img" />
                         <p className="PDS3txt2">$67.00</p>
                     </div>
                 </div>
                 <div>
                     <div className="PD3imgdiv">
-                        <img src={Rectangle130} alt="Image" className="PD3img" />
+                        <img src={Rectangle130} alt="Img" className="PD3img" />
                     </div>
                     <div className="PD3desc">
                         <text className="PDS3txt1">Wolx Dummy Fashion</text>
-                        <img className="PDS3star1" src={filledstar} alt="Image" />
-                        <img className="PDS3star2" src={filledstar} alt="Image" />
-                        <img className="PDS3star3" src={filledstar} alt="Image" />
-                        <img className="PDS3star4" src={filledstar} alt="Image" />
-                        <img className="PDS3star5" src={notfilledstar} alt="Image" />
+                        <img className="PDS3star1" src={filledstar} alt="Img" />
+                        <img className="PDS3star2" src={filledstar} alt="Img" />
+                        <img className="PDS3star3" src={filledstar} alt="Img" />
+                        <img className="PDS3star4" src={filledstar} alt="Img" />
+                        <img className="PDS3star5" src={notfilledstar} alt="Img" />
                         <p className="PDS3txt2">$67.00</p>
                     </div>
                 </div>
                 <div>
                     <div className="PD3imgdiv">
-                        <img src={Rectangle131} alt="Image" className="PD3img" />
+                        <img src={Rectangle131} alt="Img" className="PD3img" />
                     </div>
                     <div className="PD3desc">
                         <text className="PDS3txt1">Top Wall Digital Clock</text>
-                        <img className="PDS3star1" src={filledstar} alt="Image" />
-                        <img className="PDS3star2" src={filledstar} alt="Image" />
-                        <img className="PDS3star3" src={filledstar} alt="Image" />
-                        <img className="PDS3star4" src={notfilledstar} alt="Image" />
-                        <img className="PDS3star5" src={notfilledstar} alt="Image" />
+                        <img className="PDS3star1" src={filledstar} alt="Img" />
+                        <img className="PDS3star2" src={filledstar} alt="Img" />
+                        <img className="PDS3star3" src={filledstar} alt="Img" />
+                        <img className="PDS3star4" src={notfilledstar} alt="Img" />
+                        <img className="PDS3star5" src={notfilledstar} alt="Img" />
                         <p className="PDS3txt2">$51.00</p>
                     </div>
                 </div>

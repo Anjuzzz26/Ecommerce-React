@@ -14,40 +14,40 @@ const Section3 = () => {
             <br/>
             <div className="s3grid">
                 <div className="s3card">
-                    <div className="s3flex1">
+                    <div className="s3grid1">
                         <img className="grp" src={group} alt="Help" />
                     </div>
-                    <div className="s3flex2">
+                    <div className="s3grid2">
                         <br/>
                         <text className="s3txt1">24/7 Support</text>
                         <p className="s3txt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
                     </div>
                 </div> 
                 <div className="s3card">
-                    <div className="s3flex1">
+                    <div className="s3grid1">
                         <img className="grp" src={cashback} alt="Help" />
                     </div>
-                    <div className="s3flex2">
+                    <div className="s3grid2">
                         <br/>
                         <text className="s3txt1">24/7 Support</text>
                         <p className="s3txt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
                     </div>
                 </div>
                 <div className="s3card">
-                    <div className="s3flex1">
+                    <div className="s3grid1">
                         <img className="grp" src={premium} alt="Help" />
                     </div>
-                    <div className="s3flex2">
+                    <div className="s3grid2">
                         <br/>
                         <text className="s3txt1">24/7 Support</text>
                         <p className="s3txt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
                     </div>
                 </div>
                 <div className="s3card">
-                    <div className="s3flex1">
+                    <div className="s3grid1">
                         <img className="grp" src={support24} alt="Help" />
                     </div>
-                    <div className="s3flex2">
+                    <div className="s3grid2">
                         <br/>
                         <text className="s3txt1">24/7 Support</text>
                         <p className="s3txt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>

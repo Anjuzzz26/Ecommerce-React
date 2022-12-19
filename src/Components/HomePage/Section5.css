@@ -1,5 +1,6 @@
 .section5main{
     height: 830px;
+    text-align: -webkit-center;
 }
 
 .s5head{
@@ -18,7 +19,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     justify-items: center;
-    margin-left: 274px;
 }
 
 .s5products{
@@ -38,19 +38,15 @@
 
 .s5img1{
     margin-top: 43px;
-    margin-left: 18px;
 }
 .s5img2{
     margin-top: 32px;
-    margin-left: 21px;
 }
 .s5img3{
     margin-top: 30px;
-    margin-left: 10px;
 }
 .s5img4{
     margin-top: 42px;
-    margin-left: 0px;
 }
 
 .s5txt1{
@@ -60,7 +56,6 @@
     font-size: 18px;
     line-height: 22px;
     color: #151875;
-    margin-left: 39px;
     margin-top: 11px;
 }
 .s5txt2{
@@ -68,7 +63,6 @@
     font-size: 14px;
     line-height: 16px;
     color: #151875;
-    margin-left: 60px;
     margin-top: 10px;
 }
 .s5txt3{
@@ -78,8 +72,8 @@
     font-size: 14px;
     line-height: 17px;
     color: #c4c6eb;
-    margin-left: 111px;
     margin-top: -16px;
+    margin-left: 16px;
 }
 
 .s5grid2{
@@ -88,8 +82,10 @@
     column-gap: 20px;
     width: 63%;
     margin: 14px;
-    justify-items: center;
-    margin-left: 274px;
+    text-align: left;
+}
+.s5gridimg {
+    text-align: -webkit-right;
 }
 
 .s5grid2_1{
@@ -97,15 +93,15 @@
     width: 332px;
     padding-top: 26px;
     background-color: #FFF6FB;
+    padding-left: 15px;
 }
 .s5grid2_2{
     background-color: #EEEFFB;
-    margin-left: 23px;
     padding-top: 26px;
     width: 332px;
+    padding-left: 15px;
 }
 .s5grid2_3{
-    margin-left: 14px;
     width: 252px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -118,7 +114,6 @@
     text-align: center;
     color: #151875;
     font-weight: 600;
-    margin-left: 20px;
 }
 .s5link{
     font-family: 'Lato';
@@ -129,18 +124,15 @@
     text-align: center;
     text-decoration-line: underline;
     color: #FB2E86;
-    margin-left: 20px;
 }
 
 .s5img5{
     width: 172px;
     margin-top: -30px;
-    margin-left: 175px;
 }
 .s5img6{
     width: 237px;
     margin-top: 3px;
-    margin-left: 86px;
 }
 
 .s5chairs{
@@ -153,6 +145,11 @@
     background-color: #F5F6F8;
     
 }
+
+.chairdetails{
+    padding-left: 10px;
+}
+
 .s5chairimg{
     width : 50px;
     margin-top: 2px;
@@ -167,7 +164,6 @@
 }
 
 .chairname{
-    margin-left: 8px;
     font-family: 'Josefin Sans';
     font-size: 16px;
     line-height: 19px;
@@ -175,7 +171,6 @@
     color: #151875;
 }
 .chairprice{
-    margin-left: 8px;
     font-family: 'Josefin Sans';
     font-size: 12px;
     line-height: 14px;
@@ -186,71 +181,131 @@
 
 
 @media (min-width: 1200px) and (max-width: 1400px){
+
     .s5grid{
-        margin-left: 155px;
+        width: 80%;
     }
     .s5grid2{
-        margin-left: 160px;
+        width: 75%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
+    .section5main {
+        height: fit-content;
+    }
     .s5grid{
-        margin-left: 20px;
+        width: 59%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0px;
     }
     .s5grid2{
-        margin-left: 26px;
+        width: 91%;
+
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 851px) and (max-width: 992px){
     .section5main{
         height: 100%;
     }
     .s5grid{
-        margin-left: 157px;
         grid-template-columns: 1fr 1fr;
     }
     .s5grid2{
-        margin-left: 44px;
         grid-template-columns: 1fr 1fr;
         row-gap: 45px;
+        width: 77%;
+    }
+    .s5grid2_3{
+        justify-items: center;
+        width: 207%;
     }
 }
 
-@media (min-width: 585px) and (max-width: 767px){
+@media (min-width: 760px) and (max-width: 851px){
     .section5main{
         height: 100%;
     }
     .s5grid{
-        margin-left: 67px;
         grid-template-columns: 1fr 1fr;
     }
     .s5grid2{
-        margin-left: 123px;
-        grid-template-columns: 1fr;
-        row-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 45px;
+        width: 85%;
     }
-    .s5grid2_2{
-        margin-left: 11px;
+    .s5grid2_3{
+        justify-items: center;
+        width: 207%;
     }
 }
 
-@media (min-width: 400px) and (max-width: 584px){
+
+@media (min-width: 720px) and (max-width: 760px){
     .section5main{
         height: 100%;
     }
     .s5grid{
-        margin-left: 67px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .s5grid2{
-        margin-left: 26px;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        width: 45%;
+    }
+    .s5grid2_3 {
+        margin-left: 60px;
+    }
+}
+
+
+@media (min-width: 585px) and (max-width: 720px){
+    .section5main{
+        height: 100%;
+    }
+    .s5grid{
+        grid-template-columns: 1fr 1fr;
+        width: 82%;
+    }
+    .s5grid2{
         grid-template-columns: 1fr;
         row-gap: 30px;
     }
-    .s5grid2_2{
-        margin-left: 11px;
+    
+}
+
+@media (min-width: 500px) and (max-width: 584px){
+    .section5main{
+        height: 100%;
+    }
+    .s5grid{
+        grid-template-columns: 1fr;
+    }
+    .s5grid2{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        width: 58%;
+    }
+    .s5grid2_3{
+        justify-items: end;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 500px){
+    .section5main{
+        height: 100%;
+    }
+    .s5grid{
+        grid-template-columns: 1fr;
+    }
+    .s5grid2{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        width: 77%;
+    }
+    .s5grid2_3{
+        justify-items: end;
     }
 }
 
@@ -259,58 +314,50 @@
         height: 100%;
     }
     .s5grid{
-        margin-left: 57px;
         grid-template-columns: 1fr;
     }
     .s5grid2{
-        margin-left: 9px;
         grid-template-columns: 1fr;
         row-gap: 30px;
+        width: 89%;
     }
     .s5grid2_2{
-        margin-left: 9px;
-        width: 304px;
+        width: 300px;
+    }
+    .s5grid2_3{
+        justify-items: end;
     }
     .s5grid2_1{
-        width: 304px;
+        width: 300px;
     }
-    .s5img5{
-        margin-left: 154px;
-    }
-    .s5img6{
-        margin-left: 62px;
+    .s5head{
+        font-size: 32px;
     }
 }
 
-@media (max-width: 299px){
+@media (max-width: 300px){
     .section5main{
         height: 100%;
     }
     .s5grid{
-        margin-left: 10px;
         grid-template-columns: 1fr;
+        width: 79%;
     }
     .s5grid2{
-        margin-left: -9px;
         grid-template-columns: 1fr;
         row-gap: 30px;
+        width: 79%;
     }
     .s5grid2_2{
-        margin-left: 4px;
         width: 215px;
     }
     .s5grid2_1{
         width: 215px;
     }
-    .s5img5{
-        margin-left: 59px;
-    }
-    .s5img6{
-        margin-left: -2px;
-    }
+
     .s5txt4 {
         font-size: 18px;
-        margin-left: 16px;
     }
+    
 }
 

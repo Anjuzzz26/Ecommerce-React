@@ -13,15 +13,16 @@ const Section6 = () => {
             <br/>
             <h1 className="s6head">Discount Item</h1>
             <br/>
-            <header className="s6_nav">
+            <div className="s6_nav">
+            <header >
                 <nav>
                     <ul>
-                        <li><a href="#">Wood Chair</a></li>
-                        <li><a href="#">Plastic Chair</a></li>
-                        <li><a href="#">Sofa Colletion</a></li>
+                        <li><a href="/#">Wood Chair</a></li>
+                        <li><a href="/#">Plastic Chair</a></li>
+                        <li><a href="/#">Sofa Colletion</a></li>
                     </ul>
                 </nav>
-            </header>
+            </header></div>
             <br/><br/><br/>
             <div className="s6grid">
                 <div className="s6desc">
@@ -30,19 +31,19 @@ const Section6 = () => {
                     <p className="s6txt2">Eams Sofa Compact</p>
                     <p className="s6txt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                           Eu eget feugiat habitasse nec, bibendum condimentum.</p>
-                    <img className="s6tick1" src={vector} alt="Image" />                
+                    <img className="s6tick1" src={vector} alt="Img" />                
                     <p className="s6list1">Material expose like metals</p>
-                    <img className="s6tick2" src={vector} alt="Image" />
+                    <img className="s6tick2" src={vector} alt="Img" />
                     <p className="s6list2">Clear lines and geomatric figures</p>
-                    <img className="s6tick3" src={vector} alt="Image" />
+                    <img className="s6tick3" src={vector} alt="Img" />
                     <p className="s6list3">Simple neutral colours.</p>
-                    <img className="s6tick4" src={vector} alt="Image" />            
+                    <img className="s6tick4" src={vector} alt="Img" />            
                     <p className="s6list4">Material expose like metals</p>
                     <div className="s6button"><Button text={text}  /></div>
                 </div>
                 <div className="s6img">
-                    <img className="s6bg" src={ellipse64} alt="Image" />            
-                    <img className="s6sofa" src={tortuga} alt="Image" />            
+                    <img className="s6bg" src={ellipse64} alt="Img" />            
+                    <img className="s6sofa" src={tortuga} alt="Img" />            
                 </div>
             </div>
         </div>

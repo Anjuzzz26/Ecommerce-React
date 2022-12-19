@@ -14,7 +14,7 @@ const Login = () => {
 
   const [inputvalue, setInputValue] = useState({
     email: "",
-    pwd: "",
+    password: "",
   });
 
   const [error, setError] = useState({});
@@ -40,7 +40,7 @@ const Login = () => {
           }
           break;
 
-        case "pwd":
+        case "password":
           if (!value) {
             stateObj[name] = "*Password is Required";
           }
@@ -84,13 +84,13 @@ const Login = () => {
           <input
             type="text"
             placeholder="Password"
-            className="pwd"
-            name="pwd"
-            value={inputvalue.pwd}
+            className="password"
+            name="password"
+            value={inputvalue.password}
             onChange={onChangeHandler}
           />
-          { error.pwd && <p className="error">{error.pwd}</p> }
-          <a href="#" className="forgetpwd">
+          { error.password && <p className="error">{error.password}</p> }
+          <a href="/#" className="forgetpwd">
             Forgot your password?
           </a>
           <div className="loginbtn">

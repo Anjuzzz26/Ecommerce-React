@@ -11,13 +11,16 @@
     font-weight: bold;
 }
 
+.s6_nav{
+    text-align: center;
+}
+
 .s6_nav ul{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    margin-left: 537px;
 }
 
 s6_nav * {
@@ -145,9 +148,6 @@ s6_nav li a {
     .section6main{
         height: 100%;
     }
-    .s6_nav ul{
-        margin-left: 444px;
-    }
     .s6desc {
         margin-left: 139px;
     }
@@ -157,12 +157,9 @@ s6_nav li a {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 992px) and (max-width: 1200px){
     .section6main{
         height: 100%;
-    }
-    .s6_nav ul{
-        margin-left: 327px;
     }
     .s6desc {
         margin-left: 46px;
@@ -174,12 +171,9 @@ s6_nav li a {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 900px) and (max-width: 992px){
     .section6main{
         height: 100%;
-    }
-    .s6_nav ul{
-        margin-left: 214px;
     }
     .s6desc {
         margin-left: 30px;
@@ -194,7 +188,9 @@ s6_nav li a {
     }
     .s6button{
         margin-top: 12px;
-        width: 139%;
+    }
+    .s6button button{
+        width: 45%;
     }
     .s6txt1{
         font-size: 22px;
@@ -205,20 +201,62 @@ s6_nav li a {
         line-height: 23px;
     }
     .s6sofa{
-        margin-top: -260px;
+        margin-top: -276px;
         margin-left: 22px;
+    }
+    .s6bg{
+        margin-top: -24px;
+        margin-left: 83px;
     }
 }
 
-@media (min-width: 585px) and (max-width: 767px){
+@media (min-width: 768px) and (max-width: 899px){
     .section6main{
         height: 100%;
     }
-    .s6_nav ul{
-        margin-left: 143px;
-    }
     .s6desc {
-        margin-left: 3px;
+        margin-left: 30px;
+        margin-top: -47px;
+    }
+    .s6tick2, .s6tick4 {
+        margin-left: 221px;
+    }
+    .s6list2, .s6list4 {
+        margin-left: 242px;
+        width: 49%;
+    }
+    .s6button{
+        margin-top: 12px;
+    }
+    .s6button button{
+        width: 45%;
+        padding: 7px;
+    }
+    .s6txt1{
+        font-size: 22px;
+    }
+    .s6txt3{
+        width: 98%;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .s6sofa{
+        margin-top: -249px;
+        margin-left: 32px;
+    }
+    .s6bg{
+        margin-top: -24px;
+        margin-left: 83px;
+    }
+}
+
+@media (min-width: 730px) and (max-width: 768px){
+    .section6main{
+        height: 100%;
+    }
+    
+    .s6desc {
+        margin-left: 37px;
         margin-top: -47px;
     }
     .s6tick2, .s6tick4 {
@@ -230,7 +268,10 @@ s6_nav li a {
     }
     .s6button{
         margin-top: 12px;
-        width: 150%;
+    }
+    .s6button button{
+        width: 45%;
+        padding: 7px;
     }
     .s6txt1{
         font-size: 18px;
@@ -241,22 +282,139 @@ s6_nav li a {
         line-height: 23px;
     }
     .s6sofa{
-        margin-top: -192px;
-        margin-left: 33px;
+        margin-top: -227px;
+        margin-left: 23px;
     }
 }
 
-@media (min-width: 400px) and (max-width: 584px){
+@media (min-width: 585px) and (max-width: 729px){
+    .section6main{
+        height: 100%;
+    }
+
+    .s6bg{
+        margin-top: 20px;
+    }
+    
+    .s6desc {
+        margin-left: 37px;
+        margin-top: -47px;
+    }
+    .s6tick2, .s6tick4 {
+        margin-left: 45px;
+        margin-top: 6px;
+    }
+    .s6list2, .s6list4 {
+        margin-left: 60px;
+    }
+    .s6button{
+        margin-top: 12px;
+    }
+    .s6button button{
+        width: 45%;
+        padding: 7px;
+    }
+    .s6txt1{
+        font-size: 15px;
+    }
+    .s6txt3{
+        width: 98%;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .s6sofa{
+        margin-top: -189px;
+        margin-left: 36px;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 584px){
     .section6main{
         height: 100%;
     }
     .s6grid{
         grid-template-columns: 1fr;
         row-gap: 87px;
+        margin-left: 76px;
     }
-    .s6_nav ul{
-        margin-left: 47px;
+    
+    .s6desc {
+        margin-left: 3px;
+        margin-top: -47px;
     }
+    .s6tick2, .s6tick4 {
+        margin-left: 45px;
+        margin-top: 6px;
+    }
+    .s6list2, .s6list4 {
+        margin-left: 60px;
+    }
+    .s6txt1{
+        font-size: 18px;
+    }
+    .s6txt3{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .s6sofa{
+        margin-top: -287px;
+        margin-left: 10px;
+    }
+    .s6button{
+        text-align: center;
+        margin-left: -99px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 500px){
+    .section6main{
+        height: 100%;
+    }
+    .s6grid{
+        grid-template-columns: 1fr;
+        row-gap: 87px;
+        margin-left: 40px;
+    }
+    
+    .s6desc {
+        margin-left: 3px;
+        margin-top: -47px;
+    }
+    .s6tick2, .s6tick4 {
+        margin-left: 45px;
+        margin-top: 6px;
+    }
+    .s6list2, .s6list4 {
+        margin-left: 60px;
+    }
+    .s6txt1{
+        font-size: 18px;
+    }
+    .s6txt3{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .s6sofa{
+        margin-top: -233px;
+        margin-left: 23px;
+    }
+    .s6button{
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 400px){
+    .section6main{
+        height: 100%;
+    }
+    .s6grid{
+        grid-template-columns: 1fr;
+        row-gap: 87px;
+        margin-left: 10px;
+    }
+    
     .s6desc {
         margin-left: 3px;
         margin-top: -47px;
@@ -269,8 +427,8 @@ s6_nav li a {
         margin-left: 60px;
     }
     .s6button{
-        margin-top: 12px;
-        width: 150%;
+        text-align: center;
+        margin-left: 0;
     }
     .s6txt1{
         font-size: 18px;
@@ -280,22 +438,22 @@ s6_nav li a {
         line-height: 23px;
     }
     .s6sofa{
-        margin-top: -295px;
-        margin-left: 21px;
+        margin-top: -233px;
+        margin-left: 25px;
     }
 }
 
-@media (min-width: 300px) and (max-width: 399px){
+
+@media (min-width: 300px) and (max-width: 360px){
     .section6main{
         height: 100%;
     }
     .s6grid{
         grid-template-columns: 1fr;
         row-gap: 87px;
+        margin-left: 10px;
     }
-    .s6_nav ul{
-        margin-left: 13px;
-    }
+    
     .s6desc {
         margin-left: 3px;
         margin-top: -47px;
@@ -308,8 +466,8 @@ s6_nav li a {
         margin-left: 60px;
     }
     .s6button{
-        margin-top: 12px;
-        width: 150%;
+        text-align: center;
+        margin-left: 0;
     }
     .s6txt1{
         font-size: 18px;
@@ -319,11 +477,55 @@ s6_nav li a {
         line-height: 23px;
     }
     .s6sofa{
-        margin-top: -185px;
-        margin-left: 30px;
+        margin-top: -186px;
+    margin-left: 33px;
     }
 }
 
-@media (max-width: 299px){
-
+@media (max-width: 300px){
+    .section6main{
+        height: 100%;
+    }
+    .s6grid{
+        grid-template-columns: 1fr;
+        row-gap: 87px;
+        margin-left: -12px;
+    }
+    
+    .s6desc {
+        margin-left: 3px;
+        margin-top: -47px;
+    }
+    .s6tick2, .s6tick4 {
+        margin-left: 45px;
+        margin-top: 6px;
+    }
+    .s6list2, .s6list4 {
+        margin-left: 60px;
+    }
+    .s6button{
+        text-align: center;
+        margin-left: 0;
+    }
+    .s6txt1{
+        font-size: 17px;
+    }
+    .s6txt3{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .s6sofa{
+        margin-top: -178px;
+        margin-left: 35px;
+    }
+    .s6head{
+        font-size: 30px;
+    }
+    .s6_nav li::after{
+        content: "\a";
+    }
+    .s6_nav{
+        width: 71%;
+        margin-left: 37px;
+    }
 }

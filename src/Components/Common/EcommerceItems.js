@@ -35,8 +35,8 @@ const EcommerceItems = () => {
                             </div>
                             <div className="Ecomviewdiv">
                                 <div><text className="Ecomtxt">&nbsp;&nbsp;&nbsp;View: </text></div>
-                                <div><img className="Ecomicon1" src={icon1} alt="Image" /></div>
-                                <div><img className="Ecomicon2" src={icon2} alt="Image" /></div>
+                                <div><img className="Ecomicon1" src={icon1} alt="Img" /></div>
+                                <div><img className="Ecomicon2" src={icon2} alt="Img" /></div>
                                 <div className="Ecomtextbox"><input type="text" name="view" /></div>
                             </div>
                         </form>

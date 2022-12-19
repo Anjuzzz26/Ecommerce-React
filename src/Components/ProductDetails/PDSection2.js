@@ -8,10 +8,10 @@ const PDSection2 = () => {
         <div className="PDSec2main">
             <nav className="PDnav">
                 <ul>
-                    <li><a href="#"><u>Description</u></a></li>
-                    <li><a href="#">Additional Info</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">Video</a></li>
+                    <li><a href="/#"><u>Description</u></a></li>
+                    <li><a href="/#">Additional Info</a></li>
+                    <li><a href="/#">Reviews</a></li>
+                    <li><a href="/#">Video</a></li>
                 </ul>
             </nav>
             <div className="PDSec2desc">
@@ -25,16 +25,16 @@ const PDSection2 = () => {
                 </p>
                 <text className="PDSec2txt3">More details</text>
     
-                            <img className="PDarrow" src={arrow} alt="Image" />
+                            <img className="PDarrow" src={arrow} alt="Img" />
                             <p className="PDdetails">Aliquam dis vulputate vulputate integer sagittis. 
                             Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</p>
-                            <img className="PDarrow" src={arrow} alt="Image" />
+                            <img className="PDarrow" src={arrow} alt="Img" />
                             <p className="PDdetails">Aliquam dis vulputate vulputate integer sagittis. 
                             Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</p>
-                            <img className="PDarrow" src={arrow} alt="Image" />
+                            <img className="PDarrow" src={arrow} alt="Img" />
                             <p className="PDdetails">Aliquam dis vulputate vulputate integer sagittis. 
                             Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</p>
-                            <img className="PDarrow" src={arrow} alt="Image" />
+                            <img className="PDarrow" src={arrow} alt="Img" />
                             <p className="PDdetails">Aliquam dis vulputate vulputate integer sagittis. 
                             Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</p>
                         

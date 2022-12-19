@@ -1,5 +1,6 @@
 .section3main{
     height: 420px;
+    text-align: -webkit-center;
 }
 
 .s3header{
@@ -14,24 +15,23 @@
 .s3grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
-    width: 50%;
-    margin-left: 24%;
+    column-gap: 21px;
+    width: 63%;
+    justify-items: center;
 }
 
 .s3card{
     box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
     width: 93%;
-    height: 230px;
+    height: 250px;
 }
 
 .grp{
     width: 41px;
     height: 35px;
     margin-top: 48px;
-    margin-left: 66px;
 }
 
 .s3txt1{
@@ -40,94 +40,74 @@
     font-weight: 700;
     line-height: 26px;
     color: #151875;
-    margin-left: 38px;
 }
 .s3txt2{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 13px;
-    line-height: 19px;
+    font-size: 14px;
+    width: 95%;
+    line-height: 22px;
     text-align: center;
     color: rgba(26, 11, 91, 0.3);
-    margin-top: 5px;
+    margin-top: 11px;
 }
 
 
 @media (min-width: 1200px) and (max-width: 1500px){
-    .s3grid{
-
+    .s3grid {
+        width: 70%;
+        column-gap: 30px;
     }
     .s3card{
-        width: 104%;
-    }
-    .grp{
-        margin-left: 58px;
-    }
-    .s3txt1{
-        margin-left: 28px;
+        width: 103%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
     .s3grid{
-        width: 60%;
-        margin-left: 19%;
-        column-gap: 50px;
+        width: 77%;
+        column-gap: 60px;
     }
     .s3card{
         width: 126%;
     }
-    .grp{
-        margin-left: 58px;
-    }
-    .s3txt1{
-        margin-left: 28px;
-    }
     .s3txt2{
-        font-size: 11px;
+        font-size: 13px;
+        width: 95%;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 992px){
+    .section3main{
+        height: 100%;
+        margin-bottom: 75px;
+    }
     .s3grid{
-        width: 83%;
-        margin-left: 7%;
-        column-gap: 50px;
+        width: 66%;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
     }
     .s3card{
-        width: 126%;
-    }
-    .grp{
-        margin-left: 58px;
-    }
-    .s3txt1{
-        margin-left: 28px;
+        width: 80%;
     }
     .s3txt2{
-        font-size: 11px;
+        font-size: 15px;
         width: 94%;
     }
 }
 
-@media (min-width: 585px) and (max-width: 767px){
+@media (min-width: 585px) and (max-width: 768px){
     .section3main{
         height: 100%;
     }
     .s3grid{
         width: 83%;
-        margin-left: 15%;
         grid-template-columns: 1fr 1fr;
-        row-gap: 20px;
+        row-gap: 30px;
     }
     .s3card{
         width: 76%;
-    }
-    .grp{
-        margin-left: 70px;
-    }
-    .s3txt1{
-        margin-left: 37px;
     }
     .s3txt2{
         font-size: 11px;
@@ -140,52 +120,63 @@
         height: 100%;
     }
     .s3grid{
-        width: 61%;
-        margin-left: 26%;
+        width: 65%;
         grid-template-columns: 1fr;
-        row-gap: 20px;
+        row-gap: 30px;
     }
     .s3card{
         width: 76%;
     }
-    .grp{
-        margin-left: 70px;
-    }
-    .s3txt1{
-        margin-left: 37px;
-    }
     .s3txt2{
-        font-size: 11px;
-        width: 94%;
+        font-size: 15px;
+        width: 90%;
     }
+    .s3header{
+        font-size: 38px;
+    }
+
 }
 
-@media (min-width: 300px) and (max-width: 399px){
+@media (min-width: 300px) and (max-width: 400px){
     .section3main{
         height: 100%;
     }
     .s3grid{
-        width: 79%;
-        margin-left: 20%;
+        width: 80%;
         grid-template-columns: 1fr;
-        row-gap: 20px;
+        row-gap: 30px;
     }
     .s3card{
-        width: 76%;
-    }
-    .grp{
-        margin-left: 70px;
-    }
-    .s3txt1{
-        margin-left: 37px;
+        width: 75%;
     }
     .s3txt2{
-        font-size: 11px;
+        font-size: 15px;
         width: 94%;
+    }
+    .s3header{
+        font-size: 30px;
     }
 
 }
 
-@media (max-width: 299px){
-
+@media (max-width:300px){
+    .section3main{
+        height: 100%;
+        margin-bottom: 75px;
+    }
+    .s3grid{
+        width: 90%;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .s3card{
+        width: 75%;
+    }
+    .s3txt2{
+        font-size: 15px;
+        width: 90%;
+    }
+    .s3header{
+        font-size: 27px;
+    }
 }

@@ -2,6 +2,7 @@ import React from "react";
 import './Navbar.css';
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
     return(
         <div className="navbar">
@@ -29,8 +30,10 @@ const Navbar = () => {
             </div>
             <div className="searchdiv">
                 <form className="example" action="#">
-                    <input type="text"name="search" /><i>
-                    <button type="submit"><i className="fa fa-search"></i></button></i>
+                    <input type="text"name="search" />
+                    <div className="navbarsearchbtn">
+                        <i><button type="submit"><i className="fa fa-search"></i></button></i>
+                    </div>
                 </form>
             </div>
         </div>

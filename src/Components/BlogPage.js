@@ -13,7 +13,7 @@ import Blog2 from "./Images/Blogimg2.png";
 import Blog3 from "./Images/Blogimg3.png";
 import calender from "./Images/calender.png";
 import pen from "./Images/pen.png";
-import bdot from "./Images/Bdot.png";
+// import bdot from "./Images/Bdot.png";
 import Page1 from "./Images/Page1.png";
 import Page2 from "./Images/Page2.png";
 import Page3 from "./Images/Page3.png";
@@ -42,15 +42,15 @@ const BlogPage = () => {
       <div className="blogmain">
         <div className="blogmaingrid1">
           <div className="Bgrid1img">
-            <img src={Blog1} alt="Image" className="Blogimg" />
+            <img src={Blog1} alt="Img" className="Blogimg" />
           </div>
 
           <div className="Bgrid1desc">
-            <img src={pen} alt="Image" className="Blogicon1" />
+            <img src={pen} alt="Img" className="Blogicon1" />
             <div className="Blogitemtxt1">
               <text>Surf Auxion</text>
             </div>
-            <img src={calender} alt="Image" className="Blogicon2" />
+            <img src={calender} alt="Img" className="Blogicon2" />
             <div className="Blogitemtxt2">
               <text>Aug 09 2020</text>
             </div>
@@ -63,19 +63,19 @@ const BlogPage = () => {
               malesuada vitae ultrices in in neque, porta dignissim. Adipiscing
               purus, cursus vulputate id id dictum at.
             </p>
-            <Link to="/singleblog"><a href="#">Read More</a></Link>
+            <Link to="/singleblog"><a href="/#">Read More</a></Link>
           </div>
 
           <div className="Bgrid1img">
-            <img src={Blog2} alt="Image" className="Blogimg" />
+            <img src={Blog2} alt="Img" className="Blogimg" />
           </div>
 
           <div className="Bgrid1desc">
-            <img src={pen} alt="Image" className="Blogicon1" />
+            <img src={pen} alt="Img" className="Blogicon1" />
             <div className="Blogitemtxt1">
               <text>Surf Auxion</text>
             </div>
-            <img src={calender} alt="Image" className="Blogicon2" />
+            <img src={calender} alt="Img" className="Blogicon2" />
             <div className="Blogitemtxt2">
               <text>Aug 09 2020</text>
             </div>
@@ -88,19 +88,19 @@ const BlogPage = () => {
               malesuada vitae ultrices in in neque, porta dignissim. Adipiscing
               purus, cursus vulputate id id dictum at.
             </p>
-            <Link to="/singleblog"><a href="#">Read More</a></Link>
+            <Link to="/singleblog"><a href="/#">Read More</a></Link>
           </div>
 
           <div className="Bgrid1img">
-            <img src={Blog3} alt="Image" className="Blogimg" />
+            <img src={Blog3} alt="Img" className="Blogimg" />
           </div>
 
           <div className="Bgrid1desc">
-            <img src={pen} alt="Image" className="Blogicon1" />
+            <img src={pen} alt="Img" className="Blogicon1" />
             <div className="Blogitemtxt1">
               <text>Surf Auxion</text>
             </div>
-            <img src={calender} alt="Image" className="Blogicon2" />
+            <img src={calender} alt="Img" className="Blogicon2" />
             <div className="Blogitemtxt2">
               <text>Aug 09 2020</text>
             </div>
@@ -113,14 +113,14 @@ const BlogPage = () => {
               malesuada vitae ultrices in in neque, porta dignissim. Adipiscing
               purus, cursus vulputate id id dictum at.
             </p>
-            <Link to="/singleblog"><a href="#">Read More</a></Link>
+            <Link to="/singleblog"><a href="/#">Read More</a></Link>
           </div>
 
           <div className="Bgrid1pages">
-            <img src={Page1} alt="Image" className="Pageicon1" />
-            <img src={Page2} alt="Image" className="Pageicon2" />
-            <img src={Page3} alt="Image" className="Pageicon3" />
-            <img src={Page4} alt="Image" className="Pageicon4" />
+            <img src={Page1} alt="Img" className="Pageicon1" />
+            <img src={Page2} alt="Img" className="Pageicon2" />
+            <img src={Page3} alt="Img" className="Pageicon3" />
+            <img src={Page4} alt="Img" className="Pageicon4" />
           </div>
         </div>
 
@@ -158,7 +158,7 @@ const BlogPage = () => {
               <div className="Bgrid2_subgrid">
                 <div className="Bsubgrid_items">
                   <div className="Bsubgrid_itemimg">
-                    <img src={RecentPost1} alt="Image" />
+                    <img src={RecentPost1} alt="Img" />
                   </div>
                   <div className="Bsubgrid_itemdesc">
                     <text className="Bsubgrid_txt1">
@@ -170,7 +170,7 @@ const BlogPage = () => {
 
                 <div className="Bsubgrid_items">
                   <div className="Bsubgrid_itemimg">
-                    <img src={RecentPost2} alt="Image" />
+                    <img src={RecentPost2} alt="Img" />
                   </div>
                   <div className="Bsubgrid_itemdesc">
                     <text className="Bsubgrid_txt1">
@@ -182,7 +182,7 @@ const BlogPage = () => {
 
                 <div className="Bsubgrid_items">
                   <div className="Bsubgrid_itemimg">
-                    <img src={RecentPost3} alt="Image" />
+                    <img src={RecentPost3} alt="Img" />
                   </div>
                   <div className="Bsubgrid_itemdesc">
                     <text className="Bsubgrid_txt1">
@@ -194,7 +194,7 @@ const BlogPage = () => {
 
                 <div className="Bsubgrid_items">
                   <div className="Bsubgrid_itemimg">
-                    <img src={RecentPost4} alt="Image" />
+                    <img src={RecentPost4} alt="Img" />
                   </div>
                   <div className="Bsubgrid_itemdesc">
                     <text className="Bsubgrid_txt1">
@@ -211,7 +211,7 @@ const BlogPage = () => {
               <div className="Bgrid2_subgrid">
                 <div className="Bsubgrid_items">
                   <div className="Bsubgrid_itemimg">
-                    <img src={Sale1} alt="Image" />
+                    <img src={Sale1} alt="Img" />
                   </div>
                   <div className="Bsubgrid_itemdesc">
                     <text className="Bsubgrid_txt1">Sale Product</text>
@@ -221,7 +221,7 @@ const BlogPage = () => {
 
                 <div className="Bsubgrid_items">
                   <div className="Bsubgrid_itemimg">
-                    <img src={Sale2} alt="Image" />
+                    <img src={Sale2} alt="Img" />
                   </div>
                   <div className="Bsubgrid_itemdesc">
                     <text className="Bsubgrid_txt1">
@@ -233,7 +233,7 @@ const BlogPage = () => {
 
                 <div className="Bsubgrid_items">
                   <div className="Bsubgrid_itemimg">
-                    <img src={Sale3} alt="Image" />
+                    <img src={Sale3} alt="Img" />
                   </div>
                   <div className="Bsubgrid_itemdesc">
                     <text className="Bsubgrid_txt1">
@@ -250,12 +250,12 @@ const BlogPage = () => {
               <div className="Boffproductgrid">
                 <div className="BOffgriditem">
                   <div className="BOfferproducts">
-                    <img src={OfferProduct1} alt="Image" className="Boffimg" />
+                    <img src={OfferProduct1} alt="Img" className="Boffimg" />
                     <h4 className="Offitemname">Duis lectus est.</h4>
                     <p className="Offitemprice">$12.00 - $15.00</p>
                   </div>
                   <div className="BOfferproducts">
-                    <img src={OfferProduct2} alt="Image" className="Boffimg" />
+                    <img src={OfferProduct2} alt="Img" className="Boffimg" />
                     <h4 className="Offitemname">Sed placerat.</h4>
                     <p className="Offitemprice">$12.00 - $15.00</p>
                   </div>
@@ -263,12 +263,12 @@ const BlogPage = () => {
 
                 <div className="BOffgriditem">
                   <div className="BOfferproducts">
-                    <img src={OfferProduct3} alt="Image" className="Boffimg" />
+                    <img src={OfferProduct3} alt="Img" className="Boffimg" />
                     <h4 className="Offitemname">Netus proin.</h4>
                     <p className="Offitemprice">$12.00 - $15.00</p>
                   </div>
                   <div className="BOfferproducts">
-                    <img src={OfferProduct4} alt="Image" className="Boffimg" />
+                    <img src={OfferProduct4} alt="Img" className="Boffimg" />
                     <h4 className="Offitemname">Platea in.</h4>
                     <p className="Offitemprice">$12.00 - $15.00</p>
                   </div>
@@ -278,23 +278,23 @@ const BlogPage = () => {
 
             <div className="Bgrid2item5">
               <h3 className="Blog_head">Follow</h3>
-              <img src={Group224} alt="Image" className="Bfollowimg" />
+              <img src={Group224} alt="Img" className="Bfollowimg" />
               <h3 className="Blog_head">Tags</h3>
-              <a href="#" className="Btag1">
+              <a href="/#" className="Btag1">
                 General
               </a>
-              <a href="#" className="Btag2">
+              <a href="/#" className="Btag2">
                 Atsanil
               </a>
-              <a href="#" className="Btag3">
+              <a href="/#" className="Btag3">
                 Insas.
               </a>
               <br />
               <br />
-              <a href="#" className="Btag4">
+              <a href="/#" className="Btag4">
                 Bibsaas
               </a>
-              <a href="#" className="Btag5">
+              <a href="/#" className="Btag5">
                 Nulla.
               </a>
             </div>

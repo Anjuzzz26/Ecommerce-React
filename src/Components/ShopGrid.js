@@ -53,14 +53,14 @@ const ShopGrid = () => {
                         productdetails.map( (item) => (
                             <Link to="/product"><div className="SGItemsdiv">
                                 <div className="SGimg">
-                                    <img className="SGItemimg1" src={item.Image} alt="Image" />
+                                    <img className="SGItemimg1" src={item.Image} alt="Img" />
                                     <br/>
                                 </div>
                                 <div className="SGdesc">
                                     <text className="SGItem1txt1">{item.Title}</text>
-                                    <img className="SGgrp44" src={item.Image2} alt="Image" />
-                                    <p className="SGtxt2">{item.Offerprice} </p>
-                                    <p className="SGtxt3">{item.Price}</p>
+                                    <img className="SGgrp44" src={item.Image2} alt="Img" />
+                                    <p className="SGtxt2">{item.Offerprice} 
+                                    <span className="SGtxt3">{item.Price}</span></p>
                                 </div>
                             </div></Link>
                         ))

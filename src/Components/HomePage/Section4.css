@@ -8,7 +8,7 @@
 
 .s4sofa{
     margin-left: 46%;
-    margin-top: -60%;
+    margin-top: -64%;
 }
 
 .s4bg{
@@ -23,10 +23,10 @@
     line-height: 132%;
     letter-spacing: 0.015em;
     color: #151875;
-    margin-top: 99px;
+    margin-top: 88px;
     margin-left: 80px;
     margin-bottom: -110px;
-    width: 55%;
+    width: 67%; 
 }
 
 .s4list{
@@ -36,7 +36,7 @@
     font-size: 16px;
     line-height: 132%;
     letter-spacing: 0.015em;
-    width: 57%;
+    width: 60%;
     color: #ACABC3;
     margin-left: 121px;
     margin-top: -2%;
@@ -44,7 +44,7 @@
 
 .bullet1{
     margin-left: 90px;
-    margin-top: 166px;
+    margin-top: 146px;
 }
 .bullet2, .bullet3{
     margin-left: 90px;
@@ -60,8 +60,10 @@
 .S4btngrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 45%;
+    width: 50%;
+    height: 50px;
     margin-left: 90px;
+    margin-top: 13px;
 }
 
 
@@ -90,12 +92,29 @@
         margin-top: 67px;
         margin-left: 18%;
     }
+    .s4btn button{
+        width: 93%;
+        height: 54px;
+        padding: 10px;
+    }
     .s4sofa {
         margin-left: 22%;
         margin-top: -75%;
     }
     .S4btngrid {
         width: 56%;
+    }
+    .s4head{
+        margin-left: 51px;
+        width: 80%;
+    }
+    .bullet1, .bullet2, .bullet3{
+        margin-left: 60px;
+    }
+    .s4list{
+        width: 71%;
+        margin-left: 88px;
+        margin-top: -3%;
     }
 }
 
@@ -125,13 +144,18 @@
         width: 74%;
     }
     .S4btngrid {
-        width: 68%;
+        width: 75%;
+        margin-left: 65px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 992px){
     .section4main{
         height: 555px;
+    }
+    .s4btn button{
+        width: 50%;
+        padding: 8px;
     }
     .s4bg {
         margin-top: 67px;
@@ -143,7 +167,7 @@
     }
     .s4head{
         margin-left: 34px;
-        font-size: 24px;
+        font-size: 22px;
         width: 82%;
     }
     .bullet1, .bullet2, .bullet3{
@@ -159,18 +183,21 @@
         height: 90px;
         grid-template-columns: 1fr;
     }
-    .s4btn{
-        width: 206%;
-    }
+
     .s4item, .s4price{
-        margin-left: 27px;
+        margin-left: 7px;
     }
 }
 
-@media (min-width: 585px) and (max-width: 767px){
+@media (min-width: 585px) and (max-width: 768px){
     .section4main{
         height: 483px;
         margin-top: 50px;
+    }
+    .s4btn button{
+        width: 67%;
+        height: 36px;
+        padding: 8px;
     }
     .s4bg {
         margin-top: 67px;
@@ -183,8 +210,8 @@
     .s4head{
         margin-top: 79px;
         margin-left: 7px;
-        margin-bottom: -142px;
-        font-size: 18px;
+        margin-bottom: -123px;
+        font-size: 17px;
         width: 82%;
     }
     .bullet1, .bullet2, .bullet3{
@@ -194,6 +221,7 @@
         margin-left: 24px;
         margin-top: -5%;
         width: 85%;
+        font-size: 13px;
     }
     .S4btngrid {
         width: 68%;
@@ -201,9 +229,7 @@
         grid-template-columns: 1fr;
         margin-left: 37px;
     }
-    .s4btn{
-        width: 255%;
-    }
+
     .s4item, .s4price{
         margin-left: 13px;
     }
@@ -212,7 +238,7 @@
 @media (min-width: 400px) and (max-width: 584px){
     .section4main{
         grid-template-columns: 1fr;
-        height: 988px;
+        height: 970px;
         margin-top: 50px;
     }
     .s4bg {
@@ -228,9 +254,12 @@
     .s4head{
         margin-top: 34px;
         margin-left: 36px;
-        margin-bottom: -139px;
+        margin-bottom: -115px;
         font-size: 24px;
         width: 82%;
+    }
+    .s4griddesc{
+        justify-items: center;
     }
     .bullet1, .bullet2, .bullet3{
         margin-left: 40px;
@@ -245,21 +274,23 @@
         height: 90px;
         grid-template-columns: 1fr;
         margin-left: 37px;
+        margin-top: 10px;
     }
-    .s4btn{
-        width: 246%;
-    }
+
     .s4item, .s4price{
         margin-left: 13px;
     }
 }
 
-@media (min-width: 300px) and (max-width: 399px){
+@media (min-width: 300px) and (max-width: 400px){
     .section4main{
         grid-template-columns: 1fr;
         height: 890px;
         margin-top: 50px;
     }
+    .s4griddesc{
+        justify-items: center;
+    }
     .s4bg {
         margin-top: 77px;
         margin-left: 8%;
@@ -273,7 +304,7 @@
     .s4head{
         margin-top: 34px;
         margin-left: 36px;
-        margin-bottom: -139px;
+        margin-bottom: -115px;
         font-size: 24px;
         width: 82%;
     }
@@ -290,18 +321,18 @@
         height: 90px;
         grid-template-columns: 1fr;
         margin-left: 37px;
+        margin-top: 10px;
     }
-    .s4btn{
-        width: 246%;
-    }
+
     .s4item, .s4price{
         margin-left: 13px;
     }
 }
 
-@media (max-width: 299px){
+@media (max-width: 300px){
     .section4main{
         grid-template-columns: 1fr;
+        height: 885px;
     }
     .s4bg {
         margin-top: 77px;
@@ -313,10 +344,13 @@
         margin-top: -85%;
         width: 88%;
     }
+    .s4griddesc{
+        justify-items: center;
+    }
     .s4head{
         margin-top: 34px;
         margin-left: 36px;
-        margin-bottom: -139px;
+        margin-bottom: -115px;
         font-size: 24px;
         width: 82%;
     }
@@ -334,10 +368,11 @@
         grid-template-columns: 1fr;
         margin-left: 37px;
     }
-    .s4btn{
-        width: 246%;
-    }
+
     .s4item, .s4price{
         margin-left: 13px;
+    }
+    .s4head{
+        font-size: 26px;
     }
 }
