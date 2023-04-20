@@ -1,16 +1,16 @@
 .navbar{
     height: 10%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr;
     padding: 10px;
+    justify-items: center;
 }
 
 .title{
     color: #0D0E43;
     font-family: 'Josefin Sans';
     font-size: 34px;
-    line-height: 40px;
-    margin-left: 200px;
+    justify-self: end;
 }
 
 .titlelink:hover{
@@ -19,16 +19,13 @@
 }
 
 .links{
-    margin-top: 3px;
-    margin-left: -139px;
-    
+    width: 80%;
 }
 
 .searchdiv{
-    width: 287px;
+    width: 50%;
     height: 38px;
-    margin-top: 11px;
-    margin-left: -54px;
+    justify-self: left;
     border: 1px solid #E7E6EF;
 }
 
@@ -36,15 +33,12 @@ ul{
     font-family: 'Lato';
     font-style: normal;
     font-size: 16px;
-    line-height: 20px;
-    
 }
 
 header * {
     display: inline;
 }
 header ul {
-    width: 31%;
 }
 header li {
     margin: 2%;
@@ -61,296 +55,101 @@ a:hover {
 
 form.example input[type=text] {
     height: 35px;
+    width: 75%;
     padding: 5px;
     float: left;
-    width: 84%;
     background: white;
     
   }
 
-.navbarsearchbtn button{
-    margin-top: -1px;
-    margin-left: -5px;
-}
-
   form.example button {
     float: left;
-    width: 17%;
     padding: 4.5px;
     background: #FB2E86;
     color: white;
     font-size: 21px;
     cursor: pointer;
-    height: 38px;
+    height: 36px;
     border-radius: 0px;
+    width: 17%;
+    margin-top: 0px;
+    margin-left: 20px;
   }
 
   form.example button:hover {
     background: #0b7dda;
   }
-  
-  /* Clear floats */
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
+
+  @media (min-width: 1000px) and (max-width: 1400px) {
+    .searchdiv{
+        width: 60%;
+    }
+    form.example input[type=text] {
+        width: 70%;
+    }
+    form.example button {
+        width: 20%;
+    }
+    .links {
+        width: 100%;
+    }
+    .title{
+        font-size: 32px;
+        justify-self: center;
+        margin-left: 20px;
+    }
   }
 
-@media (min-width: 1200px) and (max-width: 1250px){
-    .title{
-        margin-left: 147px;
-    }
-    .links{
-        margin-left: -98px;
-    }
+  @media (min-width: 800px) and (max-width: 1000px) {
     .searchdiv{
-        margin-left: -32px;
+        width: 60%;
+        height: 30px;
+        justify-self: center;
     }
-}
-
-@media (min-width: 1199px) and (max-width: 1400px){
-    .title{
-        margin-left: 147px;
-    }
-    .links{
-        margin-left: -122px;
-    }
-    .searchdiv{
-        margin-left: 10px;
-    }
-}
-
-@media (min-width: 991px) and (max-width: 1199px){
-    .title{
-        margin-left: 111px;
-    }
-    .searchdiv{
-        margin-left: -14px;
-    }
-    .links{
-        margin-left: -100px;
-    }
-   
-}
-
-@media (min-width: 900px) and (max-width: 991px){
-    form.example button{
-        width: 13%;
+    form.example input[type=text] {
+        width: 70%;
         height: 27px;
     }
-    .title{
-        margin-left: 120px;
-    }
-    .searchdiv{
-        margin-left: 22px;
-        width: 224px;
-        height: 39px;
-        margin-top: 5px;
-    }
-    form.example button{
-        width: 17%;
-        height: 37px;
-        font-size: 16px;
-    }
-    .links {
-        margin-top: 3px;
-        margin-left: -63px;
-    }
-    .links header li{
+    form.example button {
+        width: 20%;
+        height: 28px;
         font-size: 15px;
+        margin-left: 15px;
     }
-}
-@media (min-width: 768px) and (max-width: 900px){
-    form.example button{
-        width: 13%;
-        height: 27px;
+    .links li{
+        font-size: 14px;
     }
     .title{
-        margin-left: 95px;
         font-size: 30px;
-    }
-    .searchdiv{
-        margin-left: 44px;
-        width: 199px;
-        height: 39px;
-        margin-top: 5px;
-    }
-    form.example button{
-        width: 17%;
-        height: 37px;
-        font-size: 16px;
-    }
-    .links {
-        margin-top: 3px;
-        margin-left: -29px;
-        width: 120%;
-    }
-    .links header li{
-        font-size: 13px;
-    }
-}
-
-@media (min-width: 700px) and (max-width: 767px){
-    .navbar{
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-    .links{
-        margin-left: 109px;
-        width: 62%;
-    }
-    form.example button{
-        width: 15%;
-        height: 36px;
-        font-size: 16px;
-        padding-top: 7px;
-    }
-    form.example input[type=text]{
-        width: 86%;
-    }
-    .title{
-        margin-left: 30px;
-    }
-    .searchdiv{
-        margin-left: 22px;
-    }
-    
-}
-
-@media (min-width: 641px) and (max-width: 700px){
-    .navbar{
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-    .links{
-        margin-left: 60px;
-        width: 62%;
-    }
-    form.example button{
-        width: 15%;
-        height: 36px;
-        font-size: 16px;
-        padding-top: 7px;
-    }
-    form.example input[type=text]{
-        width: 86%;
-    }
-    .title{
-        margin-left: 30px;
-    }
-    .searchdiv{
-        margin-left: 22px;
-    }
-    
-}
-@media (min-width: 580px) and (max-width: 640px){
-    .navbar{
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-    .links{
+        justify-self: center;
         margin-left: 20px;
-        width: 62%;
-    }
-    form.example button{
-        width: 15%;
-        height: 36px;
-        font-size: 16px;
-        padding-top: 7px;
-    }
-    form.example input[type=text]{
-        width: 86%;
-    }
-    .title{
-        margin-left: 30px;
-    }
-    .searchdiv{
-        margin-left: 22px;
-    }
-    
-}
-
-
-@media (min-width: 400px) and (max-width: 580px){
-    .navbar{
-        grid-template-columns: 1fr;
-        justify-items: center;
     }
     .links{
-        margin-left: 30px;
+        width: 100%;
     }
-    form.example button{
-        width: 17%;
-        height: 37px;
-        font-size: 16px;
-    }
-    .title{
-        margin-left: 8px;
-    }
-    .searchdiv{
-        margin-left: 22px;
-    }
-    .navbar header{
-        width: 162%;
-        margin-left: -73px;
-    }
-}
-
-@media (min-width: 300px) and (max-width: 400px){
+  }
+  
+  @media (min-width: 350px) and (max-width: 799px) {
     .navbar{
         grid-template-columns: 1fr;
-        justify-items: center;
-    }
-    .links{
-        margin-left: 0px;
-    }
-    form.example button{
-        width: 17%;
-        height: 37px;
-        font-size: 16px;
+        row-gap: 10px;
     }
     .title{
-        margin-left: 10px;
+        justify-self: center;
     }
-    .searchdiv{
-        margin-left: 7px;
-    }
-    .navbar header li {
-        margin: 1%;
-    }
-    .navbar header{
-        width: 79%;
-        text-align: center;
-        margin-left: 28px;
+    .links{
+        width: 10%;
+        justify-self: center;
     }
     .navbar header li ::after {
-        content: "\a    ";
-    }
-}
-
-@media (max-width: 300px){
-    .navbar{
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-    .links{
-        margin-left: 0px;
-        width: 19%;
-    }
-    form.example button{
-        width: 17%;
-        height: 37px;
-        font-size: 16px;
-    }
-    .title{
-        margin-left: 10px;
+        content: "\a ";
     }
     .searchdiv{
-        margin-left: 7px;
-        width: 208px;
+        justify-self: center;
     }
-    .navbar header li ::after {
-        content: "\a    ";
+    form.example button {
+        width: 23%;
+        margin-left: 1px;
     }
-    
-}
+  }
+

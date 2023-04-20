@@ -25,7 +25,7 @@ const Section3 = () => {
                 </div> 
                 <div className="s3card">
                     <div className="s3grid1">
-                        <img className="grp" src={cashback} alt="Help" />
+                        <img className="grp1" src={cashback} alt="Help" />
                     </div>
                     <div className="s3grid2">
                         <br/>
@@ -35,7 +35,7 @@ const Section3 = () => {
                 </div>
                 <div className="s3card">
                     <div className="s3grid1">
-                        <img className="grp" src={premium} alt="Help" />
+                        <img className="grp1" src={premium} alt="Help" />
                     </div>
                     <div className="s3grid2">
                         <br/>
@@ -45,7 +45,7 @@ const Section3 = () => {
                 </div>
                 <div className="s3card">
                     <div className="s3grid1">
-                        <img className="grp" src={support24} alt="Help" />
+                        <img className="grp1" src={support24} alt="Help" />
                     </div>
                     <div className="s3grid2">
                         <br/>

@@ -2,7 +2,6 @@ import React from "react";
 import './Section4.css';
 import Button from '../Common/Button';
 
-import Ellipse_63 from '../Images/Ellipse 63.png';
 import bluesofa from '../Images/bluesofa.png';
 import Ellipse_65 from '../Images/Ellipse 65.png';
 import Ellipse_66 from '../Images/Ellipse 66.png';
@@ -13,11 +12,10 @@ const Section4 = () => {
     return(
         <div className="section4main">
             <div className="s4img">
-                <img className="s4bg" src={Ellipse_63} alt="Img" />
                 <img className="s4sofa" src={bluesofa} alt="Img" />
             </div>
             <div className="s4griddesc">
-                <div>   
+                <div className="s4descgrid1">   
                     <p className="s4head">Unique Features Of leatest & Trending Poducts</p>
                     <img className="bullet1" src={Ellipse_65} alt="Img" />
                     <p className="s4list">All frames constructed with hardwood solids and laminates</p>

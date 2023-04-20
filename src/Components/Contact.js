@@ -73,7 +73,7 @@ const Contact = () => {
                     <input type="text" placeholder="  Your Name*" className="Contacttxtbox" />
                     <input type="text" placeholder="  Your E-mail" className="Contacttxtbox" />
                     <input type="text" placeholder="  Subject*" className="Contacttxtbox2"  />
-                    <textarea placeholder="  Type your Message*" />
+                    <textarea rows="7" cols="60" placeholder="  Type your Message*" />
                     <div className="Contactbtn">
                         <Button text={"Send Mail"} />
                     </div>

@@ -1,9 +1,6 @@
 .logindiv{
-    width: 36%;
-    padding-top: 35px;
-    margin-left: 32%;
-    padding-right: 3px;
-    height: 460px;
+    width: 35%;
+    padding: 20px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 25px 10px #F8F8FB;  
 }
@@ -11,10 +8,10 @@
 .loginhead{
     font-family: 'Josefin Sans';
     font-size: 32px;
-    line-height: 38px;
     font-weight: 600;
     color: #000000;
     text-align: center;
+    margin-top: 15px;
 }
 
 .logintxt{
@@ -22,7 +19,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 20px;
     color: #9096B2;
     text-align: center;
     margin-top: 12px;
@@ -30,18 +26,18 @@
 }
 
 .logindiv form input{
-    width: 83%;
-    height: 49px;
     background-color: #FFFFFF;
     border: 1px solid #C2C5E1;
     border-radius: 2px;
-    margin-top: 27px;
-    margin-left: 45px;
+    margin-top: 20px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     padding-left: 15px;
+    width: 80%;
+    height: 45px;
+    margin-bottom: 5px;
 }
 
 .forgetpwd{
@@ -49,9 +45,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 20px;
     color: #9096B2;
-    margin-left: 45px;
+    margin-left: 14px;
+}
+
+.forgetpwddiv{
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 
 .pwd{
@@ -63,7 +64,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 20px;
     color: #9096B2;
     margin-left: 5px;
 }
@@ -73,17 +73,17 @@
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 20px;
     color: #9096B2;
     text-align: center;
     margin-top: 16px;
+    margin-bottom: 20px;
 }
 
 .loginbtn button{
-    width: 84%;
-    height: 47px;
-    margin-left: 45px;
-    margin-top: 26px;
+    width: 80%;
+    height: 40px;
+    padding-top: 9px;
+    margin-top: 20px;
 }
 
 .error{
@@ -92,135 +92,37 @@
     font-weight: 400;
     font-size: 16px;
     color: red;
-    margin-left: 50px;
+    text-align: left;
+    margin-left: 23px;
+    padding-left: 23px;
 }
 
-@media (min-width: 992px) and (max-width: 1199px){
-    .logindiv {
-       width: 45%;
-    }
-    .logindiv form input{
-        margin-left: 31px;
-    }
-    .forgetpwd{
-        margin-left: 33px;
-    }
-    .loginbtn button {
-        margin-left: 30px;
+@media (min-width: 768px) and (max-width: 1200px) {
+    .logindiv{
+        width: 60%;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
-    .logindiv {
-        width: 53%;
-        margin-left: 22%;
-        margin-top: -55px;
-    }
-    .logindiv form input{
-        margin-left: 31px;
-    }
-    .forgetpwd{
-        margin-left: 33px;
-    }
-    .loginbtn button {
-        margin-left: 30px;
-    }
-}
-
-@media (min-width: 585px) and (max-width: 767px){
-    .logindiv {
-        width: 66%;
-        margin-left: 16%;
-        margin-top: -55px;
-    }
-    .logindiv form input{
-        margin-left: 31px;
-    }
-    .forgetpwd{
-        margin-left: 33px;
-    }
-    .loginbtn button {
-        margin-left: 30px;
-    }
-}
-
-@media (min-width: 400px) and (max-width: 584px){
-    .logindiv {
-        width: 85%;
-        margin-left: 8%;
-        margin-top: -55px;
-    }
-    .logindiv form input{
-        margin-left: 31px;
-    }
-    .forgetpwd{
-        margin-left: 33px;
-    }
-    .loginbtn button {
-        margin-left: 30px;
-    }
-}
-
-@media (min-width: 300px) and (max-width: 399px){
-    .logindiv {
-        width: 85%;
-        margin-left: 8%;
-        margin-top: -106px;
-        height: 400px;
+@media (min-width: 350px) and (max-width: 767px) {
+    .logindiv{
+        width: 75%;
     }
     .logintxt{
-        font-size: 13px;
-    }
-    .loginhead{
-        font-size: 30px;
-    }
-    .logindiv form input{
-        margin-left: 22px;
-        height: 35px;
-        margin-top: 15px;
-    }
-    .forgetpwd{
-        margin-left: 24px;
-    }
-    .loginbtn button {
-        margin-left: 20px;
-    }
-    .logintxt2{
         font-size: 14px;
     }
-    .signup{
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 299px){
-    .logindiv {
-        width: 85%;
-        margin-left: 8%;
-        margin-top: -106px;
-        height: 400px;
-    }
-    .logintxt{
-        font-size: 12px;
-    }
-    .loginhead{
-        font-size: 30px;
-    }
     .logindiv form input{
-        margin-left: 22px;
-        height: 35px;
-        margin-top: 12px;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 0px;
     }
-    .forgetpwd{
-        margin-left: 24px;
-    }
-    .loginbtn button {
-        margin-left: 20px;
+    .forgetpwddiv {
+        margin-top: 10px;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 0px;
     }
     .logintxt2{
         font-size: 13px;
     }
-    .signup{
-        font-size: 13px;
-    }
 }
+

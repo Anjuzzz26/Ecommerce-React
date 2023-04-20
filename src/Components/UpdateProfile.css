@@ -1,0 +1,41 @@
+.profilegrid{
+    display: grid;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+.profilegrid p{
+    color:  #151875;
+    font-size: 20px;
+    font-weight: 600;
+}
+.editbtn {
+    background: transparent;
+    color: black;
+    text-align: end;
+    padding-right: 30px;
+}
+.profileimg{
+    width: 40%;
+    justify-self: center;
+    margin-top: 20px;
+}
+.profilediv{
+    margin-bottom: 25px;
+}
+.profilegrid form input{
+    border: 1px solid #C2C5E1;
+    width: 80%;
+    height: 50px;
+    padding: 8px;
+}
+.submitbtn{
+    margin-top: 20px;
+    width: 80%;
+    height: 45px;
+}
+.inputfile{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    border: 1px solid #C2C5E1;
+}

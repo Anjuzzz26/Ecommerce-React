@@ -1,12 +1,10 @@
 .section3main{
-    height: 420px;
     text-align: -webkit-center;
 }
 
 .s3header{
     font-family: 'Josefin Sans';
     font-size: 42px;
-    line-height: 49px;
     color: #151875;
     text-align: center;
     font-weight: bold;
@@ -15,30 +13,37 @@
 .s3grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 21px;
-    width: 63%;
+    column-gap: 20px;
     justify-items: center;
+    width: 65%;
 }
 
 .s3card{
     box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
     display: grid;
     grid-template-rows: 1fr 2fr;
-    width: 93%;
-    height: 250px;
+    justify-items: center;
+    padding: 20px;
+    height: 90%;
+}
+
+.s3grid1{
+    padding-top: 20px;
 }
 
 .grp{
-    width: 41px;
-    height: 35px;
-    margin-top: 48px;
+    padding-top: 20px;
+}
+
+.grp1{
+    padding-top: 20px;
+    width: 76%;
 }
 
 .s3txt1{
     font-family: 'Josefin Sans';
     font-size: 18px;
     font-weight: 700;
-    line-height: 26px;
     color: #151875;
 }
 .s3txt2{
@@ -46,137 +51,51 @@
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    width: 95%;
-    line-height: 22px;
     text-align: center;
     color: rgba(26, 11, 91, 0.3);
     margin-top: 11px;
 }
 
 
-@media (min-width: 1200px) and (max-width: 1500px){
-    .s3grid {
+@media (min-width: 768px) and (max-width: 1200px) {
+    .s3grid{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
         width: 70%;
-        column-gap: 30px;
-    }
-    .s3card{
-        width: 103%;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px){
-    .s3grid{
-        width: 77%;
-        column-gap: 60px;
-    }
-    .s3card{
-        width: 126%;
     }
     .s3txt2{
-        font-size: 13px;
-        width: 95%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px){
-    .section3main{
-        height: 100%;
-        margin-bottom: 75px;
-    }
-    .s3grid{
-        width: 66%;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 13px;
     }
     .s3card{
-        width: 80%;
+        padding: 20px;
+        height: 100%;
     }
-    .s3txt2{
-        font-size: 15px;
-        width: 94%;
+    .grp, .grp1{
+        padding-top: 10px;
     }
 }
 
-@media (min-width: 585px) and (max-width: 768px){
-    .section3main{
-        height: 100%;
-    }
+@media (min-width: 350px) and (max-width: 767px) {
     .s3grid{
-        width: 83%;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 30px;
-    }
-    .s3card{
-        width: 76%;
-    }
-    .s3txt2{
-        font-size: 11px;
-        width: 94%;
-    }
-}
-
-@media (min-width: 400px) and (max-width: 584px){
-    .section3main{
-        height: 100%;
-    }
-    .s3grid{
-        width: 65%;
         grid-template-columns: 1fr;
-        row-gap: 30px;
-    }
-    .s3card{
-        width: 76%;
+        row-gap: 20px;
+        width: 70%;
     }
     .s3txt2{
-        font-size: 15px;
-        width: 90%;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 13px;
+    }
+    .s3card{
+        padding: 20px;
+        height: 100%;
+    }
+    .grp, .grp1{
+        padding-top: 10px;
     }
     .s3header{
-        font-size: 38px;
-    }
-
-}
-
-@media (min-width: 300px) and (max-width: 400px){
-    .section3main{
-        height: 100%;
-    }
-    .s3grid{
-        width: 80%;
-        grid-template-columns: 1fr;
-        row-gap: 30px;
-    }
-    .s3card{
-        width: 75%;
-    }
-    .s3txt2{
-        font-size: 15px;
-        width: 94%;
-    }
-    .s3header{
-        font-size: 30px;
-    }
-
-}
-
-@media (max-width:300px){
-    .section3main{
-        height: 100%;
-        margin-bottom: 75px;
-    }
-    .s3grid{
-        width: 90%;
-        grid-template-columns: 1fr;
-        row-gap: 30px;
-    }
-    .s3card{
-        width: 75%;
-    }
-    .s3txt2{
-        font-size: 15px;
-        width: 90%;
-    }
-    .s3header{
-        font-size: 27px;
+        font-size: 35px;
     }
 }

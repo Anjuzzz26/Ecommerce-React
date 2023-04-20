@@ -1,9 +1,11 @@
 import React from "react";
 import './EcommerceItems.css';
-import icon1 from '../Images/clarity_grid-view-solid.png';
-import icon2 from '../Images/fa-solid_list.png';
+import { Link } from "react-router-dom";
 
 const EcommerceItems = () => {
+
+
+
     return(
         <div className="Ecomhead">
                     <div>
@@ -35,8 +37,8 @@ const EcommerceItems = () => {
                             </div>
                             <div className="Ecomviewdiv">
                                 <div><text className="Ecomtxt">&nbsp;&nbsp;&nbsp;View: </text></div>
-                                <div><img className="Ecomicon1" src={icon1} alt="Img" /></div>
-                                <div><img className="Ecomicon2" src={icon2} alt="Img" /></div>
+                                <div><Link to="/shopgrid?viewtype=g"><button class="btn1"><i class="fa fa-th" aria-hidden="true"></i></button></Link></div>
+                                <div><Link to="/shopgrid?viewtype=l"><button class="btn2"><i class="fa fa-bars"></i></button></Link></div>
                                 <div className="Ecomtextbox"><input type="text" name="view" /></div>
                             </div>
                         </form>

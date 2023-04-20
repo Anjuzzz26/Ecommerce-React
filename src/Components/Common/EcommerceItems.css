@@ -1,6 +1,7 @@
 .Ecomhead{
     display: grid;
     grid-template-columns: 1fr 1fr; 
+    text-align: left;
  }
  .Ecomh3{
      font-family: 'Josefin Sans';
@@ -75,7 +76,21 @@
  .Ecomtextbox{
      margin-left: 7px;
  }
- 
+ .Ecomviewdiv .btn1, .Ecomviewdiv .btn2 {
+    background-color: transparent;
+    height: 30px;
+    color: #151875;
+    border: none;
+    padding: 2px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .Ecomviewdiv button{
+    margin-top: 1px;
+  }
+
+
+
  @media (min-width:1600px) {
     .Ecomhead {
         margin-left: 100px;

@@ -11,7 +11,7 @@ import Rectangle131 from '../Images/Rectangle 131.png'
 const PDSection3 = () => {
     return(
         <div className="PDimagesdiv">
-            <h3 className="PDS3head">Related Products</h3>
+            <div className="RDheader"><h3 className="PDS3head">Related Products</h3></div>
             <br/><br/>
             <div className="PDS3grid">
                 <div>
@@ -25,7 +25,7 @@ const PDSection3 = () => {
                         <img className="PDS3star3" src={filledstar} alt="Img" />
                         <img className="PDS3star4" src={filledstar} alt="Img" />
                         <img className="PDS3star5" src={notfilledstar} alt="Img" />
-                        <p className="PDS3txt2">$43.00</p>
+                        <div className="PD3txt2div"><p className="PDS3txt2">$43.00</p></div>
                     </div>
                 </div>
                 <div>
@@ -39,7 +39,7 @@ const PDSection3 = () => {
                         <img className="PDS3star3" src={filledstar} alt="Img" />
                         <img className="PDS3star4" src={filledstar} alt="Img" />
                         <img className="PDS3star5" src={filledstar} alt="Img" />
-                        <p className="PDS3txt2">$67.00</p>
+                        <div className="PD3txt2div"><p className="PDS3txt2">$67.00</p></div>
                     </div>
                 </div>
                 <div>
@@ -53,7 +53,7 @@ const PDSection3 = () => {
                         <img className="PDS3star3" src={filledstar} alt="Img" />
                         <img className="PDS3star4" src={filledstar} alt="Img" />
                         <img className="PDS3star5" src={notfilledstar} alt="Img" />
-                        <p className="PDS3txt2">$67.00</p>
+                        <div className="PD3txt2div"><p className="PDS3txt2">$67.00</p></div>
                     </div>
                 </div>
                 <div>
@@ -67,7 +67,7 @@ const PDSection3 = () => {
                         <img className="PDS3star3" src={filledstar} alt="Img" />
                         <img className="PDS3star4" src={notfilledstar} alt="Img" />
                         <img className="PDS3star5" src={notfilledstar} alt="Img" />
-                        <p className="PDS3txt2">$51.00</p>
+                        <div className="PD3txt2div"><p className="PDS3txt2">$51.00</p></div>
                     </div>
                 </div>
                 <br/><br/>

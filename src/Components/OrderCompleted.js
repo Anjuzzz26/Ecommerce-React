@@ -9,9 +9,7 @@ import Button from './Common/Button';
 
 import checklist from './Images/checklist 1.png';
 import clock from './Images/clock 1.png';
-import Vector15 from './Images/Vector 15.png';
 import Vector16 from './Images/Vector 16.png';
-import elip70 from './Images/Ellipse 70.png';
 
 const OrderCompleted = () => {
     const txt="Order Completed";
@@ -23,9 +21,7 @@ const OrderCompleted = () => {
             <HeadDiv text={txt} />
             <br/><br/>
             <div className="OCmain">
-                <img src={Vector16} alt="Img" className="v1img" />  
-                <img src={elip70} alt="Img" className="v3img" />    
-                <img src={Vector15} alt="Img" className="v2img" />
+                    <img src={Vector16} alt="Img" className="v1img" />  
                 <img src={clock} alt="Img" className="clockimg" />
                 <div className="vrline"></div>
                 <h2 className="OChead">Your Order Is Completed! </h2>

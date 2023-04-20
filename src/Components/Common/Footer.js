@@ -36,7 +36,7 @@ const Footer = () => {
                     <h2>Customer Care</h2>
                     <ul>
                         <li><Link to="/about">About</Link></li>
-                        <li><a href="/#">My Account</a></li>
+                        <li><Link to="/updateprofile">My Account</Link></li>
                         <li><a href="/#">Discount</a></li>
                         <li><a href="/#">Returns</a></li>
                         <li><a href="/#">Orders History</a></li>

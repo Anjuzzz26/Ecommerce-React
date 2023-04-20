@@ -12,8 +12,7 @@ const FAQ = () => {
         <div>
 		<Header />
 		<HeadDiv text={"FAQ"} />
-        <br/><br/><br/>
-
+        <br/>
 
         <div className="FAQdiv">
 
@@ -37,7 +36,7 @@ const FAQ = () => {
                 <form className="FAQform">
                     <input type="text" placeholder="  Your Name*" />
                     <input type="text" placeholder="  Subject*" />
-                    <textarea placeholder="  Type Your Message*" />
+                    <textarea rows="7" cols="50" placeholder="  Type Your Message*" />
                     <div className="FAQbtn">
                             <Button text={"Send Mail"} />
                     </div>

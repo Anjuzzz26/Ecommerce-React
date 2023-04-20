@@ -19,14 +19,14 @@ const Section1 = () => {
                 <div className="fproducts">
                     <div className="fsofas">
                         
-                        <img className="featuredimg1" src={image_1168} alt="Sofa" />
-                        <div className="fphover1">
+                    <div className="fphover1">
                             <img className="fpcart" src={group28} alt="Cart" />
                             <img className="fpheart" src={heart} alt="Wishlist" />
                             <img className="fpsearch" src={searchplus} alt="Search" />
-                            
                         </div>
-                        <button type="submit">View Details</button>
+                        <div><img className="featuredimg1" src={image_1168} alt="Sofa" /></div>
+                        
+                        <div><button type="submit">View Details</button></div>
                     </div>
                     <div>
                         <p className="fp1">Cantilever chair</p>
@@ -37,14 +37,13 @@ const Section1 = () => {
                 </div>
                 <div className="fproducts">
                     <div className="fsofas">
-                        <img className="featuredimg2" src={image_1} alt="Sofa" />
                         <div className="fphover2">
                             <img className="fpcart" src={group28} alt="Cart" />
                             <img className="fpheart" src={heart} alt="Wishlist" />
                             <img className="fpsearch" src={searchplus} alt="Search" />
-                            
                         </div>
-                        <button type="submit">View Details</button>
+                        <div><img className="featuredimg2" src={image_1} alt="Sofa" /></div>
+                        <div><button type="submit">View Details</button></div>
                     </div>
                     <div>
                         <p className="fp1">Cantilever chair</p>
@@ -55,13 +54,13 @@ const Section1 = () => {
                 </div>
                 <div className="fproducts">
                     <div className="fsofas">
-                        <img className="featuredimg3" src={image_1169} alt="Sofa" />
                         <div className="fphover1">
                             <img className="fpcart" src={group28} alt="Cart" />
                             <img className="fpheart" src={heart} alt="Wishlist" />
                             <img className="fpsearch" src={searchplus} alt="Search" />    
                         </div>
-                        <button type="submit" >View Details</button>
+                        <div><img className="featuredimg3" src={image_1169} alt="Sofa" /></div>
+                        <div><button type="submit" >View Details</button></div>
                     </div>
                     <div>
                         <p className="fp1">Cantilever chair</p>
@@ -72,14 +71,13 @@ const Section1 = () => {
                 </div>
                 <div className="fproducts">
                     <div className="fsofas">
-                        <img className="featuredimg4" src={image_3} alt="Sofa" />
                         <div className="fphover2">
                             <img className="fpcart" src={group28} alt="Cart" />
                             <img className="fpheart" src={heart} alt="Wishlist" />
                             <img className="fpsearch" src={searchplus} alt="Search" />
-                           
                         </div>
-                        <button type="submit">View Details</button>
+                        <div><img className="featuredimg4" src={image_3} alt="Sofa" /></div>
+                        <div><button type="submit">View Details</button></div>
                     </div>
                     <div>
                         <p className="fp1">Cantilever chair</p>
@@ -89,6 +87,7 @@ const Section1 = () => {
                     </div>
                 </div>
             </div>
+            <br/>
             <img className="fpslider_iconmain" src={group169} alt="Cart" />
         </div>
     );

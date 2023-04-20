@@ -1,78 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 .shopgridmain{
     min-height: fit-content;
     text-align: -webkit-center;
 }
 
+.shopgridmain a:hover{
+    text-decoration: none;
+}
+
 .SGItemgrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 65%;
-    margin-top: 77px;
+    column-gap: 20px;
+    width: 75%;
+    margin-top: 20px;
     justify-items: center;
 }
 
 .SGItemsdiv{
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    margin-bottom: -100px;
+    grid-template-rows: 2fr 1fr;
 }
 
 .SGimg{
-    height: 223px;
     margin: 10px;
-    width: 223px;
+    width: 100%;
     background-color: #F6F7FB;
 }
 
-.SGimg2{
+/* .SGimg2{
     margin: 10px;
     background-color: #EBF4F3;
-}
+} */
 
 .SGItemimg1{
     width: 75%;
-    margin-top: 27px;
-}
-.SGItemimg2{
-    width: 66%;
-    margin-top: 42px;
-}
-.SGItemimg3{
-    width: 75%;
-    margin-top: 33px;
-}
-.SGItemimg4{
-    width: 70%;
-    margin-top: 43px;
-}
-.SGItemimg5{
-    width: 43%;
-    margin-top: 58px;
-}
-.SGItemimg6{
-    width: 55%;
-    margin-top: 53px;
-}
-.SGItemimg7{
-    width: 40%;
-    margin-top: 58px;
-}
-.SGItemimg8{
-    width: 64%;
-    margin-top: 51px;
-}
-.SGItemimg9{
-    width: 63%;
-    margin-left: 44px;
-    margin-top: 48px;
-}
-.SGItemimg10{
-    width: 56%;
-    margin-top: 59px;
-}
-.SGItemimg11{
-    width: 64%;
-    margin-top: 44px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .SGdesc{
@@ -84,40 +52,14 @@
 .SGItem5txt1, .SGItem6txt1, .SGItem7txt1, .SGItem8txt1,
 .SGItem9txt1, .SGItem10txt1, .SGItem11txt1, .SGItem12txt1{
     font-family: 'Josefin Sans';
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 21px;
     color: #151875;
 }
-/* .SGItem1txt1{
-    margin-left: 48px;
-} */
-.SGItem2txt1{
-}
-.SGItem3txt1{
-}
-.SGItem4txt1{
-}
-.SGItem5txt1{
-}
-.SGItem6txt1{
-}
-.SGItem7txt1{
-}
-.SGItem8txt1{
-}
-.SGItem9txt1{
-}
-.SGItem10txt1{
-}
-.SGItem11txt1{
-}
-.SGItem12txt1{
-}
+
 .SGtxt2{
     font-family: 'Josefin Sans';
     font-size: 14px;
-    line-height: 16px;
     text-align: center;
     color: #151875;
     margin-top: 15px;
@@ -128,118 +70,54 @@
 .SGtxt3{
     font-family: 'Josefin Sans';
     font-size: 14px;
-    line-height: 16px;
     text-align: center;
     text-decoration-line: line-through;
     color: #FB2E86;
-    margin-top: -16px;
     margin-left: 15px;
 }
 
-
-
-@media (min-width: 1200px) and (max-width: 1500px){
-    .SGItemgrid{
-        width: 80%;
-    }
-} 
-
-@media (min-width: 992px) and (max-width: 1199px){
-    .SGItemgrid{
-    
-        width: 70%;
-        margin-top: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+.SGItemsdiv_list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 5px rgb(248 246 253 / 75%);
+    width: 74%;
+}
+.SGimg1{
+    margin: 10px;
+    width: 85%;
+    background-color: #F6F7FB;
+}
+.SGdesc1{
+    text-align: left;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.SGitempara{
+    font-family: 'Josefin Sans';
+    color: #151875;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.SGtxt2_list{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    color: #151875;
+    margin-top: 15px; 
+}
+.SGItemimg_list{
+    margin-top: 20px;
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+
+@media (min-width: 768px) and (max-width: 1200px) {
     .SGItemgrid{
-
-        width: 91%;
-        margin-top: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media (min-width: 585px) and (max-width: 767px){
-    .SGItemgrid{
-
-        width: 70%;
-        margin-top: 10px;
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width: 400px) and (max-width: 584px){
+@media (min-width: 350px) and (max-width: 767px) {
     .SGItemgrid{
-
-        width: 70%;
-        margin-top: 10px;
         grid-template-columns: 1fr;
     }
-    .SGItem1txt1 {
-
-    }
-    .SGItem2txt1 {
-    }
-    .SGItem3txt1 {
-
-    }
-    .SGtxt2{
-    
-    }
-    .SGtxt3{
-    }
-}
-
-@media (min-width: 300px) and (max-width: 399px){
-    .SGItemgrid{
-
-        width: 70%;
-        margin-top: 10px;
-        grid-template-columns: 1fr;
-    }
-    .SGItem1txt1 {
-
-    }
-    .SGItem2txt1 {
-    
-    }
-    .SGItem3txt1 {
-
-    }
-    .SGtxt2{
-
-    }
-    .SGtxt3{
-
-    }
-}
-
-@media (max-width: 299px){
-    .SGItemgrid{
-        row-gap: 30px;
-        width: 70%;
-        margin-top: 10px;
-        grid-template-columns: 1fr;
-    }
-    .SGItem9txt1 {
-
-        font-size: 15px;
-    }
-    .SGimg {
-        height: 170px;
-
-        width: 166px;
-    }
-    .SGimg2 {
-        width: 75%;
-
-    }
-    .SGItemimg2 {
-        width: 61%;
-
-    }
-
 }

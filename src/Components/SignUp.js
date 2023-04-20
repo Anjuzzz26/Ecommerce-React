@@ -12,9 +12,11 @@ import { Button,Modal } from "react-bootstrap";
 
 export default function SignUp() {
   const [inputvalue, setInputValue] = useState({
-    name: "",
+    fullName: "",
     email: "",
-    pwd: "",
+    password: "",
+    role: 1,
+    status: 1
   });
 
   const [error, setError] = useState({});
@@ -35,23 +37,24 @@ export default function SignUp() {
       setColor("red");
       setShow(!show);
     });
-    if(data.success===true){
+    
+    if(data.success==true){
       setStatus("Success");
       setColor("#228B22");
       setMessage(data.message);
       setShow(!show);
       setInputValue({
-        name: "",
+        fullName: "",
         email: "",
-        pwd: "",
+        passwords: "",
     })
   }
     console.log(data);
-    
+    console.log(inputvalue);
   };
 
 
-
+  
   
 
   const SignUpValidation = (e) => {
@@ -60,9 +63,13 @@ export default function SignUp() {
       const stateObj = { ...prev, [name]: "" };
 
       switch (name) {
-        case "name":
+        case "fullName":
+          const re = /^[A-Za-z]+$/;
           if(!value){
             stateObj[name] = "*Name is Required";
+          } 
+          else if((value === "" || !(re.test(value)))){
+            stateObj[name] = "*Name Is Invalid";
           }
           break;
 
@@ -75,7 +82,7 @@ export default function SignUp() {
         }
         break;
 
-        case "pwd":
+        case "password":
           if(!value){
             stateObj[name] = "*Password is Required";
           } else if(value.length < 8){
@@ -114,13 +121,13 @@ const onChangeHandler = (e) => {
 
         <form onSubmit={(e) => onSubmitHandler(e)}>
           <input
-            value={inputvalue.name}
+            value={inputvalue.fullName}
             type="text"
-            name="name"
+            name="fullName"
             placeholder="Name"
             onChange={onChangeHandler}
           />
-          { error.name && <p className="error">{error.name}</p> }
+          { error.fullName && <p className="error">{error.fullName}</p> }
           <input
             value={inputvalue.email}
             type="text"
@@ -130,14 +137,14 @@ const onChangeHandler = (e) => {
           />
           { error.email && <p className="error">{error.email}</p> }
           <input
-            value={inputvalue.pwd}
+            value={inputvalue.passwords}
             type="text"
-            name="pwd"
+            name="password"
             placeholder="Password"
             className="pwd"
             onChange={onChangeHandler}
           />
-          { error.pwd && <p className="error">{error.pwd}</p> }
+          { error.password && <p className="error">{error.password}</p> }
           <div className="loginbtn">
             <Button1 text={"Sign Up"} />
           </div>

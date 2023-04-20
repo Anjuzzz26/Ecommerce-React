@@ -10,7 +10,6 @@ import Button from './Common/Button';
 
 import Rect56 from "./Images/Rectangle 56.png";
 import Rect57 from "./Images/Rectangle 57.png";
-import Rect1 from "./Images/Rectangle 1.png";
 import comments from "./Images/Comments and images.png";
 import group from './Images/Group.png';
 import cashback from './Images/cashback.png';
@@ -26,7 +25,7 @@ const About = () => {
 
         <div className="AboutSection1">
 
-            <div>
+            <div id="parent">
                 <img src={Rect57} alt="Img" className="Aboutimg1" />
                 <img src={Rect56} alt="Img" className="Aboutimg2" />
             </div>
@@ -91,8 +90,7 @@ const About = () => {
 
         </div>        
         <div className="AboutSection3">
-            <img src={Rect1} alt="Img" className="AboutS3img1" />
-            <img src={comments} alt="Img" className="AboutS3img2" />
+            <img src={comments} alt="Img" className="AboutS3img1" />
         </div>
 
 		<br/><br/><br/>

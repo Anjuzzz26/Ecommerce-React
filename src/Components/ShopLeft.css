@@ -1,27 +1,33 @@
+.ShopLeft{
+    text-align: -webkit-center;
+}
+
 .Sleft_div{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: auto 2fr;
+    width: 80%;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 
 .Sleft_filtergrid{
     display: grid;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-rows: repeat(6, auto);
+    justify-items: left;
 }
-
-
 
 .SLeft_gridItems{
     width: 80%;
-    margin-left: -70px;
-    margin-bottom: 35px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px 5px rgba(248, 246, 253, 0.75);
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .SLeft_descgrid{
-    padding-top: 26px;
+    margin-top: 20px;
 }
 
 .SLeft_descgrid .SLtxt3{
@@ -35,17 +41,15 @@
 }
 
 .Sleft_brand{
-    height: 81px;
 }
 .Sleft_discount{
     height: 0px;
 }
 .Sleft_rating{
-    padding-right: 168px;
-    height: 5px;
+    margin-left: 20px;
+    padding-left: 7px;
 }
 .Sleft_categories{
-    height: 159px;
 }
 .Sleft_price{
     height: 1px;
@@ -56,9 +60,7 @@
     font-family: 'Josefin Sans';
     font-size: 20px;
     font-weight: 600;
-    line-height: 30px;
     color: #292C58;
-    margin-left: 200px;
     margin-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-color: #292C58;
@@ -71,7 +73,6 @@
 } */
 .checkbox{
     float: left;
-    margin-left: 200px;
     margin-top: 7px;
     margin-right: 10px;
 }
@@ -94,7 +95,6 @@
 .checkbox_container label::before{
     margin-right: 0.5em;
     margin-top: 10px;
-    margin-left: -25px;
     content: '';
     font-size: 12px;
     width: 1.2em;
@@ -235,7 +235,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 32px;
     color: #7E81A2;
 }
 /* .rating_star{
@@ -252,301 +251,148 @@
 } */
 
 .independent{
-    margin-left: 225px;
 }
-
-
+.Sleft_color{
+    width: 100%;
+    margin-left: 23px;
+}
 .colordot1{
     float: left;
-    margin-left: 197px;
     margin-top: 9px;
+    width: 6%;
 }
 .colordot2{
     float: left;
     margin-top: 9px;
     margin-left: 19px;
+    margin-right: 3px;
+    width: 6%;
 }
 .colordot3{
    float: left; 
    margin-top: 9px;
-   margin-left: 11px;
-   margin-right: 4px;
+   margin-left: 12px;
+   margin-right: 3px;
+   width: 6%;
 }
 .colordot4{
     float: left;
-    margin-left: -138px;
     margin-top: 18px;
+    margin-right: 3px;
+    width: 6%;
 }
 .colordot5{
     float: left;
-    margin-left: -70px;
     margin-top: 19px;
+    margin-right: 3px;
+    width: 6%;
 }
 .colordot6{
    float: left; 
    margin-left: 11px;
    margin-top: 19px;
-   margin-right: 4px;
+   margin-right: 3px;
+   width: 6%;
 }
 
 .color_list1{
     float: left;
     margin-left: 4px;
     margin-top: 4px;
+    font-size: 15px;
 }
 .color_list2{
     float: left;
-    margin-left: 3px;
     margin-top: 4px;
+    font-size: 15px;
 }
 .color_list3{
-    margin-left: 6px;
-    margin-top: 4px;
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: left;
 }
 .color_list4{
     float: left;
-    margin-left: -120px;
     margin-top: 13px;
+    font-size: 15px;
+    margin-right: 12px;
 }
 .color_list5{
     float: left;
-    margin-left: -52px;
     margin-top: 13px;
+    margin-right: 5px;
+    font-size: 15px;
 }
 .color_list6{
     margin-top: 12px;
-
+    font-size: 15px;
+    text-align: left;
 }
 
-/* @media (min-width:1600px) {
-
-} */
-
-@media (min-width: 1200px) and (max-width: 1500px){
-    .Sleft_filtergrid {
-        margin-left: -54px;
-    }
-    .Sleft_rating {
-        width: 111%;
-    }
-    .Sleft_Itemgrid{
-        margin-left: 45px;
-    }
-} 
-
-@media (min-width: 992px) and (max-width: 1199px){
-    .Sleft_filtergrid {
-        margin-left: -54px;
-    }
-    .Sleft_rating {
-        width: 118%;
-    }
-    .Sleft_Itemgrid{
-        margin-left: 67px;
-    }
-    .SLeft_gridItems {
-        width: 106%;
-    }
-}
-
-@media (min-width: 800px) and (max-width: 991px){
-    .Sleft_div {
-        margin-left: -31px;
-        width: 154%;
-    }
-    .Sleft_filtergrid {
-        margin-left: -54px;
-        margin-bottom: 438%;
-        row-gap: 195px;
-    }
-    .Sleft_rating {
-        width: 118%;
-    }
-    .Sleft_Itemgrid{
-        margin-left: 67px;
-    }
-    .SLeft_gridItems {
-        width: 344px;
+@media (min-width: 768px) and (max-width: 1200px) {
+    .Sleft_div{
         grid-template-columns: 1fr;
-        padding-left: 9px;
-        padding-bottom: 27px;
-    }   
-    .SLeft_descgrid{
-        margin-top: -16px;
+        row-gap: 20px;
     }
-    .SLeft_descgrid .SLtxt3 {
-        width: 87%;
-    }
-}
-
-
-@media (min-width: 768px) and (max-width: 899px){
-    .Sleft_div {
-        margin-left: -31px;
-        width: 154%;
-    }
-    .Sleft_filtergrid {
-        margin-left: -54px;
-        margin-bottom: 438%;
-        row-gap: 100px;
-    }
-    .Sleft_rating {
-        width: 118%;
-    }
-    .Sleft_Itemgrid{
-        margin-left: 67px;
-    }
-    .SLeft_gridItems {
-        width: 344px;
-        grid-template-columns: 1fr;
-        padding-left: 9px;
-        padding-bottom: 27px;
-    }   
-    .SLeft_descgrid{
-        margin-top: -16px;
-    }
-    .SLeft_descgrid .SLtxt3 {
-        width: 87%;
-    }
-}
-
-@media (min-width: 585px) and (max-width: 767px){
-    .Sleft_div {
-        margin-left: -98px;
-    }
-    .Sleft_filtergrid {
-        margin-left: -54px;
-        margin-bottom: 438%;
-    }
-    .Sleft_rating {
-        width: 118%;
-    }
-    .Sleft_Itemgrid{
-        margin-left: 67px;
-    }
-    .SLeft_gridItems {
-        width: 298px;
-        grid-template-columns: 1fr;
-        padding-left: 9px;
-        padding-bottom: 27px;
-    }   
-    .SLeft_descgrid{
-        margin-top: -16px;
-    }
-    .SLeft_descgrid .SLtxt3 {
-        width: 87%;
-    }
-    .SLimggrid {
-        margin-left: -8px;
-    }
-}
-
-@media (min-width: 400px) and (max-width: 584px){
-    .Sleft_div {
-        margin-left: -98px;
-        grid-template-columns: 1fr;
+    .Sleft_filtergrid{
         justify-items: center;
     }
-    .Sleft_filtergrid {
-        margin-top: -34px;
-        margin-left: -38px;
-        margin-bottom: 20%;
-        row-gap: 191px;
+    .SLeft_gridItems{
+        width: 100%;
+        margin-top: 20px;
     }
-    .Sleft_rating {
-        width: 102%;
+    .Sleft_div .SLcart{
+        margin-top: 5px;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        float: left;
     }
-    .Sleft_Itemgrid{
-        margin-left: 176px;
+    .Sleft_div .SLheart{
+        margin-top: 8px;
+        margin-right: 20px;
+        margin-left: 0;
+        float: left;
     }
-    .SLeft_gridItems {
-        width: 250px;
-        grid-template-columns: 1fr;
-        padding-left: 9px;
-        padding-bottom: 30px;
-        margin-left: -88px;
-    }   
-    .SLeft_descgrid{
-        margin-top: -16px;
-        margin-left: -13px;
-    }
-    .SLeft_descgrid .SLtxt3 {
-        width: 87%;
-    }
-    .SLimggrid {
-        margin-left: -10px;
+    .Sleft_div .SLsearch{
+        margin-top: 8px;
+        margin-left: 0;
     }
 }
 
-@media (min-width: 300px) and (max-width: 399px){
-    .Sleft_div {
-        margin-left: -98px;
+@media (min-width: 350px) and (max-width: 767px) {
+    .Sleft_div{
         grid-template-columns: 1fr;
+        row-gap: 20px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .Sleft_filtergrid{
         justify-items: center;
     }
-    .Sleft_filtergrid {
-        margin-top: -34px;
-        margin-left: -38px;
-        margin-bottom: 20%;
-        row-gap: 191px;
-    }
-    .Sleft_rating {
-        width: 102%;
-    }
-    .Sleft_Itemgrid{
-        margin-left: 231px;
-    }
-    .SLeft_gridItems {
-        width: 250px;
+    .SLeft_gridItems{
         grid-template-columns: 1fr;
-        padding-left: 9px;
-        padding-bottom: 30px;
-        margin-left: -88px;
-    }   
-    .SLeft_descgrid{
-        margin-top: -16px;
-        margin-left: -13px;
+    }
+    .SLeft_gridItems{
+        width: 100%;
+        margin-top: 20px;
     }
     .SLeft_descgrid .SLtxt3 {
-        width: 87%;
+        margin-bottom: 15px;
     }
-    .SLimggrid {
-        margin-left: -10px;
+    .Sleft_div .SLcart{
+        margin-top: 5px;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        float: left;
     }
-}
-
-@media (max-width: 299px){
-    .Sleft_div {
-        margin-left: -98px;
-        grid-template-columns: 1fr;
+    .Sleft_div .SLheart{
+        margin-top: 8px;
+        margin-right: 20px;
+        margin-left: 0;
+        float: left;
     }
-    .Sleft_filtergrid {
-        margin-top: -34px;
-        margin-left: -62px;
-        margin-bottom: 20%;
-        row-gap: 191px;
-    }
-    .Sleft_rating {
-        width: 111%;
-    }
-    .Sleft_Itemgrid{
-        margin-left: 213px;
-    }
-    .SLeft_gridItems {
-        width: 227px;
-        grid-template-columns: 1fr;
-        padding-left: 9px;
-        padding-bottom: 30px;
-        margin-left: -88px;
-    }   
-    .SLeft_descgrid{
-        margin-top: -16px;
-        margin-left: 10px;
-    }
-    .SLeft_descgrid .SLtxt3 {
-        width: 87%;
-    }
-    .SLimggrid {
-        margin-left: -10px;
+    .Sleft_div .SLsearch{
+        margin-top: 22px;
+        margin-left: 0;
     }
 }

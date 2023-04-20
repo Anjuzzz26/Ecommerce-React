@@ -5,9 +5,10 @@ import Header from "./Common/Header";
 import Footer from "./Common/Footer";
 import HeadDiv from "./Common/HeadDiv";
 import Banner from "./Common/Banner";
-import Button from "./Common/Button";
-import { Link } from "react-router-dom";
+import Button1 from "./Common/Button";
+import { Link, useNavigate } from "react-router-dom";
 import userService from "./Service/User";
+import { Button,Modal } from "react-bootstrap";
 
 const Login = () => {
   const txt = "My Account";
@@ -16,14 +17,36 @@ const Login = () => {
     email: "",
     password: "",
   });
-
+  const navigate = useNavigate();
   const [error, setError] = useState({});
+  const[show,setShow]=useState(false);
+  const[message,setMessage]=useState('');
+  const[status,setStatus]=useState("");
+  const[color,setColor]=useState("");
 
   const { login } = userService;
+
   const onSubmitHandler = async (e) => {
     e.preventDefault();
-    const data = await login(inputvalue);
-    console.log(data);
+    const data = await login(inputvalue)
+    .catch((e)=>{
+      console.log("error",e);
+      setMessage(e.message);
+      setStatus("Failed");
+      setColor("red");
+      setShow(!show);
+    });
+    if(data.success==true){
+      setStatus("Success");
+      setMessage(data.message);
+      setShow(!show);
+      setInputValue({
+        email: "",
+        password: "",
+    })
+    localStorage.setItem('Access_token', data.result.accessToken)
+    navigate('/');
+  }
   };
 
   const Validation = (e) => {
@@ -90,12 +113,30 @@ const Login = () => {
             onChange={onChangeHandler}
           />
           { error.password && <p className="error">{error.password}</p> }
+          <div className="forgetpwddiv">
           <a href="/#" className="forgetpwd">
             Forgot your password?
           </a>
-          <div className="loginbtn">
-            <Button text={"Sign In"} />
           </div>
+          <div className="loginbtn">
+            <Button1 text={"Sign In"} />
+          </div>
+          <Modal show={show}>
+            <Modal.Header style={{background: color}}>
+                {status}
+            </Modal.Header>
+            <Modal.Body>
+              {message}
+            </Modal.Body>
+            
+            <Modal.Footer>
+              <Button onClick={()=>{setShow(!show)}} >
+                OK
+              </Button>
+            </Modal.Footer>
+          </Modal>
+
+
           <p className="logintxt2">
             Don’t have an Account?
             <Link to="/signup" className="signup">

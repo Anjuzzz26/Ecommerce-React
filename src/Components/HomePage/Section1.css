@@ -1,53 +1,52 @@
 .section1main{
-    height: 450px;
     text-align: -webkit-center;
 }
 
 .fpheading{
-    margin-top: 100px;
     font-family: 'Josefin Sans';
     font-size: 42px;
     font-weight: bold;
-    line-height: 49px;
-    text-align: center;
     color: #1A0B5B;
+    margin-top: 20px;
 }
 
 .featured{
-    width: 70%;
-    margin: 10px;
+    margin: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     justify-items: center;
+    width: 70%;
 }
 
 .fproducts{
     display: grid;
     grid-template-rows: 2fr 1fr;
-    margin-top: 40px;
     box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
     justify-items: center;
+    width: 100%;
 }
 
 .fsofas{
-    width: 210px;
-    height: 231px;
+    width: 100%;
+    padding-top: 20px;
     background-color: #F6F7FB;
-    text-align: -webkit-center;
+    display: grid;
+    grid-template-rows: 1fr;
 }
 
+
 .featuredimg1{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .featuredimg2{
-    margin-top: 44px;
+    margin-top: 20px;
 }
 .featuredimg3{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .featuredimg4{
-    margin-top: 43px;
+    margin-top: 20px;
 }
 
 .fp1{
@@ -55,14 +54,12 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 22px;
     color: #FB2E86;
     margin-top: 11px;
 }
 .fp2{
     font-family: 'Josefin Sans';
     font-size: 14px;
-    line-height: 16px;
     color: #151875;
     margin-top: 10px;
 }
@@ -71,7 +68,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 17px;
     color: #151875;
     margin-top: 10px;
 }
@@ -79,39 +75,27 @@
 .fphover1, .fphover2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: -109px;
-    width: 43%;
+    width: 50%;
+    margin-left: 15px;
     opacity: 0;
 }
-.fphover1{
-    margin-top: -199px;
-}
 
-.fphover2{
-    margin-top: -189px;
-}
 
 .fpsearch{
-    width: 15px;
-    margin-top: 8px;
+    margin-top: 12px;
 }
 .fpheart{
-    width: 13px;
-    margin-top: 9px;
-}
-.fpcart{
-    width: 30px;
-    
+    margin-top: 11px;
+    margin-left: 7px;
 }
 
-.fsofas button{
+.fproducts button{
     background-color: #08D15F;
-    width: 31%;
-    height: 24px;
     padding: 0;
     padding-top: 5px;
     font-size: 10px;
-    margin-top: 162px;
+    width: 25%;
+    margin-bottom: 15px;
     opacity: 0;
 }
 
@@ -132,106 +116,34 @@
     margin-top: 10px;
 }
 
-.fpslider_iconmain{
-    margin-top: 50px;
-}
 
-@media (min-width: 1400px) and (max-width: 1500px){
-    .section1main {
-        height: 100%;
-    }
-
-}
-@media (min-width: 1200px) and (max-width: 1400px){
-    .section1main {
-        height: 100%;
-    }
-    .featured{
-        column-gap: 31px;
-    }
-
-}
-
-@media (min-width: 992px) and (max-width: 1199px){
-    .section1main {
-        height: 100%;
-    }
+@media (min-width: 768px) and (max-width: 1200px) {
     .featured{
         grid-template-columns: 1fr 1fr;
-    }
-    .fsofas{
-        width: 100%;
-    }
-    .fproducts {
-        width: 85%;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 992px){
-    .section1main {
-        height: 100%;
-    }
-    .featured{
-        grid-template-columns: 1fr 1fr;
-    }
-    .fsofas{
-        width: 100%;
+        row-gap: 20px;
+        width: 80%;
     }
     .fproducts {
-        width: 96%;
-    }
-}
-
-@media (min-width: 585px) and (max-width: 768px){
-    .section1main {
-        height: 920px;
-    }
-    .featured{
-        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+        width: 80%;
     }
 
 }
 
-@media (min-width: 400px) and (max-width: 584px){
-    .section1main {
-        height: 100%;
-    }
+@media (min-width: 350px) and (max-width: 767px) {
     .featured{
         grid-template-columns: 1fr;
+        row-gap: 20px;
+        width: 80%;
     }
-    .fsofas{
-        width: 100%;
+    .featuredimg1, .featuredimg2, .featuredimg3, .featuredimg4 {
+        width: 60%;
     }
     .fproducts {
-        width: 75%;
+        margin-bottom: 20px;
+        width: 70%;
     }
-}
-
-@media (min-width: 300px) and (max-width: 400px){
-    .section1main {
-        height: 100%;
-    }
-    .featured{
-        grid-template-columns: 1fr;
-    }
-    .fpheading {
-        margin-top: 92px;
-        font-family: 'Josefin Sans';
-        font-size: 31px;
-    }
-}
-
-@media (max-width: 300px){
-    .section1main {
-        height: 100%;
-    }
-    .featured{
-        grid-template-columns: 1fr;
-        width: 77%;
-        }
-    .fpheading {
-        margin-top: 62px;
-        font-size: 29px;
+    .fpheading{
+        font-size: 38px;
     }
 }

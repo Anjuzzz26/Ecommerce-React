@@ -2,79 +2,73 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: #EEEFFB;
-    height: 420px;
-    padding-left: 254px;
+    justify-items: center;
+    padding: 25px;
+    text-align: left;
 }
 
 .block2{
-    margin-top: 95px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 73%;
+    width: 80%;
+    padding-top: 25px;
+    justify-self: center;
 }
 
 .block1{
-    margin-top: 79px;
+    padding: 25px;
+    margin-left: 25px;
 }
 
 h3{
     font-family: 'Josefin Sans';
     font-size: 38px;
-    line-height: 45px;
     color: #000000;
 }
 
 h2{
     font-family: 'Josefin Sans';
     font-size: 22px;
-    line-height: 26px;
     color: #000000;
 }
 
-ul{
-    margin-top: 22px;
-}
 
 li{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 31px;
     color: #8A8FB9;
+    margin-top: 7px;
+
 }
 
-.footersearch{
-    margin-top: 27px;
-}
 
 form.footersearch input[type= text]{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
+    height: 35px;
     font-size: 16px;
-    line-height: 19px;
-    height: 40px;
-    width: 63%;
     padding-left: 17px;
+    width: 57%;
 }
 
 form.footersearch button{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    width: 35%;
-    height: 40px;
+    font-size: 15px;
+    height: 45px;
     margin-top: 1px;
-    margin-left: 5px;
+    margin-left: 25px;
+    width: 35%;
 }
 
 .footertextbox{
     background-color: white;
-    width: 83%;
-    height: 43px;
+    margin-top: 20px;
+    text-align: end;
 }
 
 .fp, .contactinfo{
@@ -82,246 +76,49 @@ form.footersearch button{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 23px;
     color: #8A8FB9;
 }
 .contactinfo{
-    margin-top: 30px;
+    margin-top: 20px;
+}
 
+@media (min-width: 768px) and (max-width: 1300px) {
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    .block1{
+        text-align: center;
+    }
+    .block2{
+        width: 100%;
+        justify-items: center;
+    }
+    form.footersearch button{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    .block1{
+        text-align: center;
+    }
+    .block2{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        justify-items: center;
+        text-align: center;
+    }
+    form.footersearch button{
+        padding: 10px;
+    }
+    form.footersearch input[type=text]{
+        padding-left: 3px;
+        width: 50%;
+    }
 }
 
 
 
-@media (min-width: 1200px) and (max-width: 1500px){
-    .fp{
-        width: 80%;
-    }
-    .footer{
-        height: fit-content;
-        padding-left: 110px;
-    }
-    form.footersearch input[type= text] {
-        width: 62%;
-    }
-    form.footersearch button{
-        padding: 0;
-    }
-    .block2{
-        width: 78%;
-        margin-bottom: 25px;
-    }
-} 
-
-@media (min-width: 992px) and (max-width: 1199px){
-    .fp{
-        width: 90%;
-    }
-    .footer{
-        height: fit-content;
-        padding-left: 65px;
-    }
-    form.footersearch input[type= text] {
-        width: 62%;
-    }
-    form.footersearch button{
-        padding: 0;
-    }
-    .block2{
-        width: 90%;
-        margin-bottom: 25px;
-    }
-   
-} 
-
-@media (min-width: 768px) and (max-width: 991px){
-    .footer{
-        width: 100%;
-        grid-template-columns: 1fr;
-        height: fit-content;
-        padding: 20px;
-        padding-left: 50px;
-        text-align: center;
-    }
-    .fp{
-        width: 94%;
-    }
-    .block2{
-        margin-top: 58px;
-        display: grid;
-        width: 85%;
-        margin-left: 34px;
-    }
-    .footertextbox{
-        width: 52%;
-        margin-left: 170px;
-    }
-    form.footersearch button{
-        padding-top: 11px;
-    }
-    
-} 
-
-@media (min-width: 580px) and (max-width: 767px){
-    .footer{
-        width: 100%;
-        grid-template-columns: 1fr;
-        height: fit-content;
-        padding: 20px;
-        padding-left: 50px;
-        text-align: center;
-    }
-    .fp{
-        width: 98%;
-    }
-    .block2{
-        margin-top: 58px;
-        display: grid;
-        width: 85%;
-        margin-left: 28px;
-    }
-    .footertextbox{
-        width: 80%;
-        margin-left: 60px;
-    }
-    form.footersearch button{
-        padding-top: 11px;
-    }
-} 
-
-@media (min-width: 500px) and (max-width: 580px){
-    .footer{
-        width: 100%;
-        grid-template-columns: 1fr;
-        height: fit-content;
-        padding: 20px;
-        text-align: center;
-    }
-    .block2{
-        margin-bottom: 44px;
-        grid-template-columns: 1fr;
-        row-gap: 24px;
-        justify-items: end;
-        width: 67%;
-    }
-    form.footersearch input[type= text] {
-        width: 67%;
-    }
-    form.footersearch button{
-        margin-left: 7px;
-        width: 30%;
-        padding: 10px;
-    }
-    .footertextbox{
-        width: 85%;
-        margin-left: 39px;
-    }
-    .footersearch {
-        width: 100%;
-        margin-top: 27px;
-    }
-} 
-
-
-@media (min-width: 400px) and (max-width: 500px){
-    
-    .footer{
-        width: 100%;
-        grid-template-columns: 1fr;
-        height: fit-content;
-        padding: 20px;
-        text-align: center;
-    }
-    .block2{
-        margin-bottom: 44px;
-        grid-template-columns: 1fr;
-        row-gap: 24px;
-        justify-items: end;
-    }
-    form.footersearch input[type= text] {
-        width: 67%;
-    }
-    form.footersearch button{
-        margin-left: 7px;
-        width: 30%;
-        padding: 0;
-    }
-    .footertextbox{
-        width: 96%;
-    }
-    .footersearch {
-        width: 100%;
-        margin-top: 27px;
-    }
-} 
-
-@media (min-width: 300px) and (max-width: 399px){
-    
-    .footer{
-        width: 100%;
-        grid-template-columns: 1fr;
-        height: fit-content;
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .block2{
-        margin-bottom: 44px;
-        grid-template-columns: 1fr;
-        row-gap: 24px;
-        justify-items: end;
-    }
-    .h2{
-        font-size: 20px;
-    }
-    form.footersearch input[type= text] {
-        width: 65%;
-        margin-left: -1px;
-    }
-    form.footersearch button{
-        margin-left: 7px;
-        width: 30%;
-        padding: 0;
-    }
-    .footertextbox{
-        width: 96%;
-    }
-    .footersearch {
-        width: 100%;
-        margin-top: 27px;
-    }
-} 
-
-@media (max-width: 300px){
-    
-    .footer{
-        width: 100%;
-        grid-template-columns: 1fr;
-        height: fit-content;
-        padding: 15px;
-        text-align: center;
-    }
-    .block2{
-        margin-bottom: 44px;
-        grid-template-columns: 1fr;
-        row-gap: 24px;
-    }
-    form.footersearch input[type= text] {
-        width: 63%;
-        font-size: 14px;
-        padding-left: 7px;
-    }
-    form.footersearch button{
-        width: 33%;
-        padding: 0;
-    }
-    .footersearch {
-        width: 100%;
-        margin-top: 27px;
-    }
-    .footertextbox{
-        width: 93%;
-    }
-    .block2{
-        width: 95%;
-    }
-} 

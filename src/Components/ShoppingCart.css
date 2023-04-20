@@ -1,107 +1,131 @@
 .SCartdiv{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-left: 207px;
+    width: 80%;
 }
 
 .Cartgrid1{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    width: 781px;
 }
 
 .CartItem{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto;
     border-bottom: 2px solid #E1E1E4;
-    height: 115px;
+    justify-self: left;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .Cartimg{
-    margin-top: 13px;
+    text-align: center;
 }
 
-.SCarthead1, .SCarthead2, .SCarthead3, .SCarthead4, .SCarthead5{
+.CartItemdesc{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.SCheaders{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    /* width: 80%; */
+}
+
+.SCarthead1 h2, .SCarthead2 h2, .SCarthead3 h2, .SCarthead4 h2, .SCarthead5 h2{
     font-family: 'Josefin Sans';
     font-size: 20px;
-    line-height: 23px;
     font-weight: 600;
     color: #1D3178;
 }
 
 .SCarthead1{
-    margin-left: 207px;
+    text-align: right;
 }
 .SCarthead2{
-    margin-left: 513px;
-    margin-top: -22px;
+    text-align: right;
 }
-.SCarthead3{
-    margin-left: 683px;
-    margin-top: -23px;
-}
+/* .SCarthead3{
+
+} */
 .SCarthead4{
-    margin-left: 894px;
-    margin-top: -23px;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 .SCarthead5{
-    margin-left: 100px;
-    margin-top: -37px;
+    text-align: left;
+    margin-left: 25px;
+    padding-left: 25px;
 }
+
 
 .Carttxt1{
     font-family: 'Josefin Sans';
     font-size: 14px;
-    line-height: 16px;
     font-weight: 600;
     color: #000000;
-    margin-left: -59px;
     margin-top: 17px;
 }
 
 .Carttxt2{
     font-family: 'Josefin Sans';
     font-size: 12px;
-    line-height: 14px;
     color: #A1A8C1;
-    margin-left: -58px;
     margin-top: 6px;
 }
 .Carttxt3{
     font-family: 'Josefin Sans';
     font-size: 14px;
-    line-height: 16px;
     color: #A1A8C1;
-    margin-left: -58px;
     margin-top: 6px;
 }
 
 .Cartprice{
     font-family: 'Josefin Sans';
     font-size: 14px;
-    line-height: 16px;
     color: #15245E;
-    margin-top: 44px;
-    margin-left: -4px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.CartPricediv{
+    text-align: left;
+    
 }
 .CartQty{   
-    margin-top: 44px;
-    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.CartQtydiv{
+    text-align: left;
 }
 .Carttotal{
     font-family: 'Josefin Sans';
     font-size: 14px;
-    line-height: 16px; 
     color: #15245E;
-    margin-top: 44px;
-    margin-left: 61px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.Carttotaldiv{
+    text-align: left;
 }
 
 .SCartButton{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 206px;
     width: 83%;
+    margin-bottom: 20px;
+}
+.SCartButton p{
+    text-align: left;
+}
+
+.SCartButton button{
+    width: 32%;
+    height: 40px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .carttotalgrid{
@@ -109,11 +133,10 @@
     border-radius: 3px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 85%;
-    margin-left: -52px;
-    margin-top: 15px;
-    height: 285px;
-    
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 10px;
+    padding: 20px;
 }
 
 .subitem1{
@@ -121,30 +144,22 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 22px;
     color: #1D3178;
     float: left;
-    margin-top: 50px;
-    margin-right: 163px;
 }
 .subitem2{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
     color: #15245E;
-    margin-top: 53px;
+    text-align: right;
 }
-.tot{
-    margin-right: 189px;
-}
-
 
 .green_check{
     float: left;
-    margin-top: 29px;
-    margin-left: 42px;
+    margin-top: 25px;
+    margin-left: 5px;
     margin-right: 10px;
 }
 .carttotal_para{
@@ -152,678 +167,172 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
     color: #8A91AB;
-    margin-top: 26px;
+    margin-top: 20px;
+    text-align: left;
 }
 .checkoutbtn{
     background: #19D16F;
     border-radius: 3px;
-    width: 82%;
-    margin-left: 33px;
-    margin-bottom: 24px;
-
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .carttotals_subitems{
     border-bottom: 2px solid #E1E1E4;
-    width: 304px;
-    margin-left: 31px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.calculategrid{
+    margin-top: 20px;
 }
 
 .calculate{
     font-family: 'Josefin Sans';
     font-size: 20px;
-    line-height: 23px;
     font-weight: 600;
     color: #1D3178;
-    margin-top: 22px;
-    margin-left: 46px;
+    padding-top: 10px;
 }
 
 .Cartform{
     background-color: #F4F4FC;
     border-radius: 3px;
-    width: 85%;
-    margin-left: -52px;
-    margin-top: 27px;
-    height: 271px;
-    padding-top: 41px;
-    padding-left: 36px;
-
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 90%;
+    margin-left: 10px;
 }
 
 
 .Cartform form input{
     background-color: #F4F4FC;
     border-bottom: 2px solid #E1E1E4;
-    width: 297px;
-    height: 44px;
+    margin-top: 20px;
+    padding-bottom: 7px;
+    padding-top: 15px;
+    width: 85%;
 }
 
 .calculatebtn{
     padding-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.calculatebtn button{
+    margin-bottom: 20px;
+}
+.Cartitemsno{
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.Cartitemsno button{
+    float: left;
+    background-color: #F4F4FC;
+    color: black;
+    height: 22px;
+    padding: 0;
+    width: 12%;
+}
+.Cartitemsno p{
+    float: left;
+    padding: 2px;
+}
+.Cartdelete{
+    padding-top: 20px;
+}
+.Cartdelete button{
+    width: 100%;
+    font-size: 18px;
+    color: #1D3178;
+    background: transparent;
+    padding: 0;
+    margin-top: 20px;
+    /* opacity: 0; */
 }
    
-
-@media (min-width: 1200px) and (max-width: 1500px){
+@media (min-width: 768px) and (max-width: 1200px) {
     .SCartdiv{
-        margin-left: 44px;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
     }
-    .Cartgrid1{
-        width: 730px;
-    }
-    .SCarthead1 {
-        margin-left: 53px;
-    }
-    .SCarthead2 {
-        margin-left: 328px;
-    }
-    .SCarthead3 {
-        margin-left: 482px;
-    }
-    .SCarthead4 {
-        margin-left: 688px;
-    }
-
-    .carttotalgrid{
-        margin-left: -21px;
-        width: 98%;
-    }
-
-    .Cartform{
-        margin-left: -19px;
-        width: 98%;
-    }
-    .SCartButton{
-        margin-left: 92px;
-    }
-    .SCartButton{
-        margin-left: 92px;
-        width: 37%;
-    }
-
-    .SCartButton button{
-        width: 90%;
-    }
-} 
-
-@media (min-width: 992px) and (max-width: 1199px){
-    .SCartdiv{
-        margin-left: 44px;
-    }
-    .Cartgrid1{
-        width: 610px;
-    }
-    .Carttxt1, .Carttxt2, .Carttxt3{
-        margin-left: -28px;
-    }
-    .Cartprice{
-        margin-left: 23px;
-    }
-    .Carttotal{
+    .calculatebtn{
         margin-left: 25px;
     }
-    .carttotals_subitems{
-        width: 277px;
-        margin-left: 19px;
-    }
-    .green_check{
-        margin-left: 23px;
-    }
-    .checkoutbtn{
-        margin-left: 22px;
-    }
-    .subitem1{
-        margin-right: 124px;
-    }
-
-    .SCarthead1 {
-        margin-left: 53px;
-    }
-    .SCarthead2 {
-        margin-left: 308px;
-    }
-    .SCarthead3 {
-        margin-left: 418px;
-    }
-    .SCarthead4 {
-        margin-left: 558px;
-    }
-
-    .carttotalgrid{
-        margin-left: -21px;
-        width: 98%;
-    }
-
-    .Cartform{
-        margin-left: -19px;
-        width: 98%;
+    .calculatebtn button{
+        margin-left: 25px;
+        width: 50%;
     }
     .SCartButton{
-        margin-left: 92px;
-        width: 37%;
+        width: 65%;
     }
-
     .SCartButton button{
-        width: 90%;
+        width: 65%;
     }
-
-    .Cartform form input{
-        width: 281px;
-        margin-left: -10px;
+    .SCheaders{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .SCarthead5 {
+        display: none;
+    }
+    .SCarthead1 {
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+    .SCarthead2{
+        margin-right: 10px;
+    }
+    .CartQtydiv{
+        margin-left: 20px;
+    }
+    .Carttotaldiv{
+        margin-left: 20px;
+    }
+    .SCarthead4{
+        margin-left: 0px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 350px) and (max-width: 767px) {
     .SCartdiv{
-        margin-left: 80px;
         grid-template-columns: 1fr;
-        row-gap: 90px;
+        row-gap: 20px;
     }
-    .Cartgrid1{
-        width: 660px;
-    }
-    .Carttxt1, .Carttxt2, .Carttxt3{
-        margin-left: -28px;
-    }
-    .Cartprice{
-        margin-left: 23px;
-    }
-    .Carttotal{
+    .calculatebtn{
         margin-left: 25px;
     }
-    .carttotals_subitems{
-        width: 376px;
-        margin-left: 56px;
-    }
-    .green_check{
-        margin-left: 61px;
-    }
-    .checkoutbtn{
-        margin-left: 62px;
-        width: 70%;
-    }
-    .calculate{
-        margin-left: 250px;
-    }
-    .subitem1{
-        margin-right: 217px;
-    }
-
-    .SCarthead1 {
-        margin-left: 85px;
-        margin-top: -56px;
-    }
-    .SCarthead2 {
-        margin-left: 361px;
-    }
-    .SCarthead3 {
-        margin-left: 486px;
-    }
-    .SCarthead4 {
-        margin-left: 628px;
-    }
-
-    .carttotalgrid{
-        margin-left: 72px;
-        width: 67%;
-    }
-    .SCarthead5 {
-        margin-left: 276px;
-    }
-    .Cartform{
-        margin-left: 72px;
-        width: 67%;
-    }
-    .SCartButton{
-        margin-left: 163px;
-    }
-    .Cartform form input{
-        width: 390px;
-        margin-left: 19px;
-    }
-    .calculatebtn {
-        width: 106%;
-    }
     .calculatebtn button{
-        height: 41px;
-        width: 50%;
+        width: 85%;
+        height: 40px;
         padding-top: 10px;
     }
+    .SCartButton{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
     .SCartButton button{
-        width: 53%;
+        width: 65%;
     }
-}
+    .SCheaders{
+        display: none;
 
-@media (min-width: 585px) and (max-width: 767px){
-    .SCartdiv{
-        margin-left: 37px;
-        grid-template-columns: 1fr;
-        row-gap: 90px;
-    }
-    .Cartgrid1{
-        width: 535px;
-    }
-    .Carttxt1, .Carttxt2, .Carttxt3{
-        margin-left: -9px;
-    }
-    .Cartprice{
-        margin-left: 30px;
-    }
-    .Carttotal{
-        margin-left: 25px;
-    }
-    .carttotals_subitems{
-        width: 376px;
-        margin-left: 56px;
-    }
-    .green_check{
-        margin-left: 61px;
-    }
-    .checkoutbtn{
-        margin-left: 62px;
-        width: 70%;
-    }
-    .calculate{
-        margin-left: 166px;
-    }
-    .subitem1{
-        margin-right: 217px;
-    }
-
-    .SCarthead1 {
-        margin-left: 53px;
-        margin-top: -56px;
-    }
-    .SCarthead2 {
-        margin-left: 279px;
-    }
-    .SCarthead3 {
-        margin-left: 368px;
-    }
-    .SCarthead4 {
-        margin-left: 490px;
-    }
-
-    .carttotalgrid{
-        margin-left: 32px;
-        width: 83%;
-    }
-    .SCarthead5 {
-        margin-left: 195px;
-    }
-    .Cartform{
-        margin-left: 26px;
-        width: 84%;
-    }
-    .SCartButton{
-        margin-left: 119px;
-    }
-    .Cartform form input{
-        width: 390px;
-        margin-left: 19px;
-    }
-    .calculatebtn {
-        width: 153%;
-    }   
-}
-
-@media (min-width: 501px) and (max-width: 584px){
-    .SCartdiv{
-        margin-left: 87px;
-        grid-template-columns: 1fr;
-        row-gap: 170px;
-    }
-    .Cartgrid1{
-        width: 315px;
-        row-gap: 102px;
     }
     .CartItem{
-        grid-template-columns: 1fr;
-        border: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 0;
     }
-    .Carttxt1, .Carttxt2, .Carttxt3{
-        margin-left: -9px;
-    }
-    .Cartprice{
-        margin-left: -8px;
-        margin-top: 8px;
-    }
-    .CartQty {
-        margin-top: -150px;
-        margin-left: 147px;
-    }
-    .Carttotal{
-        margin-left: 249px;
-        margin-top: -149px;
-    }
-    .carttotals_subitems{
-        width: 297px;
-        margin-left: 27px;
-    }
-    .green_check{
-        margin-left: 30px;
-    }
-    .checkoutbtn{
-        margin-left: 47px;
-        width: 70%;
-    }
-    .calculate{
-        margin-left: 75px;
-    }
-    .subitem1{
-        margin-right: 145px;
-    }
-
-    .SCarthead1 {
-        margin-left: 90px;
-        margin-top: -56px;
-    }
-    .SCarthead2 {
-        display: none;
-    }
-    .SCarthead3 {
-        margin-left: 221px;
-    }
-    .SCarthead4 {
-        margin-left: 333px;
-    }
-
     .carttotalgrid{
-        margin-left: -20px;
-        width: 81%;
-    }
-    .SCarthead5 {
-        margin-left: 100px;
+        margin-left: 0;
+        width: 100%;
     }
     .Cartform{
-        margin-left: -21px;
-        width: 81%;
-    }
-    .SCartButton{
-        margin-left: 46px;
-    }
-    .Cartform form input{
-        width: 293px;
-        margin-left: -7px;
-    }
-    .calculatebtn {
-        width: 106%;
-    }      
-}
-
-
-@media (min-width: 400px) and (max-width: 500px){
-    .SCartdiv{
-        margin-left: 45px;
-        grid-template-columns: 1fr;
-        row-gap: 170px;
-    }
-    .Cartgrid1{
-        width: 315px;
-        row-gap: 102px;
-    }
-    .CartItem{
-        grid-template-columns: 1fr;
-        border: none;
-    }
-    .Carttxt1, .Carttxt2, .Carttxt3{
-        margin-left: -9px;
-    }
-    .Cartprice{
-        margin-left: -8px;
-        margin-top: 8px;
-    }
-    .CartQty {
-        margin-top: -150px;
-        margin-left: 147px;
-    }
-    .Carttotal{
-        margin-left: 249px;
-        margin-top: -149px;
-    }
-    .carttotals_subitems{
-        width: 297px;
-        margin-left: 27px;
-    }
-    .green_check{
-        margin-left: 30px;
-    }
-    .checkoutbtn{
-        margin-left: 47px;
-        width: 70%;
-    }
-    .calculate{
-        margin-left: 75px;
-    }
-    .subitem1{
-        margin-right: 145px;
-    }
-
-    .SCarthead1 {
-        margin-left: 53px;
-        margin-top: -56px;
-    }
-    .SCarthead2 {
-        display: none;
-    }
-    .SCarthead3 {
-        margin-left: 187px;
-    }
-    .SCarthead4 {
-        margin-left: 296px;
-    }
-
-    .carttotalgrid{
-        margin-left: -20px;
-        width: 97%;
-    }
-    .SCarthead5 {
-        margin-left: 100px;
-    }
-    .Cartform{
-        margin-left: -21px;
-        width: 97%;
-    }
-    .SCartButton{
-        margin-left: 46px;
-    }
-    .Cartform form input{
-        width: 293px;
-        margin-left: -7px;
-    }
-    .calculatebtn {
-        width: 106%;
-    }      
-}
-
-@media (min-width: 300px) and (max-width: 399px){
-    .SCartdiv{
-        margin-left: 27px;
-        grid-template-columns: 1fr;
-        row-gap: 170px;
-        justify-items: center;
-    }
-    .Cartgrid1{
-        width: 315px;
-        row-gap: 102px;
-    }
-    .CartItem{
-        grid-template-columns: 1fr;
-        border: none;
-    }
-    .Carttxt1, .Carttxt2, .Carttxt3{
-        margin-left: -9px;
-    }
-    .Cartprice{
-        margin-left: -8px;
-        margin-top: 8px;
-    }
-    .CartQty {
-        margin-top: -150px;
-        margin-left: 121px;
-    }
-    .Carttotal{
-        margin-left: 205px;
-        margin-top: -149px;
-    }
-    .carttotals_subitems{
-        width: 225px;
-        margin-left: 19px;
-    }
-    .green_check{
-        margin-left: 24px;
-    }
-    .checkoutbtn{
-        margin-left: 33px;
-        margin-top: -16px;
-        width: 72%;
-        height: 33px;
-        padding: 0;
-    }
-    .calculate{
-        margin-left: 38px;
-    }
-    .subitem1{
-        margin-right: 71px;
-    }
-
-    .SCarthead1 {
-        margin-left: 32px;
-        margin-top: -56px;
-    }
-    .SCarthead2 {
-        display: none;
-    }
-    .SCarthead3 {
-        margin-left: 130px;
-    }
-    .SCarthead4 {
-        margin-left: 234px;
-    }
-
-    .carttotalgrid{
-        margin-left: -15px;
-        width: 111%;
-    }
-    .SCarthead5 {
-        margin-left: 80px;
-    }
-    .Cartform{
-        margin-left: -8px;
-        width: 113%;
-    }
-    .SCartButton{
-        margin-left: 46px;
-        grid-template-columns: 1fr;
-        margin-top: -19px;
-        row-gap: 10px;
-    }
-    .Cartform form input{
-        width: 234px;
-        margin-left: -19px;
-    }
-    .calculatebtn {
-        width: 106%;
-    }   
-    .calculatebtn button{
-        height: 46px;
+        margin-left: 0;
+        width: 100%;
     }
 }
 
-@media (max-width: 299px){
-    .SCartdiv{
-        margin-left: 27px;
-        grid-template-columns: 1fr;
-        row-gap: 170px;
-        justify-items: center;
-    }
-    .Cartgrid1{
-        width: 315px;
-        row-gap: 102px;
-        grid-template-columns: 1fr;
-        margin-left: -5px;
-    }
-    .CartItem{
-        grid-template-columns: 1fr;
-        border: none;
-    }
-    .Carttxt1, .Carttxt2, .Carttxt3{
-        margin-left: -9px;
-    }
-    .Cartprice{
-        margin-left: -8px;
-        margin-top: 8px;
-    }
-    .CartQty {
-        margin-top: -150px;
-        margin-left: 121px;
-    }
-    .Carttotal{
-        margin-left: 205px;
-        margin-top: -149px;
-    }
-    .carttotals_subitems{
-        width: 225px;
-        margin-left: 19px;
-    }
-    .green_check{
-        margin-left: 24px;
-    }
-    .checkoutbtn{
-        margin-left: 33px;
-        margin-top: -16px;
-        width: 72%;
-        height: 33px;
-        padding: 0;
-    }
-    .calculate{
-        margin-left: 38px;
-    }
-    .subitem1{
-        margin-right: 71px;
-    }
-
-    .SCarthead1 {
-        margin-left: 32px;
-        margin-top: -56px;
-    }
-    .SCarthead2 {
-        display: none;
-    }
-    .SCarthead3 {
-        margin-left: 130px;
-    }
-    .SCarthead4 {
-        margin-left: 234px;
-    }
-
-    .carttotalgrid{
-        margin-left: -55px;
-        width: 118%;
-    }
-    .SCarthead5 {
-        margin-left: 80px;
-    }
-    .Cartform{
-        margin-left: -58px;
-        width: 120%;
-    }
-    .SCartButton{
-        margin-left: 27px;
-        grid-template-columns: 1fr;
-        margin-top: -19px;
-        row-gap: 10px;
-    }
-    .Cartform form input{
-        width: 234px;
-        margin-left: -19px;
-    }
-    .calculatebtn {
-        width: 106%;
-    }   
-    .calculatebtn button{
-        height: 46px;
-    } 
-}

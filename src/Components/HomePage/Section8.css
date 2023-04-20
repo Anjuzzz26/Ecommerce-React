@@ -1,5 +1,4 @@
 .section8main{
-    height: 800px;
     text-align: -webkit-center;
 }
 
@@ -7,7 +6,6 @@
 .s8head{
     font-family: 'Josefin Sans';
     font-size: 42px;
-    line-height: 49px;
     color: #151885;
     text-align: center;
     font-weight: bold;
@@ -18,39 +16,43 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     justify-items: center;
-    width: 65%;
+    width: 70%;
 }
 
+.s8descicon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .s8img1, .s8img2, .s8img3{
-    width: 400px;
     border-radius: 6px;
 }
 
 .s8txt1, .s8txt2, .s8item2txt1{
     font-family: 'Josefin Sans';
     font-size: 14px;
-    line-height: 16px;
     color: #151875;
 }
 
 
 .s8txt1{
-    margin-left: -96px;
-    margin-right: 49px;
     margin-top: 8px;
+    margin-left: 10px;
 }
 
+.s8txt2{
+    margin-left: 10px;
+}
+
+
+
 .s8item2txt1{
-    margin-left: -96px;
-    margin-right: 32px;
     margin-top: 8px;
 }
 
 
 .S8itemsgrid .Blogicon1{
     margin-top: 8px;
-    margin-right: 52px;
 }
 
 .S8itemsgrid .Blogicon2{
@@ -71,18 +73,16 @@
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 26px;
-    margin-top: 6px;
-    width: 102%;
     color: #72718F;
+    margin-bottom: 12px;
+    margin-top: 10px;
 }
 
 .s8desc h3{
     font-family: 'Josefin Sans';
     font-size: 15px;
     font-weight: 600;
-    line-height: 21px;
-    margin-top: 17px;
+    margin-top: 15px;
     color: #151875;
 }
 
@@ -91,7 +91,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 30px;
     text-decoration-line: underline;
     color: #151875;   
 }
@@ -100,8 +99,6 @@
     background: #FFFFFF;
     box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
     border-radius: 5px;
-    width: 93%;
-    height: 378px;
 }
 
 .S8itemsgrid:hover .s8desc h3, .S8itemsgrid:hover .s8desc a{
@@ -109,335 +106,44 @@
 }
 
 
-@media (min-width: 1200px) and (max-width: 1400px){
-    .section8main{
-        height: 100%;
-        margin-top: 10px;
+@media (min-width: 768px) and (max-width: 1200px) {
+    .s8grid{
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+    .s8img1, .s8img2, .s8img3 {
+        width: 100%;
     }
     .s8grid{
-        width: 75%;
-        column-gap: 50px;
-        margin-bottom: 38px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .S8itemsgrid{
-        width: 104%;
-        height: 390px;
-    }
-    .s8desc {
-        padding-left: 30px;
-    }
-    .s8txt1 {
-        margin-left: -46px;
-    }
-    .s8txt2{
-        display: none;
-    }
-    .S8itemsgrid .Blogicon2 {
-        display: none;
-    }
-    .s8item2txt1 {
-        margin-left: -44px;
-    }
-    .s8desc h3 {
-        font-size: 11px;
-        margin-top: 10px;
-    }
-    .s8desc p{
-        font-size: 11px;
-        line-height: 18px;
-        margin-top: 2px;
-    }
-    .s8desc a{
-        font-size: 13px;
+        width: 70%;
     }
 }
 
-@media (min-width: 991px) and (max-width: 1199px){
-    .section8main{
-        height: 100%;
-        margin-top: -50px;
+@media (min-width: 350px) and (max-width: 767px) {
+    .s8grid{
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+    .s8descicon{
+        grid-template-columns: 1fr;
+    }
+    .s8img1, .s8img2, .s8img3 {
+        width: 100%;
     }
     .s8grid{
-        width: 75%;
-        column-gap: 50px;
-        margin-bottom: 38px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
-    .S8itemsgrid{
-        width: 104%;
-        height: 338px;
-    }
-    .s8desc {
-        padding-left: 30px;
-    }
-    .s8txt1 {
-        margin-left: -46px;
-    }
-    .s8txt2{
-        display: none;
-    }
-    .S8itemsgrid .Blogicon2 {
-        display: none;
-    }
-    .s8item2txt1 {
-        margin-left: -44px;
-    }
-    .s8desc h3 {
-        font-size: 11px;
-        margin-top: 10px;
-    }
-    .s8desc p{
-        font-size: 11px;
-        line-height: 18px;
-        margin-top: 2px;
-    }
-    .s8desc a{
-        font-size: 13px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-    .section8main{
-        height: 100%;
-        margin-top: 192px;
-    }
-    .s8grid{
-        width: 75%;
-        column-gap: 50px;
-        margin-bottom: 38px;
-    }
-    .S8itemsgrid{
-        width: 117%;
-        height: 309px;
-    }
-    .s8txt1 {
-        margin-left: -46px;
-    }
-    .s8txt2{
-        display: none;
-    }
-    .S8itemsgrid .Blogicon2 {
-        display: none;
-    }
-    .s8item2txt1 {
-        margin-left: -44px;
-    }
-    .s8desc h3 {
-        font-size: 11px;
-        margin-top: 6px;
-    }
-    .s8desc p{
-        font-size: 11px;
-        line-height: 18px;
-        margin-top: 2px;
-    }
-    .s8desc a{
-        font-size: 13px;
-    }
-}
-
-@media (min-width: 621px) and (max-width: 768px){
-    .section8main{
-        height: 100%;
-    }
-    .s8grid{
-        width: 83%;
-        column-gap: 50px;
-        margin-bottom: 38px;
-    }
-    .S8itemsgrid{
-        width: 120%;
-        height: 285px;
-    }
-    .s8txt1 {
-        margin-left: -46px;
+    .s8desc h3{
         font-size: 12px;
     }
-    .s8txt2{
-        display: none;
-    }
-    .S8itemsgrid .Blogicon2 {
-        display: none;
-    }
-    .s8item2txt1 {
-        margin-left: -44px;
-    }
-    .s8desc h3 {
-        font-size: 10px;
-        margin-top: 6px;
-    }
     .s8desc p{
-        font-size: 8px;
-        line-height: 18px;
-        margin-top: 2px;
-    }
-    .s8desc a{
         font-size: 11px;
+        margin-top: 10px;
     }
-}
-
-
-@media (min-width: 585px) and (max-width: 620px){
-    .section8main{
-        height: 100%;
-    }
-    .s8grid{
-        width: 83%;
-        column-gap: 50px;
-        margin-bottom: 38px;
-    }
-    .S8itemsgrid{
-        width: 122%;
-        height: 250px;
-    }
-    .s8txt1 {
-        margin-left: -46px;
-        font-size: 12px;
-    }
-    .s8txt2{
-        display: none;
-    }
-    .S8itemsgrid .Blogicon2 {
-        display: none;
-    }
-    .s8item2txt1 {
-        margin-left: -44px;
-    }
-    .s8desc h3 {
-        font-size: 9px;
-        margin-top: 6px;
-    }
-    .s8desc p{
-        font-size: 7px;
-        line-height: 18px;
-        margin-top: 2px;
-    }
-    .s8desc a{
-        font-size: 11px;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 584px){
-    .section8main{
-        height: 100%;
-    }
-    .s8grid{
-        grid-template-columns: 1fr;
-        row-gap: 40px;
-    }
-    .S8itemsgrid{
-        width: 117%;
-        height: 470px;
-    }
-    .s8desc p {
-        font-size: 14px;
-        width: 89%;
-    }
-    .s8desc a{
-        font-size: 16px;
-    }
-    .s8txt1 {
-        margin-left: -106px;
-        margin-right: 61px;
-    }
-    .S8itemsgrid .Blogicon1 {
-        margin-right: 66px;
-    }
-    .s8item2txt1 {
-        margin-left: -97px;
-    }
-    .s8desc h3 {
-        font-size: 18px;
-        margin-top: 25px;
-    }
-}
-
-
-@media (min-width: 400px) and (max-width: 500px){
-    .section8main{
-        height: 100%;
-    }
-    .s8grid{
-        grid-template-columns: 1fr;
-        row-gap: 40px;
-        margin-bottom: 40px;
-    }
-    .S8itemsgrid{
-        width: 117%;
-        height: 450px;
-    }
-    .s8txt1 {
-        margin-left: -94px;
-    }
-    .S8itemsgrid .Blogicon1 {
-        margin-right: 85px;
-    }
-    .s8item2txt1 {
-        margin-left: -97px;
-    }
-}
-
-@media (min-width: 300px) and (max-width: 399px){
-    .section8main{
-        height: 100%;
-    }
-    .s8grid{
-        grid-template-columns: 1fr;
-        row-gap: 40px;
-        margin-bottom: 40px;
-    }
-    .S8itemsgrid{
-        width: 117%;
-        height: 400px;
-    }
-    .s8txt1 {
-        margin-left: -94px;
-    }
-    .S8itemsgrid .Blogicon1 {
-        margin-right: 85px;
-    }
-    .s8item2txt1 {
-        margin-left: -97px;
-    }
-}
-
-@media (max-width: 300px){
-    .section8main{
-        height: 100%;
-    }
-    .s8grid{
-        grid-template-columns: 1fr;
-        row-gap: 40px;
-        margin-bottom: 40px;
-    }
-    .S8itemsgrid{
-        width: 117%;
-        height: 362px;
-    }
-    .s8txt1 {
-        margin-left: -78px;
-    }
-    .S8itemsgrid .Blogicon1 {
-        margin-right: 85px;
-    }
-    .s8item2txt1 {
-        margin-left: -78px;
-    }
-    .S8itemsgrid .Blogicon2{
-        display: none;
-    }
-    .s8txt2{
-        display: none;
-    }
-    .s8desc h3 {
-        font-size: 14px;
-    }
-    .s8desc p {
-        margin-bottom: 10px;
-    }
-
-    .s8head{
-        font-size: 30px;
-    }
-    
 }
 

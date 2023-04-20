@@ -21,16 +21,18 @@ import ShopList from "./ShopList";
 import ShoppingCart from "./ShoppingCart";
 import SignUp from "./SignUp";
 import SingleBlog from "./SingleBlog";
+import UpdateProfile from './UpdateProfile';
 
 
 const Router = () => {
     return(
         <Routes>
             <Route path="/" element={ <Home /> } />
+            <Route path="/home" element={ <Home /> } />
             <Route path="shopgrid" element={ <ShopGrid /> } />
             <Route path="shoplist" element={ <ShopList /> } />
             <Route path="shopleft" element={ <ShopLeft /> } />
-            <Route path="product" element={ <ProductDetails /> } />
+            <Route path="/product/:id" element={ <ProductDetails /> } />
             <Route path="cart" element={ <ShoppingCart /> } />
             <Route path="ordercompleted" element={ <OrderCompleted /> } />
             <Route path="hektodemo" element={ <HektoDemo /> } />
@@ -42,6 +44,7 @@ const Router = () => {
             <Route path="page" element={ <PageNotFound /> } />
             <Route path="faq" element={ <FAQ /> } />
             <Route path="signup" element={ <SignUp /> } />
+            <Route path="updateprofile" element={ <UpdateProfile /> } />
         </Routes>
     );
 }

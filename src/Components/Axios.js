@@ -3,7 +3,7 @@ import axios from "axios";
 const baseUrl = "https://api-ecommerce-dev.devtomaster.com/v1/";
 const axiosInstance = axios.create({
   baseURL: baseUrl,
-  timeout: 3000,
+  timeout: 6000,
   headers: {
     "Content-Type": "application/json",
     accept: "application/json",
@@ -11,6 +11,10 @@ const axiosInstance = axios.create({
 });
 
 axiosInstance.interceptors.request.use((request) => {
+  const Access_token = localStorage.getItem("Access_token");
+  if(Access_token){
+    request.headers.Authorization = `Bearer ${Access_token}`;
+  }
   return request;
 });
 axiosInstance.interceptors.response.use(
@@ -21,7 +25,7 @@ axiosInstance.interceptors.response.use(
     console.log(error);
     const errorObject = {
       code: 500,
-      message: "Email is already in use",
+      message: "Error",
       customCode: 500,
     };
     if (error.response) {

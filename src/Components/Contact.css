@@ -1,38 +1,44 @@
+body{
+    text-align: -webkit-center;
+}
+
 .ContactSection1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 73%;
-    margin-left: 197px;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.Contact1_gridItem1{
+    margin-bottom: 20px;
 }
 
 .Contact1_gridItem2{
-    margin-left: 97px;
 }
 
 
 .Contacthead1{
     font-family: 'Josefin Sans';
     font-size: 36px;
-    line-height: 48px;
     font-weight: 600;
     color: #151875;
 }
 .Contacttxt1{
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 .Contactimg1{
     float: left;
-    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .Contactimg2{
     width: 14px;
     float: left;
-    margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
 }
 .Contactimg3{
-    margin-top: 30px;
 }
 
 .Contactwaygrid{
@@ -40,38 +46,40 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
-    width: 105%;
-    margin-top: 30px;
 }
 
 
 .Contactimg4{
     float: left;
-    width: 34px;
     margin-right: 12px;
+    margin-top: 7px;
+    width: 12%;
 }
 .Contactimg5{
     float: left;
-    width: 34px;
     margin-right: 12px;
+    margin-top: 7px;
+    width: 12%;
 }
 .Contactimg6{
     float: left;
-    width: 34px;
     margin-right: 12px;
+    margin-top: 7px;
+    width: 12%;
 }
 .Contactimg7{
     float: left;
-    width: 34px;
     margin-right: 12px;
+    margin-top: 7px;
+    width: 12%;
 }
 
 .Contacthead2{
     font-family: 'Josefin Sans';
     font-size: 36px;
-    line-height: 48px;
     font-weight: 600;
     color: #151875;
+    margin-bottom: 20px;
 }
 
 .Contacttxt1, .Contacttxt2, .Contacttxt3, .Contacttxt4, .Contacttxt5, .Contacttxt6, .Contacttxt7, .Contacttxt8, .Contacttxt9{
@@ -79,48 +87,26 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 26px;
     color: #8A8FB9;
+    width: 90%;
 }
-
-
-/* .Contacttxt2{
-}
-.Contacttxt3{
-}
-.Contacttxt4{
-}
-.Contacttxt5{
-    
-}
-.Contacttxt6{
-}
-.Contacttxt7{
-}
-.Contacttxt8{
-}
-.Contacttxt9{
-} */
-
-
-
 
 .ContactSection2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
     width: 80%;
-    margin-left: 197px;
-    margin-top: 120px;
-    margin-bottom: 95px;
+    margin-top: 25px;
+    padding-top: 25px;
+    text-align: left;
 }
 
-
+.Contactimgmain{
+    padding-top: 20px;
+}
 
 .Contacthead3{
     font-family: 'Josefin Sans';
     font-size: 36px;
-    line-height: 48px;
     font-weight: 600;
     color: #151875;
     margin-bottom: 20px;
@@ -130,291 +116,95 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 26px;
     color: #8A8FB9;
+    margin-bottom: 20px;
 }
 
+.Contactform{
+    margin-top: 20px;
+    padding-top: 20px;
+}
 
 .Contactform input{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    height: 40px;
     letter-spacing: 0.01em;
     color: #8A8FB9;
     border: 1px solid rgba(164, 182, 200, 0.7);
     border-radius: 3px;
-    height: 46px;
-    margin-top: 30px;
 }
 .Contactform textarea{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
     letter-spacing: 0.01em;
     color: #8A8FB9; 
     border: 1px solid rgba(164, 182, 200, 0.7);
     border-radius: 3px;
-    width: 95%;
-    height: 140px;
-    margin-top: 38px;
     padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .Contacttxtbox{
-    width: 44%;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 40%;
 }
 .Contacttxtbox2{
-    width: 95%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 83%;
 }
 
-.Contactbtn{
-    margin-top: 37px;
-}
-
-
-@media (min-width: 1200px) and (max-width: 1530px){
-    .Contactwaygrid{
-        width: 130%;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px){
-    .ContactSection1,.ContactSection2{
-        margin-left: 123px;
-    }
-    .Contactimg4, .Contactimg5, .Contactimg6, .Contactimg7{
-        width: 25px;
-    }
-    .Contacthead1{
-        width: 123%;
-    }
-    .Contact1_gridItem1{
-        width: 300px;
-    }
-    .Contactwaygrid{
-        width: 133%;
-    }
-    .Contact1_gridItem2 {
-        margin-left: 10px;
-    }
-    .Contacttxt3, .Contacttxt5, .Contacttxt7, .Contacttxt9 {
-        margin-left: 39px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 1280px) {
     .ContactSection1{
         grid-template-columns: 1fr;
-        row-gap: 80px;
-    }
-    .ContactSection1,.ContactSection2{
-        margin-left: 100px;
-    }
-    .Contacttxtbox {
-        width: 95%;
-    }
-    .Contactbtn {
-        width: 157%;
-    }
-    .Contactbtn button {
-        padding: 0;
-    }
-    .Contactimg4, .Contactimg5, .Contactimg6, .Contactimg7{
-        width: 25px;
-    }
-    .Contact1_gridItem1{
-        width: 95%;
-    }
-    .Contact1_gridItem2 {
-        margin-left: 0px;
-    }
-    .Contacttxt3, .Contacttxt5, .Contacttxt7, .Contacttxt9 {
-        margin-left: 39px;
-    }
-    .Contactwaygrid{
-        width: 89%;
-    }
-}
-
-@media (min-width: 585px) and (max-width: 767px){
-    .ContactSection1{
-        grid-template-columns: 1fr;
-        row-gap: 80px;
+        text-align: center;
     }
     .ContactSection2{
         grid-template-columns: 1fr;
-        row-gap: 80px;
+        row-gap: 20px;
+        text-align: center;
     }
-    .ContactSection1,.ContactSection2{
-        margin-left: 73px;
-    }
-    .Contacttxtbox {
-        width: 95%;
-    }
-    .Contactbtn {
-        width: 95%;
+    .Contactimgmain {
+        margin-top: 20px;
     }
     .Contactimg4, .Contactimg5, .Contactimg6, .Contactimg7{
-        width: 25px;
-    }
-    .Contact1_gridItem1{
-        width: 95%;
-    }
-    .Contact1_gridItem2 {
-        margin-left: 0px;
-    }
-    .Contacttxt3, .Contacttxt5, .Contacttxt7, .Contacttxt9 {
-        margin-left: 39px;
-    }
-    .Contactwaygrid{
-        width: 105%;
+        width: 10%;
     }
 }
 
-@media (min-width: 400px) and (max-width: 584px){
+@media (min-width: 350px) and (max-width: 768px) {
     .ContactSection1{
         grid-template-columns: 1fr;
-        row-gap: 80px;
-        margin-top: -116px;
+        text-align: center;
     }
     .ContactSection2{
         grid-template-columns: 1fr;
-        row-gap: 80px;
+        row-gap: 20px;
+        text-align: center;
     }
-    .ContactSection1,.ContactSection2{
-        margin-left: 40px;
-    }
-    .Contacttxtbox {
-        width: 95%;
-    }
-    .Contactbtn {
-        width: 95%;
+    .Contactimgmain {
+        margin-top: 20px;
     }
     .Contactimg4, .Contactimg5, .Contactimg6, .Contactimg7{
-        width: 25px;
-    }
-    .Contact1_gridItem1{
-        width: 95%;
-    }
-    .Contact1_gridItem2 {
-        margin-left: 0px;
-    }
-    .Contacthead1{
-        font-size: 31px;
-    }
-
-    .Contacttxt1, .Contacttxt2, .Contacttxt3, .Contacttxt4,
-    .Contacttxt5, .Contacttxt6, .Contacttxt7, .Contacttxt8,
-    .Contacttxt9, .Contacttxt10 {
-        font-size: 14px;
-    }
-    .Contacttxt1{
-        width: 108%;
-    }
-    .Contacttxt3, .Contacttxt5, .Contacttxt7, .Contacttxt9 {
-        margin-left: 39px;
+        width: 10%;
     }
     .Contactwaygrid{
         grid-template-columns: 1fr;
     }
-}
-
-@media (min-width: 300px) and (max-width: 399px){
-    .ContactSection1{
-        grid-template-columns: 1fr;
-        row-gap: 80px;
-        margin-top: -116px;
+    .Contactform textarea{
+        width: 90%;
     }
-    .ContactSection2{
-        grid-template-columns: 1fr;
-        row-gap: 80px;
+    .Contacttxtbox{
+        width: 90%;
     }
-    .ContactSection1,.ContactSection2{
-        margin-left: 40px;
-    }
-    .Contacttxtbox {
-        width: 95%;
-    }
-    .Contactbtn {
-        width: 95%;
-    }
-    .Contactimg4, .Contactimg5, .Contactimg6, .Contactimg7{
-        width: 25px;
-    }
-    .Contact1_gridItem1{
-        width: 95%;
-    }
-    .Contact1_gridItem2 {
-        margin-left: 0px;
-    }
-    .Contacthead1{
-        font-size: 31px;
-    }
-
-    .Contacttxt1, .Contacttxt2, .Contacttxt3, .Contacttxt4,
-    .Contacttxt5, .Contacttxt6, .Contacttxt7, .Contacttxt8,
-    .Contacttxt9, .Contacttxt10 {
-        font-size: 14px;
-    }
-    .Contacttxt1{
-        width: 108%;
-    }
-    .Contacttxt3, .Contacttxt5, .Contacttxt7, .Contacttxt9 {
-        margin-left: 39px;
-    }
-    .Contactwaygrid{
-        grid-template-columns: 1fr;
+    .Contacttxtbox2{
+        width: 90%;
     }
 }
 
-@media (max-width: 299px){
-    .ContactSection1{
-        grid-template-columns: 1fr;
-        row-gap: 80px;
-        margin-top: -116px;
-    }
-    .ContactSection2{
-        grid-template-columns: 1fr;
-        row-gap: 80px;
-    }
-    .ContactSection1,.ContactSection2{
-        margin-left: 40px;
-    }
-    .Contacttxtbox {
-        width: 95%;
-    }
-    .Contactbtn {
-        width: 95%;
-    }
-    .Contactimg4, .Contactimg5, .Contactimg6, .Contactimg7{
-        width: 25px;
-    }
-    .Contact1_gridItem1{
-        width: 95%;
-    }
-    .Contact1_gridItem2 {
-        margin-left: 0px;
-    }
-    .Contacthead1{
-        font-size: 31px;
-    }
-
-    .Contacttxt1, .Contacttxt2, .Contacttxt3, .Contacttxt4,
-    .Contacttxt5, .Contacttxt6, .Contacttxt7, .Contacttxt8,
-    .Contacttxt9, .Contacttxt10 {
-        font-size: 14px;
-    }
-    .Contacttxt1{
-        width: 108%;
-    }
-    .Contacttxt3, .Contacttxt5, .Contacttxt7, .Contacttxt9 {
-        margin-left: 39px;
-    }
-    .Contactwaygrid{
-        grid-template-columns: 1fr;
-    }
-}

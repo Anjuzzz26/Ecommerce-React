@@ -18,9 +18,12 @@ const Home = () => {
         <div>
             <Header />
             <HeaderSlider />
+            <br/><br/>
             <Section1 />
+            <br/><br/>
             <Section2 />
             <Section3 />
+            <br/><br/>
             <Section4 />
             <Section5 />
             <Section6 />

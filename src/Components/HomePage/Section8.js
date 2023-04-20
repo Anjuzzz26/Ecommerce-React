@@ -24,10 +24,17 @@ const Section8 = () => {
                         <img className="s8img1" src={Blog1} alt="Img" />
                     </div>
                     <div className="s8desc">
-                       <img src={pen} alt="Img" className="Blogicon1" />
-                        <text className="s8txt1">SaberAli</text>
-                        <img src={calender} alt="Img" className="Blogicon2" />
-                        <text className="s8txt2">21 August,2020</text>
+                        <div className="s8descicon">
+                            <div>
+                                <img src={pen} alt="Img" className="Blogicon1" />
+                                <text className="s8txt1">SaberAli</text>
+                            </div>
+                            
+                            <div className="s8icongrid2">
+                                <img src={calender} alt="Img" className="Blogicon2" />
+                                 <text className="s8txt2">21 August,2020</text>
+                            </div>
+                        </div>
                         <h3>Top esssential Trends in 2021</h3>
                         <p>More off this less hello samlande lied much over tightly circa horse taped mightly</p>
                         <Link to="/singleblog"><a href="/#">Read More</a></Link>
@@ -38,10 +45,17 @@ const Section8 = () => {
                         <img className="s8img2" src={Blog2} alt="Img" />
                     </div>
                     <div className="s8desc">
-                        <img src={pen} alt="Img" className="Blogicon1" />
-                        <text className="s8item2txt1">Surf Auxion</text>
-                        <img src={calender} alt="Img" className="Blogicon2" />
-                        <text className="s8txt2">21 August,2020</text>
+                        <div className="s8descicon">
+                            <div>
+                                <img src={pen} alt="Img" className="Blogicon1" />
+                                <text className="s8txt1">SaberAli</text>
+                            </div>
+                            
+                            <div className="s8icongrid2">
+                                <img src={calender} alt="Img" className="Blogicon2" />
+                                 <text className="s8txt2">21 August,2020</text>
+                            </div>
+                        </div>
                         <h3>Top esssential Trends in 2021</h3>
                         <p>More off this less hello samlande lied much over tightly circa horse taped mightly</p>
                         <Link to="/singleblog"><a href="/#">Read More</a></Link>
@@ -52,16 +66,25 @@ const Section8 = () => {
                         <img className="s8img3" src={Blog3} alt="Img" />
                     </div>
                     <div className="s8desc">
-                        <img src={pen} alt="Img" className="Blogicon1" />
-                        <text className="s8txt1">SaberAli</text>
-                        <img src={calender} alt="Img" className="Blogicon2" />
-                        <text className="s8txt2">21 August,2020</text>
+                        <div className="s8descicon">
+                            <div>
+                                <img src={pen} alt="Img" className="Blogicon1" />
+                                <text className="s8txt1">SaberAli</text>
+                            </div>
+                            
+                            <div className="s8icongrid2">
+                                <img src={calender} alt="Img" className="Blogicon2" />
+                                 <text className="s8txt2">21 August,2020</text>
+                            </div>
+                        </div>
+                        
                         <h3>Top esssential Trends in 2021</h3>
                         <p>More off this less hello samlande lied much over tightly circa horse taped mightly</p>
                         <Link to="/singleblog"><a href="/#">Read More</a></Link>
                     </div>
                 </div>
             </div>
+            <br/><br/>
         </div>
     );
 }

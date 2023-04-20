@@ -25,7 +25,7 @@ const PDSection2 = () => {
                 </p>
                 <text className="PDSec2txt3">More details</text>
     
-                            <img className="PDarrow" src={arrow} alt="Img" />
+                            <img className="PDarrow1" src={arrow} alt="Img" />
                             <p className="PDdetails">Aliquam dis vulputate vulputate integer sagittis. 
                             Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .</p>
                             <img className="PDarrow" src={arrow} alt="Img" />
